@@ -26,6 +26,9 @@ The aim is **a finite, independently usable counsel handover**, not a sprawling 
 - [x] `FIFTY_SIX_MATTERS_FOR_EXAMINATION.md` — extracted 56-matter checklist with original numbering.
 - [x] `supporting.html` — separate rendered reader for the 6 / 25 / 56.
 - [x] Featured museum link to the project in `TitanicParker/TitanicParker.github.io`.
+- [x] `Margaret_Tansey.html` — locally copied 40-document collection, with original numbering and anchors.
+- [x] Three handwritten-page JPEGs and signed supplementary statement PDF, copied into the new repository root.
+- [x] `DOCUMENTARY_SOURCE_INDEX.md` — indexed local entry points for Documents 1–40 and source-fidelity notes.
 
 **Publication verification still required:** Confirm the Pages site is enabled, accessible to an external visitor, and correctly renders all four Markdown documents and all links. GitHub commits alone do not establish that Pages has deployed.
 
@@ -66,32 +69,38 @@ Use statuses such as **documented**, **corroborated**, **firsthand testimony**, 
 - [ ] It links back to the six propositions, 25 understandings and numbered source documents without duplicating their complete narratives.
 - [ ] Any alleged University records, witness accounts or review papers not actually obtained are marked outstanding, never implied to exist.
 
-## 4. Outstanding workstream B — a self-contained source-record bundle
+## 4. Workstream B — a self-contained source-record bundle
 
 **Priority:** High  
-**Deliverable:** `records/` plus a source index and proof of integrity  
-**Status:** [ ] Not yet copied into this repository.
+**Delivered:** `Margaret_Tansey.html`, `DOCUMENTARY_SOURCE_INDEX.md`, three manuscript photographs, and `Article_16_Supplementary_Statement_July_2017.pdf`.  
+**Status:** **Uploaded and byte-identity verified; site rendering and citation crosswalk still to verify.**
 
-### Proposed minimal approach
+The existing 40-numbered-document HTML compilation was uploaded **at the repository root**, not under `records/`. We have retained that arrangement rather than moving an intact copy. The source index points to the local anchors, including `Margaret_Tansey.html#document-1` through `#document-40`. The homepage now links to the local collection, index and signed statement.
 
-Start from the existing **40-numbered-document edition** in `TitanicParker/Ms-Tansey`, rather than manually recreating 40 files or writing a new summary of them. The existing publication is `Margaret_Tansey.html`, a large source-indexed HTML collection, with related manuscript images and a supplementary signed statement.
+### Completed steps
 
-- [ ] Copy the 40-document HTML edition into `records/` using its original content intact (e.g. `records/Margaret_Tansey.html`) and preserve the original document numbers and anchors.
-- [ ] Identify and copy **all relative assets actually required** by that HTML, including the three manuscript photographs `document_05_manuscript.jpg`, `document_06_manuscript.jpg`, `document_07_manuscript.jpg`, and any signed statement PDF and other required files. Verify relative paths from their new location. Do not assume the HTML is self-contained merely because it is one large file.
-- [ ] Add `records/INDEX.md`: enumerate Documents 1–40, their titles, dates, source forms, local anchor URLs, known transcription/OCR qualifications, and whether original native scans are available.
-- [ ] Add a **source-fidelity note** identifying the prior source compilation, retrieval date, and original-to-copy file hashes (SHA-256 where possible), without rewriting clinical language, renumbering records or merging patient testimony with contemporaneous medical notes.
-- [ ] Inspect the copied HTML for missing image/PDF targets, external dependencies, malformed links and links back to the older reading room; adjust **navigational links only** in an explicitly identified derived reading copy if required, while preserving an untouched source copy.
-- [ ] Provide a clearly visible **“Examine the 40 primary records”** link on the new homepage and a consistent route from the audit to the correct numbered records.
+- [x] Copy the source-faithful 40-document HTML edition into this repository without renumbering or editing the historical collection.
+- [x] Copy manuscript photographs `document_05_manuscript.jpg`, `document_06_manuscript.jpg`, `document_07_manuscript.jpg` and signed statement `Article_16_Supplementary_Statement_July_2017.pdf` alongside the HTML.
+- [x] Verify each of the five uploaded files has the **same GitHub blob SHA** as the corresponding file in `TitanicParker/Ms-Tansey`. This confirms identical contents of the copies, not clinical authentication.
+- [x] Publish `DOCUMENTARY_SOURCE_INDEX.md` with local links for all 40 numbered documents, date labels, source-caveat text and supporting exhibits.
+- [x] Feature “Examine the 40 numbered source documents” and related entry points on the essay homepage.
 
-**Source status caveat:** The 40-document edition is a *compiled documentary presentation*, including source transcriptions, editorial markings and later statements; not every element is a native contemporaneous record. Keep those roles distinct. Do not claim that a transcript authenticates itself or that copies of the same underlying record independently corroborate one another.
+### Remaining verification
+
+- [ ] Confirm `Margaret_Tansey.html` displays all 40 document anchors correctly when opened in the deployed GitHub Pages site; verify the browser can reach its local images and signed-statement PDF.
+- [ ] Audit any other relative references, broken links, external dependencies or references that unnecessarily point back to the previous publication. Preserve the untouched source file; put any required adapted reading version alongside it under a distinct name.
+- [ ] Add a **local source-citation crosswalk** identifying how important essay, six-proposition and 25-understanding citations map to locally numbered document anchors.
+- [ ] Record any native hospital documents or version/audit records still unavailable; do not represent editorial transcriptions as authenticated originals.
+
+**Source status caveat:** The 40-document edition is a compiled documentary presentation, incorporating clinical transcriptions, editorial markings and later testimony. It is not itself 40 certified original medical records. Copies of one underlying source are not independent corroboration.
 
 ### Definition of done for B
 
-- [ ] A reader starting only at this repository can open each of Documents 1–40.
-- [ ] The three handwritten page images and necessary supplementary materials open from the new repository.
-- [ ] The audit and supporting essays cite **local source identifiers** (or a crosswalk that translates existing citations to local documents) so core evidential claims are testable without leaving the repository.
-- [ ] The local bundle has a version/provenance statement and a missing-native-documents list.
-- [ ] The compiled evidence presentation does not obscure the difference between contemporaneous records, retrospective patient accounts and editorial analysis.
+- [ ] A reader starting only at this repository can **actually open and inspect** each of Documents 1–40 on the deployed site.
+- [ ] The three manuscript page images and necessary supplementary materials work from the new site.
+- [ ] Major evidential assertions in the essay and audit have a direct local source link or a clear citation crosswalk.
+- [x] The locally copied bundle is unchanged from the previous compiled source, by GitHub blob-SHA comparison.
+- [ ] The reader distinguishes contemporaneous clinical records, retrospective patient accounts and editorial notes.
 
 ## 5. Final integration and handover checks
 
@@ -99,7 +108,7 @@ Start from the existing **40-numbered-document edition** in `TitanicParker/Ms-Ta
 **Status:** [ ] Not yet completed.
 
 - [ ] Homepage routes: **Essay → Six propositions → 25 understandings → 56 matters → Knowledge audit → 40-document evidence collection**. Readers can enter at any point and return easily.
-- [ ] Add links to the knowledge audit and local source bundle once those documents exist; avoid broken or placeholder controls.
+- [ ] Add links to the knowledge audit once it exists; the local source bundle, source index and supporting exhibits are already linked from the homepage.
 - [ ] Confirm every link and anchor resolves on GitHub Pages, including mobile navigation, source images, footnotes and print.
 - [ ] Confirm 25 numbered K-items, six P-items, 56 investigative matters and 40 documentary source entries are present without omissions or duplicated numbering.
 - [ ] Reconcile the orientation's source notes with actual local records via a **citation crosswalk**, rather than silently changing historical quotations or editorial conclusions.
@@ -121,8 +130,8 @@ Do **not** add all exploratory essays, all repository histories, every possible 
 | 25 understandings | **Present** | All K01–K25 included with evidence relationships |
 | 56 matters | **Present** | Numbering intact; 51 issues and five controlling questions |
 | Recipient-and-knowledge audit | **To do** | Recipient/source matrix, accountability and evidence-status analysis |
-| 40-document local bundle | **To do** | Complete, link-checked, source-faithful local edition |
-| Citation crosswalk + provenance | **To do** | Important claims lead to local document numbers and files |
+| 40-document local bundle | **Uploaded; hash-verified; live links to check** | Forty local anchors, three manuscript images, signed statement, and source index |
+| Citation crosswalk + provenance | **Source-copy identity documented; crosswalk to do** | Important claims lead to local document numbers and files |
 | Site integration + external/ privacy check | **To do** | One public-facing entry point functions and is appropriate to share |
 
 ### Completion rule
