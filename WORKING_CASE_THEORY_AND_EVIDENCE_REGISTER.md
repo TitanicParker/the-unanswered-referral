@@ -11,11 +11,11 @@
 
 ## How to operate this working file
 
-- **Evidence IDs** \`EV-###\` identify a source or source family; **findings** \`F-###\` are source-bounded observations; **propositions** \`P-###\` are explanations to be tested; **theories** \`C-01\`–\`C-08\` are competing or complementary cases; **investigations** \`I-###\` are actionable evidence tests; **decisions** \`D-###\` preserve choices and rejected formulations.
-- **Status vocabulary:** \`ESTABLISHED\` (the available identified source directly establishes the stated matter); \`PARTLY ESTABLISHED\` (a material component is shown but the broader proposition is not); \`DISPUTED\` (materially contested); \`AWAITING EVIDENCE\` (specific needed material not presently in the inspected sources); \`RESOLVED AGAINST\` (evidence defeats the stated formulation, retained for audit).
+- **Evidence IDs** `EV-###` identify a source or source family; **findings** `F-###` are source-bounded observations; **propositions** `P-###` are explanations to be tested; **theories** `C-01`–`C-08` are competing or complementary cases; **investigations** `I-###` are actionable evidence tests; **decisions** `D-###` preserve choices and rejected formulations.
+- **Status vocabulary:** `ESTABLISHED` (the available identified source directly establishes the stated matter); `PARTLY ESTABLISHED` (a material component is shown but the broader proposition is not); `DISPUTED` (materially contested); `AWAITING EVIDENCE` (specific needed material not presently in the inspected sources); `RESOLVED AGAINST` (evidence defeats the stated formulation, retained for audit).
 - A **source may establish that a clinician wrote a proposition without establishing that proposition was medically correct**. A firsthand retrospective statement establishes the patient's account, not independent confirmation of a historical exchange. A 2025 document establishes what was represented in 2025, not that every claim about 2017 is accurate.
 - **Update rule:** Never silently rewrite a conclusion. Append a dated revision in §15; preserve superseded text in a decision entry or explicitly identify the replacement and new sources. Give each new evidence item its own EV ID and adjust the affected C, P, F and I IDs.
-- **Citation convention:** \`[EV-04]\` below points to a numbered source here and the links in §14. \`[FC:HEALY17]\` refers to the provenance-marked, derived 47-source corpus in [the separate For Counsel repository](https://github.com/TitanicParker/for-counsel/blob/main/sources/consolidated/evidence-corpus.md), which supplies source-line identifiers such as \`HEALY17-20170912-0026\`. *The original letter or email still controls.* Where the 40-document compilation and the controlled corpus overlap, they are two presentations of related material, **not independent corroborating witnesses**.
+- **Citation convention:** `[EV-04]` below points to a numbered source here and the links in §14. `[FC:HEALY17]` refers to the provenance-marked, derived 47-source corpus in [the separate For Counsel repository](https://github.com/TitanicParker/for-counsel/blob/main/sources/consolidated/evidence-corpus.md), which supplies source-line identifiers such as `HEALY17-20170912-0026`. *The original letter or email still controls.* Where the 40-document compilation and the controlled corpus overlap, they are two presentations of related material, **not independent corroborating witnesses**.
 - **Earlier-analysis audit limitation:** Six requested analyses—*Beyond the Five Essays*, *The Achilles' Heel of the Hospital's Defence*, *The Extended Record*, *The Earliest Decisive Mechanism*, *The Reconstruction Inquiry*, and *From the Handwritten History to the Hospital's Defence*—were identified by title in the instruction, but exact copies under those titles were not independently located in the inspected repositories during v1.0.0. Their titles are **not** treated as verified sources. The prior [19-part philosophical analysis](THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md), [case for deliberate misrepresentation](CASE_FOR_DELIBERATE_MISREPRESENTATION.md), [institutional essay](WHEN_INSTITUTIONS_BECOME_THE_AUTHORITY_ON_THEIR_OWN_ERRORS.md), the [For Counsel source–proposition matrix](https://github.com/TitanicParker/for-counsel/blob/main/evidence/SOURCE_PROPOSITION_MATRIX.md), and the numbered primary collection were available for comparison. Provenance/novelty claims below are accordingly modest rather than invented.
 
 ---
@@ -30,7 +30,7 @@ The most powerful explanation is therefore **a two-stage discrepancy in professi
 
 ### Six-stage causal architecture
 
-\`GP's integrated problem [EV-02] → narrower intake [EV-04] → clinician's wider actual knowledge [EV-04/05/07] → provisional peripheral separation plus stronger patient attribution [EV-04] → inherited clinical framework with repeated reopening signals [EV-11–20] → reconstructed defence and institutional outcome [EV-22/29/31 + FC governance sources]\`.
+`GP's integrated problem [EV-02] → narrower intake [EV-04] → clinician's wider actual knowledge [EV-04/05/07] → provisional peripheral separation plus stronger patient attribution [EV-04] → inherited clinical framework with repeated reopening signals [EV-11–20] → reconstructed defence and institutional outcome [EV-22/29/31 + FC governance sources]`.
 
 **The alleged 10 July protest (EV-38; FC:PSL-0003)** sits between the third and fourth stages as a possible *conscious-notice event*. If corroborated, it may transform a failure of documentation into an allegation of knowing preservation after correction. Its occurrence and importance do not require the neurologist to have acknowledged professional error: knowledge of the *objection* is distinguishable from agreement with the objection.
 
@@ -94,7 +94,7 @@ The user's foundational account already advanced **hospital compression, the 10 
 
 **A = Present evidential strength, 0–5:** 0 unsupported; 1 patient theory only; 2 documented fragments but central link unverified; 3 substantial support with an important unresolved contradiction or missing record; 4 direct source comparison showing the primary phenomenon, even if intention/causation unproved; 5 multiple independent and converging primary sources supporting the *exact proposition scored*. **B = Consequential force if established, 0–5:** 1 local issue; 3 material reframing; 5 undermines the core source-fidelity or institutional self-review rationale. The score is **not** a probability or liability prediction.
 
-The table separately records **L** causal leverage, **T** chronological priority, **I** independence of sources, **X** capacity to distinguish alternatives, **R** institutional reach—each \`0–3\` qualitative. These diagnostics explain the scores; **they are not added into a pseudo-precise composite**. “Strong” may mean that a textual discrepancy is directly proved while the allegation of *why it occurred* is not.
+The table separately records **L** causal leverage, **T** chronological priority, **I** independence of sources, **X** capacity to distinguish alternatives, **R** institutional reach—each `0–3` qualitative. These diagnostics explain the scores; **they are not added into a pseudo-precise composite**. “Strong” may mean that a textual discrepancy is directly proved while the allegation of *why it occurred* is not.
 
 | Theory | Controlling proposition | A | B | L/T/I/X/R | Supports / direct challenge / decisive test |
 |---|---|---:|---:|---|---|
@@ -117,7 +117,7 @@ The table separately records **L** causal leverage, **T** chronological priority
 
 ### Time-ordered knowledge and decision register
 
-**Key:** \`O\` personally observed; \`T\` told by patient/referrer/colleague; \`D\` decided; \`Rx\` prescribed; \`R\` documented; \`U\` later used/reconstructed. Absence of proof of personal receipt is not proof of non-receipt. “Hospital possessed” and “neurologist saw” are separately recorded.
+**Key:** `O` personally observed; `T` told by patient/referrer/colleague; `D` decided; `Rx` prescribed; `R` documented; `U` later used/reconstructed. Absence of proof of personal receipt is not proof of non-receipt. “Hospital possessed” and “neurologist saw” are separately recorded.
 
 | Date | Knowledge or evidence available | Clinical responsibility or question | Action or decision | Representation in the record | Later use or reinterpretation |
 |---|---|---|---|---|---|
@@ -229,7 +229,7 @@ The [26 March 2023 urgent GP referral](Margaret_Tansey.html#document-17) describ
 
 ## 7. Clonazepam and the Continuous Neurological Treatment Record
 
-**P-005 — Independent treatment trace:** During the 3–11 July 2017 admission, clonazepam was introduced at night explicitly “to relieve tension in the legs”; the detailed summary also describes symptomatic nocturnal use and possible continuing treatment (**EV-04 / FC:DS17**, notably \`DS17-GEN-0464\` and \`DS17-GEN-1232–1234\`). This is evidence of the clinician's contemporaneous acceptance that leg tension required symptomatic intervention. It is **not** evidence that clonazepam proved a neurological cause of the calluses or pain.
+**P-005 — Independent treatment trace:** During the 3–11 July 2017 admission, clonazepam was introduced at night explicitly “to relieve tension in the legs”; the detailed summary also describes symptomatic nocturnal use and possible continuing treatment (**EV-04 / FC:DS17**, notably `DS17-GEN-0464` and `DS17-GEN-1232–1234`). This is evidence of the clinician's contemporaneous acceptance that leg tension required symptomatic intervention. It is **not** evidence that clonazepam proved a neurological cause of the calluses or pain.
 
 | Period | Recorded drug / indication | What is established | What requires tracing |
 |---|---|---|---|
@@ -329,7 +329,7 @@ The [signed SIMT outcome](Margaret_Tansey.html#document-31) reports reliance on 
 
 ## 11. Critical Evidence and Investigative Checklist
 
-This is a **live decision register**, not a request to “obtain everything.” Each line names a fact to test, a specific source/witness, the current evidence status, and the change that either answer would make. Use the existing [56-matter register](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md) for broader coverage; cross-walk these \`I-\` IDs to its numbered entries when full item-level mapping is completed (**I-19**), rather than falsely assigning numbers now.
+This is a **live decision register**, not a request to “obtain everything.” Each line names a fact to test, a specific source/witness, the current evidence status, and the change that either answer would make. Use the existing [56-matter register](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md) for broader coverage; cross-walk these `I-` IDs to its numbered entries when full item-level mapping is completed (**I-19**), rather than falsely assigning numbers now.
 
 | ID / priority | Proposition to test | Specific source or witness | Status | What result would change |
 |---|---|---|---|---|
@@ -362,7 +362,7 @@ This is a **live decision register**, not a request to “obtain everything.” 
 
 ### Closure criteria
 
-Do not mark an investigation \`RESOLVED\` merely because a correspondence says “review complete.” Record (1) actual source obtained, (2) proposition tested, (3) finding consistent/inconsistent, (4) updated C scores, (5) which alternatives become weaker/stronger, (6) date and curator. Preserve “no record held” as an administrative finding, distinct from “event did not happen.”
+Do not mark an investigation `RESOLVED` merely because a correspondence says “review complete.” Record (1) actual source obtained, (2) proposition tested, (3) finding consistent/inconsistent, (4) updated C scores, (5) which alternatives become weaker/stronger, (6) date and curator. Preserve “no record held” as an administrative finding, distinct from “event did not happen.”
 
 ---
 
@@ -536,7 +536,7 @@ These are **serious competing explanations**, not generic ritual caveats. Each h
 
 ### Minimum entry template for the next revision
 
-\`\`\`markdown
+```markdown
 #### Revision vX.Y.Z — YYYY-MM-DD
 New/checked source: EV-### or FC:... (native provenance and exact location)
 Proposition affected: P-### / F-### / C-## / I-###
@@ -546,7 +546,7 @@ Alternative interpretation:
 Score change: A old→new; B old→new (if any)
 Reason and consequence:
 Decision retained/superseded: D-###
-\`\`\`
+```
 
 ### Immediate next research decisions
 
