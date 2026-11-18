@@ -73,6 +73,6 @@ const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
 headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
 if(location.hash){const anchor=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(anchor)anchor.scrollIntoView()}
 }catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
-});;
+});
 </script>
 </body></html>
