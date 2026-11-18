@@ -43,7 +43,7 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 </main></div>
 <footer>These documents present questions and research propositions for independent examination; they are not adjudicated findings.</footer>
 <script>
-(async()=>{
+document.addEventListener('DOMContentLoaded',async()=>{
 const files={
 six:{file:'SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md',title:'Six questions for the hospital',description:'Six main questions, the evidence relevant to each, and the records needed to reach an answer.'},
 twentyfive:{file:'THE_25_ESSENTIAL_UNDERSTANDINGS.md',title:'25 key findings',description:'Twenty-five findings from the records, including their significance and what remains uncertain.'},
@@ -71,6 +71,6 @@ const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
 headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
 if(location.hash){const anchor=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(anchor)anchor.scrollIntoView()}
 }catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
-})();
+});;
 </script>
 </body></html>
