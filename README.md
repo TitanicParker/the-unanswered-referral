@@ -9,12 +9,13 @@ A case overview and supporting documents for independent legal review of a June�
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
 2. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
-3. [Six questions](supporting.html?document=six)
-4. [25 key findings](supporting.html?document=twentyfive)
-5. [56 issues to examine](supporting.html?document=fiftysix)
-6. [Recipient-and-knowledge audit](supporting.html?document=audit)
-7. [Evidence cross-reference](supporting.html?document=crosswalk) — matches the overview's **15 source notes** and the main audit questions to local document numbers
-8. [The 40-document collection](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
+3. [The case for deliberate misrepresentation](CASE_FOR_DELIBERATE_MISREPRESENTATION.md)
+4. [Six questions](supporting.html?document=six)
+5. [25 key findings](supporting.html?document=twentyfive)
+6. [56 issues to examine](supporting.html?document=fiftysix)
+7. [Recipient-and-knowledge audit](supporting.html?document=audit)
+8. [Evidence cross-reference](supporting.html?document=crosswalk) — matches the overview's **15 source notes** and the main audit questions to local document numbers
+9. [The 40-document collection](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
 
 The three photographed handwritten interview pages are [page 1](document_05_manuscript.jpg), [page 2](document_06_manuscript.jpg) and [page 3](document_07_manuscript.jpg). The [signed 2026 patient statement](Article_16_Supplementary_Statement_July_2017.pdf) is a retrospective firsthand account and should not be mistaken for a contemporaneous July 2017 note.
 
