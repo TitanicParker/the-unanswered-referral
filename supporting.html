@@ -33,6 +33,7 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 <a id="six-nav" href="supporting.html?document=six">Six propositions</a>
 <a id="twentyfive-nav" href="supporting.html?document=twentyfive">25 understandings</a>
 <a id="fiftysix-nav" href="supporting.html?document=fiftysix">56 matters</a>
+<a id="audit-nav" href="supporting.html?document=audit">Knowledge audit</a>
 </nav></div></header>
 <div class="wrapper"><aside><h2>In this document</h2><nav id="toc" aria-label="Section contents"></nav></aside>
 <main class="main">
@@ -46,7 +47,8 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 const files={
 six:{file:'SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md',title:'Six questions for the hospital',description:'Six main questions, the evidence relevant to each, and the records needed to reach an answer.'},
 twentyfive:{file:'THE_25_ESSENTIAL_UNDERSTANDINGS.md',title:'25 key findings',description:'Twenty-five findings from the records, including their significance and what remains uncertain.'},
-fiftysix:{file:'FIFTY_SIX_MATTERS_FOR_EXAMINATION.md',title:'56 issues to examine',description:'A numbered list of matters to investigate, keeping the existing numbering.'}
+fiftysix:{file:'FIFTY_SIX_MATTERS_FOR_EXAMINATION.md',title:'56 issues to examine',description:'A numbered list of matters to investigate, keeping the existing numbering.'},
+audit:{file:'RECIPIENT_AND_KNOWLEDGE_AUDIT.md',title:'Recipient-and-knowledge audit',description:'An evidence-led map of who acquired, documented, transmitted and actually received material clinical information, and where responsibility remained unclear.'}
 };
 const requested=new URLSearchParams(location.search).get('document');
 const key=files[requested]?requested:'six';const doc=files[key];
