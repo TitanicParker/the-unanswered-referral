@@ -8,7 +8,7 @@ A case overview and supporting documents for independent legal review of a June�
 ## Reading order
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
-3. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
+2. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
 3. [Six questions](supporting.html?document=six)
 4. [25 key findings](supporting.html?document=twentyfive)
 5. [56 issues to examine](supporting.html?document=fiftysix)
