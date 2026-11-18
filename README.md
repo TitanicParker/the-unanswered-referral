@@ -5,6 +5,8 @@ A case overview and supporting documents for independent legal review of a June�
 **Start here:** [Open the case overview](index.html)  
 **Published reading address, once GitHub Pages is active:** https://titanicparker.github.io/the-unanswered-referral/
 
+**Full philosophical essay:** [Read the complete ethical and institutional case](supporting.html?document=philosophy) · [Open the source Markdown](THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md)
+
 ## Reading order
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
