@@ -84,20 +84,20 @@ The argument for intent becomes considerably stronger **if** corroboration estab
 
 ## VI. The complex-case meeting is a critical knowledge checkpoint—not yet a proved causal link
 
-The completed consultant document states the patient was **“Seen at the Neurology Complex case meeting with my colleagues”**. Its differential and treatment plan reflect consultation with colleagues.
+The completed consultant document states the patient was **“Seen at the Neurology Complex case meeting with my colleagues”**. **Earlier research already placed that meeting at approximately 4 July 2017**, on the basis of the patient's chronology. The [existing Orientation for Counsel](https://github.com/TitanicParker/Ms-Tansey/blob/main/Orientation_for_Counsel_Rewritten%281%29.md) calls this **“The 4 July decision”**; the [earlier Master Case for Counsel](https://github.com/TitanicParker/prima-facie/blob/main/MASTER_CASE_FOR_COUNSEL.md) records **“About 4 July”**. That is a substantive working date, not a date independently established by the native meeting register. The clinician's differential and treatment plan reflect consultation with colleagues. **The meeting was therefore placed about a day after the 3 July interview, and before the patient's reported 10 July protest.**
 
-That makes the meeting's **date and evidential input** essential. The interview was early in the admission; the typed account's original drafting time is not known. Do not assume that the exact “markedly divorced” wording was in existence **before** the meeting or that it influenced colleagues.
+That makes the meeting's **exact date, source material and evidential input** essential. The working date is **approximately 4 July**, not an entirely undated event. The interview was on 3 July; the typed account's original drafting time is not known. Do not assume that the exact “markedly divorced” wording was in existence **before** the meeting or that it influenced colleagues.
 
 What must be determined is:
 
-- When did the meeting occur relative to the handwritten interview, any typed draft, the final impression, and discharge?
+- Confirm the working date of **about 4 July** against the native meeting agenda or clinical log, and establish whether any typed history or impression had been created by then.
 - Did it receive the full GP referral or only an abbreviated referral account?
 - Were the three handwritten interview pages, typed history or only a verbal synopsis presented?
 - Did any participant examine the feet or discuss a possible contribution from dystonic posture to clawing and painful loading?
 - Was any responsibility assigned for investigating that relationship, and where was that recorded?
 - Did the later typed impression describe a view reached at the meeting, or was it framed without such discussion?
 
-The meeting could either corroborate an intentional framing theory **or weaken it**. A contemporaneous independent discussion recognising the unresolved foot link and assigning follow-up would materially alter the picture. Its source pack is therefore a high-value request.
+This early placement intensifies the question of **what picture of the feet reached the senior discussion**, while still not proving the typed patient-attribution existed by then. The meeting could either corroborate an intentional framing theory **or weaken it**. A contemporaneous independent discussion recognising the unresolved foot link and assigning follow-up would materially alter the picture. Its source pack is therefore a high-value request.
 
 ## VII. Downstream records test the explanation's practical consequences
 
@@ -151,7 +151,7 @@ These defences should be addressed directly. The case gains credibility by conce
 
 1. **A diplomatic manuscript-to-typed collation.** Place every foot-related handwritten line beside the exact typed-history and impression passages, noting all alterations of subject, certainty, causation, attribution and chronology. Use the original photographs as the control, not OCR alone. Obtain independent transcription where readings are ambiguous.
 2. **An authorial and version-history audit.** Obtain the native handwritten scans, dictation/secretarial instructions, electronic document object, first typed draft, intermediate revisions, authorship, creation/edit timestamps and signed/dispatched copies. Distinguish initial drafting from later approval. Identify when the exact patient-attribution was inserted and retained.
-3. **Complex-case meeting source reconstruction.** Obtain meeting date, attendees, notes and the original material supplied. Establish whether a narrower narrative or the handwritten patient evidence shaped the team's discussion and the documented follow-up assignment.
+3. **Complex-case meeting source reconstruction.** Confirm the **approximately 4 July** working date from native records; obtain attendees, notes and the original material supplied. Establish whether a narrower narrative or the handwritten patient evidence shaped the team's discussion and the documented follow-up assignment.
 4. **Independent protest corroboration.** Obtain ward/consultant rosters, medical-student placements, teaching-supervision records and any surviving communications; assess the early June and July 2025 accounts transparently, including the 10/11 July discrepancy. Seek a response from the clinician to the specific alleged exchange.
 5. **2025 review-source audit.** Obtain the entire PAR, source inventory and SIMT papers. Test whether the reviewing institution independently compared the GP referral, opening précis, handwritten notes, typed attribution and protest notice before accepting the clinician's historical explanation.
 
