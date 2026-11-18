@@ -29,8 +29,10 @@ The aim is **a finite, independently usable counsel handover**, not a sprawling 
 - [x] `Margaret_Tansey.html` — locally copied 40-document collection, with original numbering and anchors.
 - [x] Three handwritten-page JPEGs and signed supplementary statement PDF, copied into the new repository root.
 - [x] `DOCUMENTARY_SOURCE_INDEX.md` — indexed local entry points for Documents 1–40 and source-fidelity notes.
+- [x] `EVIDENCE_CROSS_REFERENCE.md` — local mapping for source notes [1]–[15] and major audit findings, with explicit uncovered-evidence flags.
+- [x] `README.md` — concise case handover reading order and evidence limitations.
 
-**Publication verification still required:** Confirm the Pages site is enabled, accessible to an external visitor, and correctly renders all four Markdown documents and all links. GitHub commits alone do not establish that Pages has deployed.
+**Publication verification still required:** GitHub repository contents and internal paths have been inspected, and the HTML reader's loading order repaired. Attempts to open the public Pages URLs in the available browsing environment were unsuccessful; therefore Pages activation, rendered links and mobile/browser behaviour cannot yet be certified. GitHub commits are not proof of a deployed site.
 
 ## 3. Outstanding workstream A — recipient-and-knowledge audit
 
@@ -106,24 +108,24 @@ The existing 40-numbered-document HTML compilation was uploaded **at the reposit
 
 ### Definition of done for B
 
-- [ ] A reader starting only at this repository can **actually open and inspect** each of Documents 1–40 on the deployed site.
+- [ ] All 40 document entries are locally indexed and their source HTML copy is present; **deployed-browser anchor behaviour has not been independently verified**.
 - [ ] The three manuscript page images and necessary supplementary materials work from the new site.
-- [ ] Major evidential assertions in the essay and audit have a direct local source link or a clear citation crosswalk.
+- [x] Major source groups in the overview and the audit have a local crosswalk, with explicit qualifications where a cited original is not among the 40 compiled documents.
 - [x] The locally copied bundle is unchanged from the previous compiled source, by GitHub blob-SHA comparison.
-- [ ] The reader distinguishes contemporaneous clinical records, retrospective patient accounts and editorial notes.
+- [x] README, source index and crosswalk distinguish contemporaneous material, retrospective statement, and transcription/editorial annotations.
 
 ## 5. Final integration and handover checks
 
 **Deliverable:** A completed, readable site and one short `START_HERE.md` or `README.md` if needed.  
-**Status:** [ ] Not yet completed.
+**Status:** Reader navigation, README and crosswalk completed. External site-access verification and independent evidence acquisition remain outstanding.
 
 - [x] Homepage and supporting reader now link **Essay → Six propositions → 25 understandings → 56 matters → Knowledge audit → 40-document evidence collection**. **Live external-browser route validation remains outstanding.**
-- [ ] Add links to the knowledge audit once it exists; the local source bundle, source index and supporting exhibits are already linked from the homepage.
+- [x] Link the knowledge audit, local source collection, source index, and signed statement from the homepage.
 - [ ] Confirm every link and anchor resolves on GitHub Pages, including mobile navigation, source images, footnotes and print.
 - [ ] Confirm 25 numbered K-items, six P-items, 56 investigative matters and 40 documentary source entries are present without omissions or duplicated numbering.
-- [ ] Reconcile the orientation's source notes with actual local records via a **citation crosswalk**, rather than silently changing historical quotations or editorial conclusions.
+- [x] Add [EVIDENCE_CROSS_REFERENCE.md](EVIDENCE_CROSS_REFERENCE.md), mapping the case overview's 15 source notes and the audit's main questions to local numbered documents. The crosswalk flags material not actually included in the local bundle.
 - [ ] Check especially that the document distinguishes what happened in 2017, what was first reported in 2025, what was signed in 2026, and what was only established by later testing.
-- [ ] Confirm the standalone handover contains **no dependence on Ms-Tansey's separate orientation essay** for interpreting the case.
+- [x] The repository's own overview, supporting analyses, 40-document collection, source index, cross-reference and README provide a standalone reading path without using the prior site's separate orientation essay.
 - [ ] **Publication and privacy review:** Both repositories and GitHub Pages are public. Before sharing the one link, check whether any material intended for the litigator contains personal medical data, names of witnesses, contact details or other identifying material that should instead be shared through a restricted channel. Public hosting does not create lawyer–client confidentiality.
 - [ ] Check the site's content with an external-visitor browser session, then record the link, revision/commit and a dated handover note.
 
@@ -141,11 +143,11 @@ Do **not** add all exploratory essays, all repository histories, every possible 
 | 56 matters | **Present** | Numbering intact; 51 issues and five controlling questions |
 | Recipient-and-knowledge audit | **Committed 18 November 2026; integrated in homepage and reader** | Populated transfer matrix, responsibility/accountability analysis, five controlling records requests; native materials still needed |
 | 40-document local bundle | **Uploaded; hash-verified; live links to check** | Forty local anchors, three manuscript images, signed statement, and source index |
-| Citation crosswalk + provenance | **Source-copy identity documented; crosswalk to do** | Important claims lead to local document numbers and files |
+| Citation crosswalk + provenance | **Local crosswalk delivered; primary evidence gaps identified** | All 15 overview source-note groups mapped with explicit partial-coverage flags |
 | Site integration + external/ privacy check | **Navigation updated; external/ privacy verification outstanding** | Verify deployed Pages routes, link anchors, external visitor access, patient/witness data safety |
 
 ### Completion rule
 
-**The repository is ready for handover when a litigator can begin with the orientation, see the six propositions and their 25-point evidential structure, use the 56 matters as a checklist, examine the exact information-transfer chain, and verify each decisive factual assertion against a local, indexed record—without having to locate another repository.**
+**The repository's analytical handover is assembled. The external Pages rendering has not yet been independently verified, and counsel may still need to obtain the missing original records and full PAR/SIMT file. The final evidential standard is reached when a litigator can begin with the orientation, see the six propositions and their 25-point evidential structure, use the 56 matters as a checklist, examine the exact information-transfer chain, and verify each decisive factual assertion against a local, indexed record—without having to locate another repository.**
 
 *Keep this document updated as tasks are completed; mark work complete only after verifying the corresponding source or published route.*
