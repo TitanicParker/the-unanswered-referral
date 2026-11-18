@@ -95,7 +95,7 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-vis
 </div>
 <footer class="footer">This material is provided for independent legal and clinical assessment. Questions and interpretations are not established findings.</footer>
 <script>
-(async()=>{
+document.addEventListener('DOMContentLoaded',async()=>{
 const root=document.getElementById('essay'), toc=document.getElementById('toc'), source='THE_UNANSWERED_REFERRAL.md';
 try{
  const response=await fetch(source,{cache:'no-cache'});
@@ -122,7 +122,7 @@ const progress=document.getElementById('progress');
 function update(){const total=Math.max(1,document.documentElement.scrollHeight-innerHeight);progress.style.width=Math.min(100,Math.round(scrollY/total*100))+'%'}
 addEventListener('scroll',update,{passive:true});update();
 document.getElementById('print').addEventListener('click',()=>window.print());
-})();
+});;
 </script>
 </body>
 </html>
