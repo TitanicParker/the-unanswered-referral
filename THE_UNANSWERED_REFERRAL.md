@@ -1,6 +1,6 @@
 # The Unanswered Referral — From the July 2017 Clinical Record to the Hospital's Nine-Year Defence
 
-*Sixth and final orientation essay for counsel | 18 November 2026*
+*Case overview | 18 November 2026*
 
 A man came to his GP because his feet hurt, his gait was abnormal, and ordinary working life was becoming difficult. The feet were not an incidental complication discovered in a patient with an established neurological diagnosis. They were already visibly abnormal when he joined the practice in April 2017. The GP examined mallet toes, pressure lesions and calluses. Over the next several weeks, a more troubling pattern emerged: difficulty initiating movement, abnormal muscle tone, toe clawing in bed, worsening dexterity and increasing inability to perform his job. By late June, the GP sought urgent hospital assessment of a developing neurological presentation in which the feet remained prominent. The request was not simply for a diagnostic label. It was for specialist assistance in understanding and managing a collection of problems that appeared to be converging. [1]
 
