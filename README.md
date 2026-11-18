@@ -7,6 +7,8 @@ A case overview and supporting documents for independent legal review of a June�
 
 **Full philosophical essay:** [Read the complete ethical and institutional case](supporting.html?document=philosophy) · [Open the source Markdown](THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md)
 
+**Institutional philosophical essay:** [When institutions become the authority on their own errors](supporting.html?document=institutional) · [Source Markdown](WHEN_INSTITUTIONS_BECOME_THE_AUTHORITY_ON_THEIR_OWN_ERRORS.md)
+
 ## Reading order
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
