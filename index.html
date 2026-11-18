@@ -46,11 +46,37 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-vis
 </style>
 <script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+
+<style>
+.support-wrap{max-width:1100px;margin:0 auto;padding:32px 0 18px;width:calc(100% - 42px)}
+.support-title{font:400 31px/1.25 Georgia,serif;letter-spacing:-.02em;margin:0 0 8px}
+.support-lede{font-size:15px;max-width:760px;color:var(--muted);margin:0 0 22px}
+.support-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.support-card{display:flex;flex-direction:column;gap:9px;padding:23px;border:1px solid var(--line);background:var(--white);text-decoration:none;color:var(--ink);min-height:220px}
+.support-card:hover{border-color:var(--accent);background:var(--faint)}
+.support-number{font:700 11px/1.4 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.support-card h3{font:400 24px/1.15 Georgia,serif;letter-spacing:-.02em;margin:4px 0 0}
+.support-card p{color:var(--muted);font:14px/1.6 system-ui,sans-serif;margin:0 0 10px}
+.support-card span.more{font:700 12px system-ui,sans-serif;color:var(--accent);margin-top:auto}
+@media(max-width:800px){.support-grid{grid-template-columns:1fr}.support-card{min-height:auto}}
+@media print{.support-wrap{display:none}}
+</style>
 </head>
 <body>
 <a class="skip" href="#essay">Skip to essay</a>
 <header class="top"><div class="top-inner"><a class="wordmark" href="./">The Unanswered Referral</a><div class="top-actions"><a href="THE_UNANSWERED_REFERRAL.md" download>Original Markdown</a><button class="print" type="button" id="print">Print / Save PDF</button></div></div><div class="progress"><span id="progress"></span></div></header>
 <section class="hero" aria-labelledby="title"><div class="hero-inner"><div class="eyebrow">Orientation for independent counsel · 2017–2026</div><h1 id="title">The Unanswered Referral</h1><p class="dek">From the July 2017 clinical record to the hospital's nine-year defence: how an original question about painful feet, neurological posture and responsibility became an authoritative account of care.</p><div class="hero-meta"><span>Sixth and final orientation essay</span><span>18 November 2026</span><span>Primary-source references included</span></div><a class="hero-start" href="#essay">Read the essay ↓</a></div></section>
+
+<section class="support-wrap" id="supporting-analysis" aria-labelledby="support-heading">
+ <div class="eyebrow">Counsel's supporting analysis</div>
+ <h2 class="support-title" id="support-heading">From the essay to the questions that decide the case</h2>
+ <p class="support-lede">Read the orientation first. These three distinct working documents then expose the argument, the interconnected evidence, and the detailed matters for examination. They are analytical aids, not primary medical records.</p>
+ <div class="support-grid">
+  <a class="support-card" href="supporting.html?document=six"><span class="support-number">01 · Argument</span><h3>Six decisive propositions</h3><p>Six questions the hospital must answer, with the evidence supporting each and the records that could confirm or defeat it.</p><span class="more">Read the six propositions ↗</span></a>
+  <a class="support-card" href="supporting.html?document=twentyfive"><span class="support-number">02 · Understanding</span><h3>25 essential understandings</h3><p>A connected evidence map: what each fact means, what it illuminates elsewhere and what remains to be established.</p><span class="more">Explore the 25 understandings ↗</span></a>
+  <a class="support-card" href="supporting.html?document=fiftysix"><span class="support-number">03 · Investigation</span><h3>56 matters for examination</h3><p>The detailed working checklist for counsel, including five controlling questions. The original numbering is preserved.</p><span class="more">Open the 56-matter register ↗</span></a>
+ </div>
+</section>
 <div class="layout">
 <aside class="aside"><strong>In this essay</strong><nav id="toc" aria-label="Essay sections"></nav><a class="source" href="THE_UNANSWERED_REFERRAL.md">Read or save the complete source Markdown ↗</a></aside>
 <main id="essay" class="article"><div class="source-head">The complete essay</div><p class="loading" role="status">Loading the essay from the repository…</p></main>
