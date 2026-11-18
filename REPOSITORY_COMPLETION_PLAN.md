@@ -30,6 +30,7 @@ The aim is **a finite, independently usable counsel handover**, not a sprawling 
 - [x] Three handwritten-page JPEGs and signed supplementary statement PDF, copied into the new repository root.
 - [x] `DOCUMENTARY_SOURCE_INDEX.md` — indexed local entry points for Documents 1–40 and source-fidelity notes.
 - [x] `EVIDENCE_CROSS_REFERENCE.md` — local mapping for source notes [1]–[15] and major audit findings, with explicit uncovered-evidence flags.
+- [x] `documentary-comparison.html` — a visual comparison of the GP referral, hospital opening précis, handwritten interview photographs and typed history/impression. Direct local document links and limits of inference are shown.
 - [x] `README.md` — concise case handover reading order and evidence limitations.
 
 **Publication verification still required:** GitHub repository contents and internal paths have been inspected, and the HTML reader's loading order repaired. Attempts to open the public Pages URLs in the available browsing environment were unsuccessful; therefore Pages activation, rendered links and mobile/browser behaviour cannot yet be certified. GitHub commits are not proof of a deployed site.
@@ -119,6 +120,7 @@ The existing 40-numbered-document HTML compilation was uploaded **at the reposit
 **Deliverable:** A completed, readable site and one short `START_HERE.md` or `README.md` if needed.  
 **Status:** Reader navigation, README and crosswalk completed. External site-access verification and independent evidence acquisition remain outstanding.
 
+- [x] A visual comparison is featured on the homepage and links directly to the local source documents; live deployment confirmation remains open.
 - [x] Homepage and supporting reader now link **Essay → Six propositions → 25 understandings → 56 matters → Knowledge audit → 40-document evidence collection**. **Live external-browser route validation remains outstanding.**
 - [x] Link the knowledge audit, local source collection, source index, and signed statement from the homepage.
 - [ ] Confirm every link and anchor resolves on GitHub Pages, including mobile navigation, source images, footnotes and print.
