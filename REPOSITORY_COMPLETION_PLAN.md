@@ -9,7 +9,7 @@
 
 **The finished `TitanicParker/the-unanswered-referral` repository will be the single link supplied to the litigator.** Its homepage should permit a new reader to:
 
-1. Read the standalone sixth orientation essay, *The Unanswered Referral*.
+1. Read the case overview, *The Unanswered Referral*.
 2. Move into the six decisive propositions, the 25 essential understandings, and the 56 matters for examination, each in its own readable edition.
 3. Examine a **recipient-and-knowledge audit** identifying what each relevant participant demonstrably knew, what they received, what they communicated, what was unavailable to them in the transmitted record, and what remains unproved.
 4. Open a substantial, properly indexed **local copy of the documentary sources**, beginning with the existing 40-numbered-document collection, so the core materials are available without visiting or understanding the older Ms-Tansey repository.
@@ -20,7 +20,7 @@ The aim is **a finite, independently usable counsel handover**, not a sprawling 
 ## 2. What is already present
 
 - [x] `index.html` — essay-first GitHub Pages landing page.
-- [x] `THE_UNANSWERED_REFERRAL.md` — sixth and final counsel orientation essay.
+- [x] `THE_UNANSWERED_REFERRAL.md` — case overview.
 - [x] `SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md` — six propositions, evidential combinations and hospital questions.
 - [x] `THE_25_ESSENTIAL_UNDERSTANDINGS.md` — 25 interconnected findings and evidence map.
 - [x] `FIFTY_SIX_MATTERS_FOR_EXAMINATION.md` — extracted 56-matter checklist with original numbering.
