@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="theme-color" content="#f7f5f0">
+<title>Supporting Analysis | The Unanswered Referral</title>
+<style>
+:root{--paper:#f7f5f0;--ink:#202923;--muted:#606b63;--line:#d9dcd4;--accent:#315e4e;--white:#fffdf9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.75 Georgia,Cambria,serif}
+a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+header{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.top{display:flex;align-items:center;justify-content:space-between;gap:18px;max-width:1260px;margin:auto;padding:15px 24px;font:700 12px/1.5 system-ui,sans-serif}
+.top a{text-decoration:none}.top nav{display:flex;gap:18px;flex-wrap:wrap}.top nav a[aria-current="page"]{border-bottom:2px solid var(--accent)}
+.wrapper{width:min(1240px,calc(100% - 38px));margin:0 auto;display:grid;grid-template-columns:250px minmax(0,820px);gap:64px;padding:52px 0 110px}
+aside{position:sticky;top:90px;align-self:start;max-height:calc(100vh - 110px);overflow:auto;border-right:1px solid var(--line);padding-right:17px;font:13px/1.5 system-ui,sans-serif}
+aside h2{font:700 10px system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0 0 15px}
+aside a{display:block;text-decoration:none;color:#58645c;padding:7px 8px;border-left:2px solid transparent}
+aside a:hover{color:var(--accent);border-left-color:var(--accent);background:#eaf0e8}
+.main{min-width:0}.eyebrow{font:700 11px/1.5 system-ui,sans-serif;color:var(--accent);letter-spacing:.16em;text-transform:uppercase}
+.main>h1{font:400 clamp(36px,4.8vw,59px)/1.1 Georgia,serif;letter-spacing:-.04em;margin:15px 0 15px}
+.subtitle{color:var(--muted);font-size:16px;margin:0 0 28px}
+.jump{display:flex;flex-wrap:wrap;gap:9px;margin:24px 0 37px}.jump a{font:700 12px system-ui,sans-serif;border:1px solid var(--line);padding:9px 11px;background:var(--white);text-decoration:none}
+.content h1{font:400 35px/1.2 Georgia,serif;margin:45px 0 20px}.content h2{font:400 30px/1.24 Georgia,serif;margin:48px 0 19px;padding-top:19px;border-top:1px solid var(--line);scroll-margin-top:90px}.content h3{font:600 23px/1.3 Georgia,serif;margin:34px 0 15px;scroll-margin-top:90px}.content p{margin:0 0 20px}.content ul,.content ol{padding-left:25px}.content li{margin-bottom:10px}.content blockquote{padding:6px 0 6px 20px;margin:24px 0;border-left:3px solid #a4b5a8;color:#4b5c51}.content table{display:block;overflow-x:auto;border-collapse:collapse;width:100%;font:14px/1.5 system-ui,sans-serif}.content td,.content th{border:1px solid var(--line);padding:10px;vertical-align:top;text-align:left}.content pre{white-space:pre-wrap;overflow-wrap:anywhere;padding:17px;background:white;border:1px solid var(--line);font:12px/1.55 monospace}.content hr{border:0;border-top:1px solid var(--line);margin:34px 0}.content a{overflow-wrap:anywhere}.download{font:700 12px system-ui,sans-serif}.status{font:14px system-ui,sans-serif;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px system-ui,sans-serif;color:var(--muted)}
+@media(max-width:900px){.wrapper{grid-template-columns:1fr;gap:20px;padding-top:26px}aside{position:static;max-height:240px;border:0;border-bottom:1px solid var(--line);padding:0 0 20px}}
+@media(max-width:600px){.top{padding:14px 17px;align-items:flex-start;flex-direction:column;gap:6px}.top nav{gap:12px}}
+@media print{header,aside,.jump,.download,footer{display:none!important}.wrapper{display:block;width:100%;padding:0}.main>h1{font-size:32px}.content h2{break-after:avoid}}
+</style>
+<script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+</head><body>
+<header><div class="top"><a href="./">← THE UNANSWERED REFERRAL</a>
+<nav aria-label="Counsel documents">
+<a href="./">Orientation essay</a>
+<a id="six-nav" href="supporting.html?document=six">Six propositions</a>
+<a id="twentyfive-nav" href="supporting.html?document=twentyfive">25 understandings</a>
+<a id="fiftysix-nav" href="supporting.html?document=fiftysix">56 matters</a>
+</nav></div></header>
+<div class="wrapper"><aside><h2>In this document</h2><nav id="toc" aria-label="Section contents"></nav></aside>
+<main class="main">
+<div class="eyebrow">Counsel research · Supporting analysis</div><h1 id="title">Supporting analysis</h1><p id="description" class="subtitle">An evidence-linked analytical reference.</p>
+<div class="jump"><a href="./">Return to the orientation essay</a><a class="download" id="source" href="#">Open source Markdown</a><a href="#" id="print">Print / save as PDF</a></div>
+<article class="content" id="content"><p class="status" role="status">Loading the document…</p></article>
+</main></div>
+<footer>These documents present questions and research propositions for independent examination; they are not adjudicated findings.</footer>
+<script>
+(async()=>{
+const files={
+six:{file:'SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md',title:'Six decisive propositions the hospital must answer',description:'The case condensed into answerable propositions with the evidence for each and the records that could confirm or defeat it.'},
+twentyfive:{file:'THE_25_ESSENTIAL_UNDERSTANDINGS.md',title:'25 essential understandings',description:'An interconnected map of clinical, documentary and institutional evidence, with source status and remaining questions.'},
+fiftysix:{file:'FIFTY_SIX_MATTERS_FOR_EXAMINATION.md',title:'56 matters for independent examination',description:'Detailed counsel checklist, preserving the original numbering and five controlling questions.'}
+};
+const requested=new URLSearchParams(location.search).get('document');
+const key=files[requested]?requested:'six';const doc=files[key];
+document.title=doc.title+' | The Unanswered Referral';
+document.getElementById('title').textContent=doc.title;
+document.getElementById('description').textContent=doc.description;
+document.getElementById('source').href=doc.file;
+document.getElementById(key+'-nav').setAttribute('aria-current','page');
+document.getElementById('print').addEventListener('click',event=>{event.preventDefault();window.print()});
+const root=document.getElementById('content'),toc=document.getElementById('toc');
+try{
+const response=await fetch(doc.file,{cache:'no-cache'});
+if(!response.ok)throw Error('Source file not available ('+response.status+')');
+const source=await response.text();
+if(window.marked&&window.DOMPurify){
+window.marked.setOptions({gfm:true,breaks:false});
+root.innerHTML=window.DOMPurify.sanitize(window.marked.parse(source),{USE_PROFILES:{html:true}});
+}else{const pre=document.createElement('pre');pre.textContent=source;root.replaceChildren(pre)}
+const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
+headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
+if(location.hash){const anchor=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(anchor)anchor.scrollIntoView()}
+}catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
+})();
+</script>
+</body></html>
