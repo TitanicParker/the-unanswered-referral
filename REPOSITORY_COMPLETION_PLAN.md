@@ -36,7 +36,7 @@ The aim is **a finite, independently usable counsel handover**, not a sprawling 
 
 **Priority:** High  
 **Deliverable:** `RECIPIENT_AND_KNOWLEDGE_AUDIT.md` (plus a compact evidence matrix within it)  
-**Status:** [ ] Not yet completed in this repository.
+**Status:** [x] Audit written and committed in this repository on 18 November 2026. The substantive recipient/knowledge matrix and evidence-status analysis are complete; unresolved original records are enumerated in its five decisive requests.
 
 This audit should follow the **actual flow of information**, not merely repeat the chronology or imply that receipt equals understanding.
 
@@ -63,11 +63,21 @@ Use statuses such as **documented**, **corroborated**, **firsthand testimony**, 
 
 ### Definition of done for A
 
-- [ ] Every material information transfer identifies the **exact source document and date**, or explicitly records that the receipt or transmission is unproved.
-- [ ] The audit explains the three separate layers: **clinical responsibility, documentary responsibility, and transmission responsibility**.
-- [ ] A one-page conclusion identifies the most important knowledge-transfer failures or unresolved points and the **five most decisive evidence requests**.
-- [ ] It links back to the six propositions, 25 understandings and numbered source documents without duplicating their complete narratives.
-- [ ] Any alleged University records, witness accounts or review papers not actually obtained are marked outstanding, never implied to exist.
+- [x] Material information transfers identify a **source document and date** or expressly flag uncertain receipt/transmission in the new audit.
+- [x] The audit distinguishes **clinical responsibility, documentary responsibility and transmission responsibility**.
+- [x] Executive finding, conclusions and **five decisive outstanding evidence requests** identify the most important transfer and allocation gaps.
+- [x] It links the six propositions, 25 understandings and local numbered source anchors; it does not reproduce those whole documents.
+- [x] University record holdings, witness testimony and internal PAR materials not obtained are marked **unproved/outstanding**.
+
+
+### Recipient-and-knowledge audit — verified findings and remaining limits (18 November 2026)
+
+- **Audit available:** [RECIPIENT_AND_KNOWLEDGE_AUDIT.md](RECIPIENT_AND_KNOWLEDGE_AUDIT.md); incorporated into [the homepage](index.html) and [supporting document reader](supporting.html?document=audit).
+- **Directly documented boundaries:** the hospital's opening précis omitted the full GP referral's foot and toe-clawing detail, but the neurologist subsequently recorded those concerns independently; the GP recorded waiting for formal documentation on 14/17 July 2017 and extensive consultant correspondence on 18 July; the 2019 GP podiatry re-referral independently linked painful clawed feet, abnormal tone and gait; the 2023 nurse emailed the consultant while explicitly unsure whether he had seen the GP's urgent referral; July/August 2025 hospital records correspondence preceded the SIMT decision.
+- **Qualified findings:** the 10/11 July protest is firsthand retrospective testimony with no identified contemporary independent witness; typed-authorised chronology does not determine drafting chronology; organisational notice of the protest-related request does not establish individual PAR/SIMT reviewers read it; an original genetic lab interpretation requiring confirmation of variant phase must not be collapsed into the unqualified specialist letter to the GP.
+- **Missing controlling material:** full 2017 clinical ownership/handover notes and case-meeting pack; original discharge drafting/distribution metadata; student/University searches and witness records; full March 2023 GP Healthlink referral, nurse/consultant reply and urgent clinical-safety triage; full PAR, source inventory, reviewer materials and minutes.
+- **Minimal non-invasive improvement:** add a small, redacted correspondence exhibit for the June 2025 early protest accounts, 7 July hospital request, 4–5 August messages, 24 November–December University request/response sequence and 2023 nurse email. These source emails are not separately included among the local 40 numbered records. **Retain original numbering and do not import an entire secondary repository.**
+- **Completion status:** analytic audit done, but **not a fully independently verifiable counsel handover** until those missing sources, crosswalk checks, live-link tests and public/privacy review are addressed. No legal or clinical breach determination is asserted.
 
 ## 4. Workstream B — a self-contained source-record bundle
 
@@ -107,7 +117,7 @@ The existing 40-numbered-document HTML compilation was uploaded **at the reposit
 **Deliverable:** A completed, readable site and one short `START_HERE.md` or `README.md` if needed.  
 **Status:** [ ] Not yet completed.
 
-- [ ] Homepage routes: **Essay → Six propositions → 25 understandings → 56 matters → Knowledge audit → 40-document evidence collection**. Readers can enter at any point and return easily.
+- [x] Homepage and supporting reader now link **Essay → Six propositions → 25 understandings → 56 matters → Knowledge audit → 40-document evidence collection**. **Live external-browser route validation remains outstanding.**
 - [ ] Add links to the knowledge audit once it exists; the local source bundle, source index and supporting exhibits are already linked from the homepage.
 - [ ] Confirm every link and anchor resolves on GitHub Pages, including mobile navigation, source images, footnotes and print.
 - [ ] Confirm 25 numbered K-items, six P-items, 56 investigative matters and 40 documentary source entries are present without omissions or duplicated numbering.
@@ -129,10 +139,10 @@ Do **not** add all exploratory essays, all repository histories, every possible 
 | Six decisive propositions | **Present** | Six propositions accessible individually as a readable working document |
 | 25 understandings | **Present** | All K01–K25 included with evidence relationships |
 | 56 matters | **Present** | Numbering intact; 51 issues and five controlling questions |
-| Recipient-and-knowledge audit | **To do** | Recipient/source matrix, accountability and evidence-status analysis |
+| Recipient-and-knowledge audit | **Committed 18 November 2026; integrated in homepage and reader** | Populated transfer matrix, responsibility/accountability analysis, five controlling records requests; native materials still needed |
 | 40-document local bundle | **Uploaded; hash-verified; live links to check** | Forty local anchors, three manuscript images, signed statement, and source index |
 | Citation crosswalk + provenance | **Source-copy identity documented; crosswalk to do** | Important claims lead to local document numbers and files |
-| Site integration + external/ privacy check | **To do** | One public-facing entry point functions and is appropriate to share |
+| Site integration + external/ privacy check | **Navigation updated; external/ privacy verification outstanding** | Verify deployed Pages routes, link anchors, external visitor access, patient/witness data safety |
 
 ### Completion rule
 
