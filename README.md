@@ -9,6 +9,8 @@ A case overview and supporting documents for independent legal review of a June�
 
 **Institutional philosophical essay:** [When institutions become the authority on their own errors](supporting.html?document=institutional) · [Source Markdown](WHEN_INSTITUTIONS_BECOME_THE_AUTHORITY_ON_THEIR_OWN_ERRORS.md)
 
+**Controlling working research file (v1.0.0):** [Read the working case theory and evidence register](supporting.html?document=workingcase) · [Edit/read source Markdown](WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md)
+
 ## Reading order
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
