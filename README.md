@@ -15,6 +15,7 @@ A case overview and supporting documents for independent legal review of a June�
 
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
 2. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
+   - [July 2017 clinical record — source-by-source reconstruction](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) — GP referral, hospital Rx, original handwritten interview, typed history and Impression.
 3. [The case for deliberate misrepresentation](CASE_FOR_DELIBERATE_MISREPRESENTATION.md)
 4. [Six questions](supporting.html?document=six)
 5. [25 key findings](supporting.html?document=twentyfive)
