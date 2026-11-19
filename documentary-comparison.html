@@ -15,6 +15,7 @@ h2{font:normal clamp(28px,3.6vw,41px)/1.18 Georgia,serif;letter-spacing:-.02em;m
 @media(max-width:790px){main{padding:0 17px 70px}.top{padding:12px 17px}.hero{padding-top:45px}.summary,.comparison,.meaning{grid-template-columns:1fr}.photo-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.photo img{height:145px}.rail{grid-template-columns:1fr 1fr}.nav{gap:10px}}@media(max-width:480px){.photo-grid{grid-template-columns:1fr}.photo img{height:280px}.rail{grid-template-columns:1fr}.nav a:nth-child(2){display:none}.panel{padding:19px}.sourcequote{font-size:20px}}
 @media print{header,.print{display:none}body{font-size:12px;background:white}main{max-width:none}.hero{padding:16px 0}.hero h1{font-size:35px}.summary,.comparison,.meaning{grid-template-columns:1fr 1fr}.rail{grid-template-columns:repeat(5,1fr)}.panel,.mini,.step,.photo{break-inside:avoid}.block{padding-top:28px}h2{font-size:27px}.photo img{height:140px}a{color:inherit}}
 </style>
+<link rel="stylesheet" href="origami.css">
 </head>
 <body>
 <header><div class="top"><a class="brand" href="./">The Unanswered Referral</a><nav class="nav" aria-label="Page navigation"><a href="#referral">Referral</a><a href="#interview">Interview</a><a href="#question">Questions</a><a href="supporting.html?document=audit">Knowledge audit</a></nav><button class="print" type="button" onclick="window.print()">Print</button></div></header>
@@ -133,4 +134,22 @@ h2{font:normal clamp(28px,3.6vw,41px)/1.18 Georgia,serif;letter-spacing:-.02em;m
 <div class="callout"><div class="eyebrow">Further examination</div><h3>Was the attribution deliberate?</h3><p>The <a href="CASE_FOR_DELIBERATE_MISREPRESENTATION.md">case for deliberate misrepresentation</a> develops the evidential argument, addresses alternative explanations and identifies the original records and witness evidence needed to establish intent.</p></div>
 <div class="end"><a href="./">Back to case overview</a> · <a href="README.md">Reading guide</a> · <a href="Margaret_Tansey.html">40-document source collection</a></div>
 </main>
+<script>
+(function(){
+ const compact=window.matchMedia('(max-width:790px)');
+ const sections=[...document.querySelectorAll('main > section.block')];
+ sections.forEach(section=>{
+  const h=section.querySelector('h2');if(!h)return;
+  const d=document.createElement('details');d.className='origami-comparison';d.id=section.id;
+  const summary=document.createElement('summary');summary.textContent=h.textContent;
+  const body=document.createElement('div');body.className='comparison-body';
+  section.removeAttribute('id');h.remove();
+  section.replaceWith(d);d.append(summary,body);body.append(section);
+ });
+ function adapt(){document.querySelectorAll('.origami-comparison').forEach(d=>{if(!compact.matches)d.open=true;else if(!d.dataset.wasMobile){d.open=false;d.dataset.wasMobile='yes'}})}
+ compact.addEventListener('change',adapt);adapt();
+ function goToHash(){let target;try{target=document.getElementById(decodeURIComponent(location.hash.slice(1)))}catch(e){}if(target&&target.tagName==='DETAILS'){target.open=true;target.scrollIntoView({block:'start'})}}
+ addEventListener('hashchange',goToHash);goToHash();
+})();
+</script>
 </body></html>
