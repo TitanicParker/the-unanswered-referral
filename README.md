@@ -2,7 +2,7 @@
 
 A case overview and supporting documents for independent legal review of a June–July 2017 neurological referral, the subsequent treatment of painful, abnormal feet, and the hospital's later response to questions about the original assessment.
 
-**Start here:** [Open the case overview](index.html)  
+**Start here:** [Read the 50 foundational statements in the phone-friendly reader](supporting.html?document=foundations) · [Open the landing page](index.html)  
 **Published reading address, once GitHub Pages is active:** https://titanicparker.github.io/the-unanswered-referral/
 
 **Full philosophical essay:** [Read the complete ethical and institutional case](supporting.html?document=philosophy) · [Open the source Markdown](THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md)
@@ -13,6 +13,7 @@ A case overview and supporting documents for independent legal review of a June�
 
 ## Reading order
 
+0. [Fifty Foundational Statements of the Case — mobile folded HTML reader](supporting.html?document=foundations) · [Source Markdown](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md) — the new canonical 50-statement companion, placed first for immediate reading.
 1. [Case overview — The Unanswered Referral](THE_UNANSWERED_REFERRAL.md)
 2. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
    - [July 2017 clinical record — source-by-source reconstruction](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) — GP referral, hospital Rx, original handwritten interview, typed history and Impression.
