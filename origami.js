@@ -1,7 +1,7 @@
 /* Origami navigation: semantic details / summary, source headings retained, no external dependencies. */
 (function(){
  'use strict';
- function headingSlug(value){return (value||'section').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\\s-]/g,'').replace(/\\s+/g,'-').slice(0,75)||'section'}
+ function headingSlug(value){return (value||'section').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').slice(0,75)||'section'}
  function visibleSections(root){return Array.from(root.querySelectorAll('details.origami-section'))}
  function controls(root){
   if(root.querySelector(':scope > .fold-controls'))return;
