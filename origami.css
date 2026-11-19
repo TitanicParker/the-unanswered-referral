@@ -120,6 +120,7 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
 .mobile-doc-nav{display:contents}
 .mobile-doc-nav>summary{display:none}
 @media(max-width:900px){
+ header .top > nav{display:none!important}
  header .top{display:flex!important;flex-direction:row!important;align-items:center!important;flex-wrap:wrap!important;padding:10px 15px!important;gap:9px!important}
  header .top>a{font-size:11px!important;letter-spacing:0!important;max-width:55%;line-height:1.3}
  .mobile-doc-nav{display:block;margin-left:auto;position:relative}
