@@ -24,12 +24,15 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 @media(max-width:600px){.top{padding:14px 17px;align-items:flex-start;flex-direction:column;gap:6px}.top nav{gap:12px}}
 @media print{header,aside,.jump,.download,footer{display:none!important}.wrapper{display:block;width:100%;padding:0}.main>h1{font-size:32px}.content h2{break-after:avoid}}
 </style>
+<link rel="stylesheet" href="origami.css">
+<script defer src="origami.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
 </head><body>
 <header><div class="top"><a href="./">← THE UNANSWERED REFERRAL</a>
 <nav aria-label="Counsel documents">
 <a href="./">Case overview</a>
+<a id="sequences-nav" href="supporting.html?document=sequences">Six sequences</a>
 <a id="workingcase-nav" href="supporting.html?document=workingcase">Working case register</a>
 <a id="philosophy-nav" href="supporting.html?document=philosophy">Philosophical essay</a>
 <a id="institutional-nav" href="supporting.html?document=institutional">Institutional essay</a>
@@ -49,6 +52,7 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 <script>
 document.addEventListener('DOMContentLoaded',async()=>{
 const files={
+ sequences:{file:'THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md',title:'Six sequences & five mechanisms',description:'The integrated, phone-friendly case map: six parallel histories, five governing mechanisms and a complete crosswalk among the 56, 25, 15 and six.'},
  workingcase:{file:'WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md',title:'Working case theory and evidence register',description:'Versioned controlling research file: candidate cases, scores, the neurologist’s dated knowledge register, source comparisons, active evidence checklist and revision history.'},
  institutional:{file:'WHEN_INSTITUTIONS_BECOME_THE_AUTHORITY_ON_THEIR_OWN_ERRORS.md',title:'When institutions become the authority on their own errors',description:'An independent philosophical essay on how clinical records, treatment histories and reviews can become mutually reinforcing without independently testing the original patient account.'},
  philosophy:{file:'THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md',title:'The full ethical and institutional case',description:'The original case statements and nineteen philosophical contributions on the referral, patient testimony, premature defensibility, safeguarding and institutional review.'},
@@ -66,6 +70,7 @@ document.getElementById('description').textContent=doc.description;
 document.getElementById('source').href=doc.file;
 document.getElementById(key+'-nav').setAttribute('aria-current','page');
 document.getElementById('print').addEventListener('click',event=>{event.preventDefault();window.print()});
+if(window.Origami)window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');
 const root=document.getElementById('content'),toc=document.getElementById('toc');
 try{
 const response=await fetch(doc.file,{cache:'no-cache'});
@@ -77,7 +82,7 @@ root.innerHTML=window.DOMPurify.sanitize(window.marked.parse(source),{USE_PROFIL
 }else{const pre=document.createElement('pre');pre.textContent=source;root.replaceChildren(pre)}
 const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
 headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
-if(location.hash){const anchor=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(anchor)anchor.scrollIntoView()}
+if(window.Origami){window.Origami.foldDocument(root);window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');window.Origami.revealHash()}
 }catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
 });
 </script>
