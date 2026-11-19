@@ -54,6 +54,8 @@ The original 40 documentary anchors are retained below. Some entries are transcr
 
 - [The July 2017 Clinical Record — a source-by-source reconstruction of the patient’s account](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) — analysis of the original GP referral, hospital Rx, handwritten neurological interview and typed clinical account, with the original manuscript images linked through Documents 5–7.
 
+- [The Positive Finding and the Peripheral Hypothesis](THE_POSITIVE_FINDING_AND_THE_PERIPHERAL_HYPOTHESIS.md) — companion examination of the neurologist's dystonic-looking findings, genetic differential, Professor Healy, procyclidine withdrawal, podiatry observations and GP follow-up.
+
 ## Supporting exhibits
 
 - [Handwritten neurological interview — page 1](document_05_manuscript.jpg)
