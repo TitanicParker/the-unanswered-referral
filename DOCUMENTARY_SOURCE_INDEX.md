@@ -56,6 +56,8 @@ The original 40 documentary anchors are retained below. Some entries are transcr
 
 - [The Positive Finding and the Peripheral Hypothesis](THE_POSITIVE_FINDING_AND_THE_PERIPHERAL_HYPOTHESIS.md) — companion examination of the neurologist's dystonic-looking findings, genetic differential, Professor Healy, procyclidine withdrawal, podiatry observations and GP follow-up.
 
+- [The Six Sequences and Five Mechanisms — how the clinical record operated](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md) — integrating analytical companion with the 15 new dynamics, crosswalk to the 25 understandings and 56 matters, and six hospital propositions. Separates documentary facts, patient testimony and inferences; includes Monday clonazepam and recorded inpatient sweating.
+
 ## Supporting exhibits
 
 - [Handwritten neurological interview — page 1](document_05_manuscript.jpg)
