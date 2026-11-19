@@ -34,7 +34,7 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
 .fold-nav nav{display:grid;grid-template-columns:1fr;gap:0;padding:5px 8px 12px!important;max-height:48vh;overflow-y:auto}
 .fold-nav a{display:block;min-height:42px;padding:10px 11px!important;line-height:1.4;text-decoration:none;border-bottom:1px solid #e6eae3!important;overflow-wrap:anywhere}
 .fold-nav a:last-child{border-bottom:0!important}
-.origami-home{border:1px solid var(--fold-border);background:#fffdf9;border-radius:17px;margin:12px auto;overflow:hidden}
+.origami-home{width:min(1100px,calc(100% - 42px));border:1px solid var(--fold-border);background:#fffdf9;border-radius:17px;margin:12px auto;overflow:hidden}
 .origami-home>summary{cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 45px 17px 19px;position:relative;min-height:71px}
 .origami-home>summary::-webkit-details-marker{display:none}
 .origami-home>summary:after{content:"+";position:absolute;right:19px;font:400 26px system-ui,sans-serif;color:#315e4e}
@@ -43,6 +43,7 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
 .origami-home>summary .fold-tag{display:block;font:750 10px/1.4 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#547461;margin-bottom:5px}
 .origami-home[open]>summary{background:var(--fold-soft);border-bottom:1px solid var(--fold-border)}
 .origami-home .fold-home-body{padding:21px 19px 26px}
+.fold-original-title{display:none!important}
 .origami-home .support-lede{max-width:70ch}
 .fold-mobile-jump{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:14px 0 2px;font:600 13px/1.3 system-ui,sans-serif}
 .fold-mobile-jump a{display:inline-flex;align-items:center;min-height:43px;padding:10px 14px;border:1px solid var(--fold-border);border-radius:12px;background:#fff;color:#315e4e;text-decoration:none}
@@ -76,6 +77,7 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
  .hero-start{margin-top:17px!important;padding:11px 15px!important}
  .origami-section .origami-inner{padding:15px 14px 20px}
  .origami-section>summary{padding-left:14px}
+ .origami-home{width:calc(100% - 30px)}
  .origami-home .fold-home-body{padding:17px 14px 20px}
  .origami-home>summary{padding:16px 44px 16px 15px}
  .wrapper .main>h1{font-size:clamp(30px,8vw,41px)!important;margin:12px 0}
@@ -91,3 +93,25 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
  .origami-section:not([open])>.origami-inner,.origami-home:not([open])>.fold-home-body{display:block!important}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+
+/* Documentary comparison cards: compact stacks and finger-friendly controls. */
+@media(max-width:790px){
+ .nav{display:none!important}
+ .comparison,.summary,.meaning,.photo-grid,.rail{grid-template-columns:1fr!important}
+ .panel{padding:16px!important}
+ .sourcequote{font-size:18px!important;padding:12px!important}
+ .origami-comparison{margin:12px 0;border:1px solid var(--fold-border);border-radius:16px;background:#fffdf9;overflow:hidden}
+ .origami-comparison>summary{list-style:none;cursor:pointer;padding:17px 43px 17px 16px;position:relative;font:650 17px/1.35 system-ui,sans-serif;min-height:62px}
+ .origami-comparison>summary::-webkit-details-marker{display:none}
+ .origami-comparison>summary:after{content:"+";position:absolute;right:15px;top:50%;transform:translateY(-50%);font:26px system-ui,sans-serif}
+ .origami-comparison[open]>summary:after{content:"−"}
+ .origami-comparison[open]>summary{background:var(--fold-soft);border-bottom:1px solid var(--fold-border)}
+ .origami-comparison>.comparison-body{padding:17px 14px 22px}
+ .origami-comparison .block{padding:0!important}
+ .origami-comparison h2{font-size:24px!important}
+ .origami-comparison table{display:block;max-width:100%;overflow:auto}
+}
+@media print{
+ .origami-comparison>.comparison-body{display:block!important}
+ .origami-comparison>summary:after{display:none!important}
+}
