@@ -51,6 +51,13 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 <footer>These documents present questions and research propositions for independent examination; they are not adjudicated findings.</footer>
 <script>
 document.addEventListener('DOMContentLoaded',async()=>{
+const headerNav=document.querySelector('header .top nav');
+if(headerNav){
+ const folded=document.createElement('details');folded.className='mobile-doc-nav';
+ const sum=document.createElement('summary');sum.textContent='Documents';
+ headerNav.parentNode.insertBefore(folded,headerNav);folded.append(sum,headerNav);
+ headerNav.addEventListener('click',event=>{if(event.target.closest('a'))folded.open=false});
+}
 const files={
  sequences:{file:'THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md',title:'Six sequences & five mechanisms',description:'The integrated, phone-friendly case map: six parallel histories, five governing mechanisms and a complete crosswalk among the 56, 25, 15 and six.'},
  workingcase:{file:'WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md',title:'Working case theory and evidence register',description:'Versioned controlling research file: candidate cases, scores, the neurologist’s dated knowledge register, source comparisons, active evidence checklist and revision history.'},
