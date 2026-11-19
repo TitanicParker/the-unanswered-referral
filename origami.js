@@ -88,8 +88,14 @@
   var first=sections.find(function(d){return !isProceduralHeading(d.querySelector('summary')?.textContent)})||sections[0];
   if(!first)return;
   first.open=true;
-  var child=first.querySelector('details.origami-section--minor');
-  if(child)child.open=true;
+  // Where a technical wrapper contains the actual argument, expose its first substantive subsection.
+  if(first===sections[0]&&isProceduralHeading(first.querySelector('summary')?.textContent)){
+   var inner=Array.from(first.querySelectorAll('details.origami-section--minor')).find(function(d){return !isProceduralHeading(d.querySelector('summary')?.textContent)});
+   if(inner)inner.open=true;
+  }else{
+   var child=first.querySelector('details.origami-section--minor');
+   if(child)child.open=true;
+  }
  }
  function foldDocument(root,options){
   if(!root||root.dataset.origamiReady==='yes')return;
