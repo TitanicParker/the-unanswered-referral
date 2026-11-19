@@ -69,8 +69,8 @@
    if(node.matches('h1,.source-head,.fold-controls'))return;
    if(node.tagName==='HR'){noteNodes.push(node);return;}
    if(node.tagName!=='P')return;
-   var plain=(node.textContent||'').trim().replace(/\\s+/g,' ');
-   var explicit=/^(canonical companion|working version|purpose[.:]|evidential convention[.:]|quotation policy[.:]|version[.:]|prepared[.:]|established[.:]|status[.:]|scope[.:]|repository[.:]|primary record policy[.:]|parent document[.:]|working evidential compression|document type[.:]|date[.:]|relationship to existing work[.:]|companion, not replacement[.:]|source-preserving extraction)/i.test(plain);
+   var plain=(node.textContent||'').trim().replace(/\s+/g,' ');
+   var explicit=/^(canonical companion|working version|purpose[.:]|central organising principle[.:]|evidential convention[.:]|quotation policy[.:]|version[.:]|prepared[.:]|established[.:]|status[.:]|scope[.:]|repository[.:]|primary record policy[.:]|parent document[.:]|working evidential compression|document type[.:]|date[.:]|relationship to existing work[.:]|companion, not replacement[.:]|source-preserving extraction)/i.test(plain);
    var dateLine=/^(case overview|19 november 2026|18 november 2026|working evidential compression)/i.test(plain);
    if(explicit||dateLine)noteNodes.push(node);
   });
