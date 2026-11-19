@@ -55,6 +55,42 @@
   });
   root.dataset.issueFolds='yes';
  }
+
+ function isProceduralHeading(value){
+  return /^(reading rules|how to operate this working file|source shorthand|source key|evidence vocabulary|citation convention|how to read|document conventions|appendix — documentary issues and controlling questions)/i.test((value||'').trim());
+ }
+ function tuckOpeningNotes(root){
+  if(root.querySelector(':scope > details.origami-notes'))return;
+  var children=Array.from(root.children), firstSection=children.findIndex(function(el){return el.matches('details.origami-section')});
+  if(firstSection<0)return;
+  var intro=children.slice(0,firstSection);
+  var noteNodes=[];
+  intro.forEach(function(node){
+   if(node.matches('h1,.source-head,.fold-controls'))return;
+   if(node.tagName==='HR'){noteNodes.push(node);return;}
+   if(node.tagName!=='P')return;
+   var plain=(node.textContent||'').trim().replace(/\\s+/g,' ');
+   var explicit=/^(canonical companion|working version|purpose[.:]|evidential convention[.:]|quotation policy[.:]|version[.:]|prepared[.:]|established[.:]|status[.:]|scope[.:]|repository[.:]|primary record policy[.:]|parent document[.:]|working evidential compression|document type[.:]|date[.:]|relationship to existing work[.:]|companion, not replacement[.:]|source-preserving extraction)/i.test(plain);
+   var dateLine=/^(case overview|19 november 2026|18 november 2026|working evidential compression)/i.test(plain);
+   if(explicit||dateLine)noteNodes.push(node);
+  });
+  if(!noteNodes.length)return;
+  var details=document.createElement('details');details.className='origami-notes';
+  var summary=document.createElement('summary');summary.textContent='Document notes and conventions';
+  var body=document.createElement('div');body.className='origami-notes-body';
+  details.append(summary,body);
+  // Keep notes anchored ahead of the article's substantive content.
+  root.insertBefore(details,intro.find(function(el){return noteNodes.includes(el)})||root.firstChild);
+  noteNodes.forEach(function(node){body.append(node)});
+ }
+ function openFirstReading(root){
+  var sections=Array.from(root.querySelectorAll(':scope > details.origami-section'));
+  var first=sections.find(function(d){return !isProceduralHeading(d.querySelector('summary')?.textContent)})||sections[0];
+  if(!first)return;
+  first.open=true;
+  var child=first.querySelector('details.origami-section--minor');
+  if(child)child.open=true;
+ }
  function foldDocument(root,options){
   if(!root||root.dataset.origamiReady==='yes')return;
   var headingList=Array.from(root.querySelectorAll('h2,h3'));
@@ -66,6 +102,8 @@
   Array.from(root.querySelectorAll('details.origami-section:not(.origami-section--minor) > .origami-inner')).forEach(function(body){foldHeadingGroup(body,3)});
   // Rare h3 headings before the first h2.
   foldHeadingGroup(root,3);
+  tuckOpeningNotes(root);
+  openFirstReading(root);
   if(visibleSections(root).length)controls(root);
   root.dataset.origamiReady='yes';
   revealHash();
