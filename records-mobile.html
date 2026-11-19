@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#f7f5f0">
+<meta name="description" content="Browse the 40-document case archive one document at a time, in a phone-friendly folded reading interface.">
+<title>40 Documentary Records | The Unanswered Referral</title>
+<style>
+:root{--bg:#f7f7f3;--paper:#fffefb;--ink:#23372c;--muted:#5b6b61;--line:#d6dfd7;--accent:#315e4e}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;overflow-x:hidden}
+a{color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}
+button,input,summary{font:inherit}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+header{position:sticky;top:0;z-index:15;background:rgba(247,247,243,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{width:min(760px,calc(100% - 26px));margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;font:650 12px/1.2 system-ui,sans-serif}
+.bar a{text-decoration:none}
+.bar .return{font-size:12px}
+main{width:min(760px,calc(100% - 26px));margin:auto;padding:26px 0 90px}
+.eyebrow{color:#4b785f;font:750 11px/1.4 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em}
+h1{font:400 clamp(32px,8vw,48px)/1.06 Georgia,serif;letter-spacing:-.04em;margin:12px 0}
+.lede{max-width:55ch;color:var(--muted);font-size:15px;line-height:1.6;margin:0 0 18px}
+.toolbox{position:relative;background:#fff;border:1px solid var(--line);border-radius:17px;padding:14px;margin:24px 0 16px}
+.toolbox label{display:block;font:700 12px system-ui,sans-serif;color:var(--muted);margin:0 0 8px}
+.toolbox input{display:block;width:100%;height:48px;border:1px solid #b8c7bb;border-radius:11px;padding:10px 14px;background:#fff;color:var(--ink);font-size:16px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:12px}
+.actions a,.actions button{display:inline-flex;align-items:center;min-height:42px;border:1px solid var(--line);background:#fff;border-radius:11px;padding:9px 12px;text-decoration:none;color:var(--accent);font:650 12px/1.3 system-ui,sans-serif;cursor:pointer}
+.actions a:hover,.actions button:hover{background:#eef3ed}
+.status{font:600 13px/1.4 system-ui,sans-serif;color:var(--muted);margin:0 0 14px;min-height:22px}
+.record{border:1px solid var(--line);background:var(--paper);border-radius:15px;margin:10px 0;overflow:hidden;scroll-margin-top:78px}
+.record>summary{list-style:none;cursor:pointer;padding:15px 40px 15px 15px;min-height:64px;position:relative}
+.record>summary::-webkit-details-marker{display:none}
+.record>summary:after{content:"+";position:absolute;right:15px;top:19px;font:26px/1 system-ui,sans-serif;color:var(--accent)}
+.record[open]>summary:after{content:"−"}
+.record[open]>summary{background:#edf3ed;border-bottom:1px solid var(--line)}
+.num{display:block;color:#54745e;font:750 10px/1.3 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.12em;margin-bottom:3px}
+.name{font:650 16px/1.35 system-ui,sans-serif;letter-spacing:-.012em}
+.date{display:block;color:#617167;font:500 12px/1.35 system-ui,sans-serif;margin-top:4px}
+.record-body{padding:15px 15px 24px;overflow-wrap:anywhere;font:16px/1.7 Georgia,Cambria,serif}
+.record-body .document{min-width:0;margin:0;padding:0;max-width:100%}
+.record-body h1,.record-body h2,.record-body h3,.record-body h4{font-family:Georgia,serif;letter-spacing:-.02em;line-height:1.23;overflow-wrap:anywhere}
+.record-body h2{font-size:25px;margin:23px 0 12px}
+.record-body h3{font-size:20px;margin:24px 0 11px}
+.record-body p{margin:0 0 16px}
+.record-body img,.record-body iframe,.record-body svg{max-width:100%;height:auto}
+.record-body pre{white-space:pre-wrap;overflow-wrap:anywhere;border:1px solid var(--line);padding:12px;font:12px/1.55 monospace;background:#f8faf8}
+.record-body table{display:block;overflow-x:auto;max-width:100%;border-collapse:collapse;-webkit-overflow-scrolling:touch;font:13px/1.4 system-ui,sans-serif}
+.record-body td,.record-body th{border:1px solid var(--line);padding:8px;vertical-align:top;text-align:left}
+.record-body blockquote{margin:19px 0;padding:8px 13px;border-left:3px solid #8ba695;background:#f5f8f4}
+.record-body .annotation,.record-body .source-note,.record-body aside{background:#f4f7f3;border-left:3px solid #a5b9a7;padding:10px 12px;margin:18px 0;max-width:100%}
+.record-body .document-date{font:600 13px system-ui,sans-serif;color:var(--muted)}
+.record-body [class^="underline-"],.record-body [class*=" underline-"]{text-decoration:underline;text-decoration-thickness:1.2px;text-underline-offset:3px}
+.record-body .underline-a{text-decoration-color:#2563a6}
+.record-body .underline-b{text-decoration-color:#b4533c}
+.record-body .underline-c{text-decoration-color:#23805c}
+.source-line{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:20px;padding-top:15px;border-top:1px solid var(--line);font:650 12px system-ui,sans-serif}
+.small{font-size:12px;color:var(--muted);margin-top:17px}
+footer{border-top:1px solid var(--line);font:12px/1.6 system-ui,sans-serif;color:var(--muted);padding:19px 0 30px}
+@media(min-width:690px){main{padding-top:45px}.record-body{padding:23px 28px 35px}.record>summary{padding:19px 51px 19px 21px}}
+@media print{header,.toolbox,.actions,.status,.source-line{display:none!important}body{background:#fff}.record{border:0;break-inside:auto}.record>summary{border-bottom:1px solid #ddd}.record-body{display:block!important;padding:12px 0}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="return" href="./">← The Unanswered Referral</a><a href="DOCUMENTARY_SOURCE_INDEX.md">Record index</a></div></header>
+<main>
+<div class="eyebrow">Documentary archive · Phone-friendly reader</div>
+<h1>40 records, neatly folded.</h1>
+<p class="lede">Open only the document you need. Search by title, jump to a document number or follow a direct record link. The underlying compiled source has not been changed.</p>
+<div class="toolbox">
+<label for="filter">Find a record</label>
+<input type="search" id="filter" autocomplete="off" placeholder="Search titles, dates or document numbers…" aria-describedby="status">
+<div class="actions"><button type="button" id="close-all">Fold everything</button><a href="Margaret_Tansey.html">Original compiled archive</a><a href="DOCUMENTARY_SOURCE_INDEX.md">Numbered source index</a></div>
+</div>
+<p id="status" class="status" role="status">Loading the documentary index…</p>
+<div id="records"><noscript><p>This reader needs JavaScript. <a href="Margaret_Tansey.html">Open the original 40-document archive</a>.</p></noscript></div>
+<p class="small">Source caution: the compiled archive includes transcriptions, editorial material and annotations. Its original records, provenance and source limitations remain controlling. This view only reorganises access to the archive.</p>
+</main>
+<footer><div style="width:min(760px,calc(100% - 26px));margin:auto">A reading interface for source material and investigation, not an adjudicated clinical or legal conclusion.</div></footer>
+<script>
+(async function(){
+'use strict';
+const box=document.getElementById('records'),search=document.getElementById('filter'),status=document.getElementById('status');
+const source='Margaret_Tansey.html';
+let items=[];
+function text(str){return (str||'').replace(/\s+/g,' ').trim()}
+function revealHash(){
+ let id='';try{id=decodeURIComponent(location.hash.slice(1))}catch(e){}
+ if(!id)return;
+ const target=document.getElementById(id);
+ if(target&&target.tagName==='DETAILS'){target.hidden=false;target.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}))}
+}
+function update(){
+ const term=search.value.trim().toLowerCase();let shown=0;
+ items.forEach(item=>{const show=!term||item.lookup.includes(term);item.details.hidden=!show;if(show)shown++});
+ status.textContent=shown+' of '+items.length+' records'+(term?' match the search':'');
+}
+function openRecord(item){
+ if(item.loaded)return;
+ const article=document.importNode(item.original,true);
+ article.removeAttribute('id'); // The outer accordion owns document-N deep links.
+ const oldHeading=article.querySelector('h2');if(oldHeading)oldHeading.remove();
+ const body=document.createElement('div');body.className='record-body';body.append(article);
+ const sourceLine=document.createElement('div');sourceLine.className='source-line';
+ const a=document.createElement('a');a.href=source+'#'+item.details.id;a.textContent='See this record in the original compilation';
+ sourceLine.append(a);body.append(sourceLine);item.details.append(body);item.loaded=true;
+}
+try{
+ const response=await fetch(source,{cache:'force-cache'});
+ if(!response.ok)throw Error('The archive could not be loaded ('+response.status+')');
+ const html=await response.text();
+ const parsed=new DOMParser().parseFromString(html,'text/html');
+ const articles=[...parsed.querySelectorAll('article.document[id^="document-"]')];
+ if(!articles.length)throw Error('No numbered documents found');
+ items=articles.map((article,index)=>{
+  const number=Number((article.id.match(/^document-(\d+)$/)||[])[1]||index+1);
+  const heading=text(article.querySelector('h2')?.textContent)||'Document '+number;
+  const date=text(article.querySelector('.document-date')?.textContent);
+  const details=document.createElement('details');details.className='record';details.id='document-'+number;
+  const summary=document.createElement('summary');summary.innerHTML='<span class="num">Document '+number+'</span>';
+  const title=document.createElement('span');title.className='name';
+  title.textContent=heading.replace(/^Document\s+\d+\s*[—–-]?\s*/i,'')||heading;
+  summary.append(title);
+  if(date){const d=document.createElement('span');d.className='date';d.textContent=date;summary.append(d)}
+  details.append(summary);
+  const item={original:article,details,loaded:false,lookup:(number+' '+heading+' '+date).toLowerCase()};
+  details.addEventListener('toggle',()=>{if(details.open)openRecord(item)});
+  box.append(details);
+  return item;
+ });
+ status.textContent=items.length+' records available';
+ search.addEventListener('input',update);
+ document.getElementById('close-all').addEventListener('click',()=>{items.forEach(x=>x.details.open=false)});
+ addEventListener('hashchange',revealHash);revealHash();
+}catch(err){
+ status.textContent='The mobile archive is unavailable at the moment.';
+ const p=document.createElement('p');const link=document.createElement('a');link.href=source;link.textContent='Open the original documentary collection instead';
+ p.append(link);box.append(p);
+}
+})();
+</script>
+</body></html>
