@@ -17,13 +17,14 @@ A case overview and supporting documents for independent legal review of a June�
 2. [Visual comparison — how the clinical account was constructed](documentary-comparison.html)
    - [July 2017 clinical record — source-by-source reconstruction](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) — GP referral, hospital Rx, original handwritten interview, typed history and Impression.
    - [The Positive Finding and the Peripheral Hypothesis](THE_POSITIVE_FINDING_AND_THE_PERIPHERAL_HYPOTHESIS.md) — dystonic-looking lower-limb findings, PRKN/PARK9 differential, Healy correspondence, procyclidine interruption, podiatry and GP follow-up.
-3. [The case for deliberate misrepresentation](CASE_FOR_DELIBERATE_MISREPRESENTATION.md)
-4. [Six questions](supporting.html?document=six)
-5. [25 key findings](supporting.html?document=twentyfive)
-6. [56 issues to examine](supporting.html?document=fiftysix)
-7. [Recipient-and-knowledge audit](supporting.html?document=audit)
-8. [Evidence cross-reference](supporting.html?document=crosswalk) — matches the overview's **15 source notes** and the main audit questions to local document numbers
-9. [The 40-document collection](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
+3. [The Six Sequences and Five Mechanisms — how the clinical record operated](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md) — master synthesis linking the 56 investigative matters, 25 understandings, 15 dynamics and six hospital propositions; includes the Monday clonazepam/first-night sweating evidence and the patient-communication mechanism.
+4. [The case for deliberate misrepresentation](CASE_FOR_DELIBERATE_MISREPRESENTATION.md)
+5. [Six questions](supporting.html?document=six)
+6. [25 key findings](supporting.html?document=twentyfive)
+7. [56 issues to examine](supporting.html?document=fiftysix)
+8. [Recipient-and-knowledge audit](supporting.html?document=audit)
+9. [Evidence cross-reference](supporting.html?document=crosswalk) — matches the overview's **15 source notes** and the main audit questions to local document numbers
+10. [The 40-document collection](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
 
 The three photographed handwritten interview pages are [page 1](document_05_manuscript.jpg), [page 2](document_06_manuscript.jpg) and [page 3](document_07_manuscript.jpg). The [signed 2026 patient statement](Article_16_Supplementary_Statement_July_2017.pdf) is a retrospective firsthand account and should not be mistaken for a contemporaneous July 2017 note.
 
