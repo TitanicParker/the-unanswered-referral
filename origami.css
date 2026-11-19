@@ -135,3 +135,15 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
  .mobile-doc-nav nav a[aria-current="page"]{font-weight:800;background:#edf2ed;border-radius:8px}
 }
 @media print{.origami-home{display:none!important}.mobile-doc-nav{display:none!important}}
+
+/* Nested items in the 56-matter investigative checklist. */
+.origami-issue{border:1px solid var(--fold-border);border-radius:10px;background:#fff;overflow:hidden;margin:4px 0 10px;min-width:0}
+.origami-issue>summary{list-style:none;cursor:pointer;position:relative;min-height:49px;padding:13px 39px 13px 12px;font:650 14px/1.4 system-ui,sans-serif;color:var(--fold-ink)}
+.origami-issue>summary::-webkit-details-marker{display:none}
+.origami-issue>summary:after{content:"+";position:absolute;right:12px;top:11px;font:22px system-ui,sans-serif;color:#3b684f}
+.origami-issue[open]>summary{background:#f0f4ef;border-bottom:1px solid var(--fold-border)}
+.origami-issue[open]>summary:after{content:"−"}
+.origami-issue-body{padding:12px 14px 16px;font-size:15px;line-height:1.6;overflow-wrap:anywhere}
+.origami-issue-body>p:last-child{margin-bottom:0}
+@media(max-width:540px){.origami-issue{margin-left:-4px;margin-right:-4px}}
+@media print{.origami-issue>.origami-issue-body{display:block!important}.origami-issue>summary:after{display:none!important}}
