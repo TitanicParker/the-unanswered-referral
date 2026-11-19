@@ -40,6 +40,21 @@
   if(target.closest('details.origami-home'))target.closest('details.origami-home').open=true;
   requestAnimationFrame(function(){target.scrollIntoView({block:'start'});});
  }
+ function foldIssues(root){
+  if(!root||root.dataset.issueFolds==='yes')return;
+  Array.from(root.querySelectorAll('ol > li')).forEach(function(li){
+   var lead=li.querySelector('strong');if(!lead||li.querySelector('details.origami-issue'))return;
+   var d=document.createElement('details');d.className='origami-issue';
+   var summary=document.createElement('summary');summary.textContent=lead.textContent;
+   var inside=document.createElement('div');inside.className='origami-issue-body';
+   while(li.firstChild)inside.append(li.firstChild);
+   var oldLead=inside.querySelector('strong');if(oldLead)oldLead.remove();
+   var first=inside.firstChild;
+   if(first&&first.nodeType===3)first.textContent=first.textContent.replace(/^\\s*[—–:-]\\s*/,'');
+   d.append(summary,inside);li.append(d);
+  });
+  root.dataset.issueFolds='yes';
+ }
  function foldDocument(root,options){
   if(!root||root.dataset.origamiReady==='yes')return;
   var headingList=Array.from(root.querySelectorAll('h2,h3'));
@@ -83,6 +98,6 @@
   nav.parentNode.insertBefore(d,nav);d.append(summary,nav);
   nav.addEventListener('click',function(e){if(e.target.closest('a'))d.open=false;});
  }
- window.Origami={foldDocument:foldDocument,foldHome:foldHome,makeNavFold:makeNavFold,revealHash:revealHash};
+ window.Origami={foldDocument:foldDocument,foldIssues:foldIssues,foldHome:foldHome,makeNavFold:makeNavFold,revealHash:revealHash};
  addEventListener('hashchange',revealHash);
 })();
