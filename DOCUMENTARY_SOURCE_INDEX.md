@@ -50,6 +50,10 @@ The original 40 documentary anchors are retained below. Some entries are transcr
 | 39 | Article 77 Complaint — Article 15 Request | 1 October 2026 | [Document 39](Margaret_Tansey.html#document-39) |
 | 40 | Article 77 Complaint — Article 16 Request | 5 October 2026 | [Document 40](Margaret_Tansey.html#document-40) |
 
+## Documentary reconstruction
+
+- [The July 2017 Clinical Record — a source-by-source reconstruction of the patient’s account](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) — analysis of the original GP referral, hospital Rx, handwritten neurological interview and typed clinical account, with the original manuscript images linked through Documents 5–7.
+
 ## Supporting exhibits
 
 - [Handwritten neurological interview — page 1](document_05_manuscript.jpg)
