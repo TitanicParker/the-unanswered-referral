@@ -11,6 +11,8 @@ A case overview and supporting documents for independent legal review of a June�
 
 **Controlling working research file (v1.0.0):** [Read the working case theory and evidence register](supporting.html?document=workingcase) · [Edit/read source Markdown](WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md)
 
+**New cross-cutting analytical question — the lost baseline:** The fifty arguments now explicitly connect the narrowed referral and neurologist's knowledge to the **10 July 2017 opportunity to establish an integrated foot–movement baseline**, the later loss of that historical opportunity, and the **2025 institutional duty to examine the adequacy of the original baseline when reviewing care**. This is a testable mechanism rather than a finding of a mandatory levodopa challenge, deliberate record suppression or proven negligence. Start with the [governing addition to the fifty](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md#governing-interaction--the-lost-baseline-opportunity), then the [sequence-level analysis](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md#the-lost-baseline-junction-between-the-sequences) and [hospital questions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md#the-baseline-question-that-crosses-p1-p3-and-p6).
+
 ## Reading order
 
 0. [Fifty Foundational Statements of the Case — mobile folded HTML reader](supporting.html?document=foundations) · [Source Markdown](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md) — the new canonical 50-statement companion, placed first for immediate reading.
