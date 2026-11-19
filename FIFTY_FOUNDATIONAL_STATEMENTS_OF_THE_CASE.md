@@ -12,6 +12,20 @@
 
 ---
 
+## Governing interaction — the lost-baseline opportunity
+
+**Read the fifty as an interconnected system, not fifty self-contained accusations.** A particular relationship now requires explicit attention: the narrowed hospital précis (03), the specialist's independent recovery of material knowledge (04–08), and the absence in the reviewed account of an integrated baseline for painful foot posture, lesions, pain, movement and response to treatment (10, 16, 19). The issue is not simply that one diagnosis remained uncertain. It is whether the admission established sufficient **comparative findings** to test the principal competing explanations, or explicitly assigned that work for follow-up.
+
+**The protest as a time-specific knowledge threshold.** On the working premise that the patient challenged inadequate foot investigation on 10 July 2017, he challenged the **state of clinical knowledge then available** while contemporaneous assessment was still possible. This does not prove that a specific levodopa challenge, pain scale, palpation finding or biomechanical test was mandatory. It poses the expert question: what clinically appropriate observations and comparisons should have been made or arranged at that point, given the actual examination, eight-day admission and referring problem? The loss is potentially not merely delayed treatment, but the inability later to recreate exactly what could have been observed **then**.
+
+**Two effects, not one.** The potential *lost-baseline opportunity* concerns the historical, non-repeatable chance to document that state. The potential *absent-baseline asymmetry* concerns what happened afterwards: later changes could be difficult to interpret while the original clinical interpretation continued to supply the reference point against which those changes were judged. At the 2025 complaint review, the corresponding question was whether reviewers independently tested **the adequacy of the 2017 baseline itself** before accepting a broad no-deficit conclusion. An absence in the materials reviewed does not prove the assessments were never performed; full charts, contemporaneous examinations and the complete PAR could narrow or displace this mechanism.
+
+**Counsel's central test:** Do not require the patient to reconstruct which hospital staff member read the full referral or the precise moment it was read. Establish what the hospital received, what its clinicians demonstrably knew, what baseline was actually documented, what remained expressly unresolved or allocated, and what the 2025 review did to examine that deficiency. Distinguish shortcomings in the clinical standard, shortcomings in preserved records, and the causal consequences of each.
+
+**Related analytical development:** [Six sequences and five mechanisms — baseline junction](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md#the-lost-baseline-junction-between-the-sequences) · [Six propositions — baseline examination](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md#the-baseline-question-that-crosses-p1-p3-and-p6).
+
+---
+
 ## I. The referral and the neurologist’s knowledge
 
 ### 01. The referral was a connected clinical question
