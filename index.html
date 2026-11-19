@@ -44,6 +44,8 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-vis
 @media(max-width:600px){body{font-size:17px}.hero h1{font-size:clamp(43px,11vw,64px)}.hero-inner{width:calc(100% - 34px)}.layout{width:calc(100% - 34px);padding-top:35px}#toc{grid-template-columns:1fr}.top-inner{padding:12px 17px}.top-actions{gap:10px}.article h2{margin-top:45px}}
 @media print{.top,.aside,.hero-start,.endmatter,.footer{display:none!important}.hero{background:none;border:0}.hero-inner{padding:0}.hero h1{font-size:35px}.dek{font-size:15px}.layout{display:block;width:100%;padding:16px 0}.article{max-width:none}.article h2{break-after:avoid}.article p{orphans:3;widows:3}a{color:inherit}}
 </style>
+<link rel="stylesheet" href="origami.css">
+<script defer src="origami.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
 
@@ -65,7 +67,7 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-vis
 <body>
 <a class="skip" href="#essay">Skip to essay</a>
 <header class="top"><div class="top-inner"><a class="wordmark" href="./">The Unanswered Referral</a><div class="top-actions"><a href="THE_UNANSWERED_REFERRAL.md" download>Original Markdown</a><button class="print" type="button" id="print">Print / Save PDF</button></div></div><div class="progress"><span id="progress"></span></div></header>
-<section class="hero" aria-labelledby="title"><div class="hero-inner"><div class="eyebrow">Hospital care and review · 2017–2026</div><h1 id="title">The Unanswered Referral</h1><p class="dek">In June 2017, a GP referred a patient with painful feet, toe clawing and changes in movement. The hospital diagnosed Parkinsonism, but the records raise questions about how the foot problems were assessed, followed up and later reviewed.</p><div class="hero-meta"><span>Case overview</span><span>18 November 2026</span><span>Supporting records available</span></div><a class="hero-start" href="#essay">Read the overview ↓</a></div></section>
+<section class="hero" aria-labelledby="title"><div class="hero-inner"><div class="eyebrow">Hospital care and review · 2017–2026</div><h1 id="title">The Unanswered Referral</h1><p class="dek">In June 2017, a GP referred a patient with painful feet, toe clawing and changes in movement. The hospital diagnosed Parkinsonism, but the records raise questions about how the foot problems were assessed, followed up and later reviewed.</p><div class="hero-meta"><span>Case overview</span><span>18 November 2026</span><span>Supporting records available</span></div><div class="fold-mobile-jump"><a class="featured" href="#sequences-mechanisms">Six sequences &amp; five mechanisms</a><a href="#supporting-analysis">Browse the case library</a><a href="#essay">Read the overview</a></div></div></section>
 
 <section class="support-wrap" id="supporting-analysis" aria-labelledby="support-heading">
  <div class="eyebrow">Supporting documents</div>
@@ -106,7 +108,7 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible,button:focus-vis
 <div class="eyebrow">Master synthesis · Six sequences · Five mechanisms</div>
 <h2 class="support-title" id="sequences-heading">How the clinical record operated</h2>
 <p class="support-lede">A connected examination of six overlapping histories: clinical recognition and Monday clonazepam treatment, the documentary transformation of the GP referral, the pre-discharge challenge, medication response and procyclidine withdrawal, divided GP/podiatry responsibility, and the later institutional defence. The 15 new dynamics are cross-referenced to the 56 investigative matters, 25 essential understandings and six hospital-facing propositions.</p>
-<a class="support-card" href="THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md" style="min-height:unset;max-width:820px"><span class="support-number">Integrating analytical companion · Primary reading route</span><h3>The Six Sequences and Five Mechanisms</h3><p>Examine the neurologist's own treatment decisions and recorded first-night sweating response alongside the original foot separation, 2018 procyclidine dechallenge, clinical communication and institutional ownership.</p><span class="more">Read the integrated analysis ↗</span></a>
+<a class="support-card" href="supporting.html?document=sequences" style="min-height:unset;max-width:820px"><span class="support-number">Integrating analytical companion · Primary reading route</span><h3>The Six Sequences and Five Mechanisms</h3><p>Examine the neurologist's own treatment decisions and recorded first-night sweating response alongside the original foot separation, 2018 procyclidine dechallenge, clinical communication and institutional ownership.</p><span class="more">Read the integrated analysis ↗</span></a>
 </section>
 <section class="support-wrap" id="case-for-misrepresentation" aria-labelledby="intent-heading">
  <div class="eyebrow">The central contested allegation</div>
@@ -151,8 +153,9 @@ try{
   const n=used.get(key)||0;used.set(key,n+1);if(n)key+='-'+(n+1);h.id=key;
   const a=document.createElement('a');a.href='#'+key;a.textContent=h.textContent;toc.append(a);
  });
- if(location.hash){const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(target)target.scrollIntoView()}
+ if(window.Origami){window.Origami.foldDocument(root);window.Origami.makeNavFold(document.querySelector('.aside'),'#toc');window.Origami.revealHash()}
 }catch(e){root.innerHTML='<div class="source-head">Case overview</div><p>Unable to display the essay in this viewer. <a href="THE_UNANSWERED_REFERRAL.md">Open the source Markdown directly</a>.</p>'}
+if(window.Origami){window.Origami.foldHome();window.Origami.makeNavFold(document.querySelector('.aside'),'#toc');}
 const progress=document.getElementById('progress');
 function update(){const total=Math.max(1,document.documentElement.scrollHeight-innerHeight);progress.style.width=Math.min(100,Math.round(scrollY/total*100))+'%'}
 addEventListener('scroll',update,{passive:true});update();
