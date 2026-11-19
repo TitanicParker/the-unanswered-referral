@@ -5,6 +5,18 @@
 **Parent document:** `THE_25_ESSENTIAL_UNDERSTANDINGS.md`, K01–K25.  
 **Purpose:** Convert a 25-point interconnected evidence map into six answerable propositions. Each proposition states (a) the proposition to be tested, (b) the combined evidence that makes an answer necessary, (c) the concrete answer and records required from the hospital, and (d) how an adequate response could confirm, qualify or defeat the proposition.
 
+## The baseline question that crosses P1, P3 and P6
+
+**The missing clinical baseline is not simply a later proof problem.** The 2017 referral put painful, abnormal feet, movement, tone and gait before the hospital as a connected clinical problem. An eight-day neurological admission offered the opportunity to document the relevant foot and motor findings, differential explanations, treatment effects and outstanding responsibilities. The reviewed account demonstrates substantial Parkinsonism work but does **not itself demonstrate** a fully articulated comparative baseline for the foot–movement relationship. What additional examination or pharmacological testing was indicated is an independent clinical-standard question, not a premise to be assumed.
+
+**P1 asks** whether the baseline reasonably required to address the original referral was established or responsibly assigned. **P3 asks** what remained possible to observe, examine, explain or arrange when the patient reported protesting the insufficient foot investigation on 10 July, before the historical admission conditions were lost. **P6 asks** whether the 2025 review tested this original baseline deficiency instead of treating the 2017 interpretation as a sufficient surrogate for the missing comparative observations.
+
+The *lost-baseline opportunity* means the original condition cannot later be re-examined under exactly the same circumstances. The *absent-baseline asymmetry* means a deficient baseline could both impede the patient's subsequent attempts to demonstrate change and make it easier for an inherited interpretation to retain authority. That possible effect is **not** evidence of a deliberate institutional strategy to preserve ignorance. Equally, the patient should not have to prove the clock-time at which the referral was read: the central questions are what the hospital received, what was known, what was documented, and how the question was handled.
+
+**Specific records and expert tests:** full original GP referral and hospital triage/précis; 2017 complete examination, nursing, therapy, medication and foot assessment records; dated pain, palpation, toe-position, loading and response observations if any; discharge follow-up assignments; April 2018 note and later GP/podiatry reports; complete 2025 preliminary assessment/PAR, its evidence inventory and scope. Ask a relevant neurological expert to distinguish required baseline work from optional tests, and counsel to distinguish an inadequate investigation from an inadequate surviving record. Contrary records can materially defeat or narrow this proposition.
+
+---
+
 ## The governing distinction
 
 The issue is **not** whether Parkinsonism was correctly investigated, whether every medication choice was mistaken, or whether peripheral neuropathy was impossible. The issue is whether a **connected foot–toe-clawing–posture–tone–pain presentation** was investigated and either resolved or expressly assigned for continuing investigation; whether the final record faithfully described the patient's position; whether later findings prompted genuine reconsideration; and whether a hospital review answered those issues rather than a narrower medication dispute.
