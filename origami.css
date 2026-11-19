@@ -147,3 +147,15 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
 .origami-issue-body>p:last-child{margin-bottom:0}
 @media(max-width:540px){.origami-issue{margin-left:-4px;margin-right:-4px}}
 @media print{.origami-issue>.origami-issue-body{display:block!important}.origami-issue>summary:after{display:none!important}}
+
+/* Editorial reading mode: procedural prefaces remain available, but folded. */
+.origami-notes{border:1px solid var(--fold-border);border-radius:12px;background:#f1f4ef;margin:9px 0 17px;overflow:hidden;font:13px/1.5 system-ui,sans-serif;color:#526359}
+.origami-notes>summary{cursor:pointer;list-style:none;min-height:44px;padding:12px 40px 11px 14px;position:relative;font:650 12px/1.4 system-ui,sans-serif;color:#496454}
+.origami-notes>summary::-webkit-details-marker{display:none}
+.origami-notes>summary:after{content:"+";position:absolute;right:15px;top:10px;font:22px/1 system-ui,sans-serif}
+.origami-notes[open]>summary:after{content:"−"}
+.origami-notes[open]>summary{border-bottom:1px solid var(--fold-border)}
+.origami-notes-body{padding:13px 15px 17px;font-size:13px;line-height:1.55}
+.origami-notes-body p{font-size:13px!important;line-height:1.55!important;margin:0 0 12px!important}
+.origami-notes-body p:last-child{margin-bottom:0!important}
+@media print{.origami-notes-body{display:block!important}}
