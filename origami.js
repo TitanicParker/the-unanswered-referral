@@ -50,7 +50,7 @@
    while(li.firstChild)inside.append(li.firstChild);
    var oldLead=inside.querySelector('strong');if(oldLead)oldLead.remove();
    var first=inside.firstChild;
-   if(first&&first.nodeType===3)first.textContent=first.textContent.replace(/^\\s*[—–:-]\\s*/,'');
+   if(first&&first.nodeType===3)first.textContent=first.textContent.replace(/^\s*[—–:-]\s*/,'');
    d.append(summary,inside);li.append(d);
   });
   root.dataset.issueFolds='yes';
