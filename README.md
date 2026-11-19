@@ -24,7 +24,7 @@ A case overview and supporting documents for independent legal review of a June�
 7. [56 issues to examine](supporting.html?document=fiftysix)
 8. [Recipient-and-knowledge audit](supporting.html?document=audit)
 9. [Evidence cross-reference](supporting.html?document=crosswalk) — matches the overview's **15 source notes** and the main audit questions to local document numbers
-10. [The 40-document collection](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
+10. [The 40-document collection — mobile folded reader](records-mobile.html), its [original compilation](Margaret_Tansey.html), or its [numbered index](DOCUMENTARY_SOURCE_INDEX.md)
 
 The three photographed handwritten interview pages are [page 1](document_05_manuscript.jpg), [page 2](document_06_manuscript.jpg) and [page 3](document_07_manuscript.jpg). The [signed 2026 patient statement](Article_16_Supplementary_Statement_July_2017.pdf) is a retrospective firsthand account and should not be mistaken for a contemporaneous July 2017 note.
 
