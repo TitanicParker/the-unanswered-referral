@@ -15,6 +15,24 @@ The clinical question is how **positive neurological knowledge and treatment** c
 
 The argument is one of **documentary separation, diagnostic asymmetry, operative division, record-mediated communication and institutional entrenchment**. These are mechanisms to be tested against the original record. They must not be confused with independently proven intention, physical causation of every foot lesion, or an adjudicated deficit in care.
 
+## The lost-baseline junction between the sequences
+
+This is a **cross-mechanism junction**, not an additional allegation replacing the fifty foundations. The GP's connected presentation entered the hospital record through a narrower précis. The neurologist nevertheless recovered substantial information about the feet and abnormal movement. The reviewed discharge account does not demonstrate a sufficiently integrated **clinical baseline** for distinguishing neurological posture and tone, focal mechanical lesions, sensory/peripheral possibilities, pain and response to treatment. That last point is about what is *demonstrated in the reviewed account*, not a finding that no assessment occurred elsewhere.
+
+The eight-day admission offered an unusually important opportunity for contemporaneous observation. By the reported protest of **10 July 2017**, the patient was challenging the adequacy of investigation **before the original clinical state became historically non-repeatable**. The exact assessment reasonably indicated—structured motor medication response, mapping pain and tenderness, examination of toe flexibility, pressure and loading, or an accountable referral plan—is for an independent 2017-standard clinical expert to address. A levodopa challenge is not assumed to have been obligatory or to have provided a complete explanation of skin lesions.
+
+The interaction runs in three directions:
+
+1. **Lost-baseline opportunity:** A later examination can document a later state; it cannot produce the same contemporaneous July 2017 observations after the fact. If clinically indicated baseline findings were not made or recorded, the evidential opportunity itself may have been lost.
+2. **Absent-baseline asymmetry:** Subsequent symptom changes and the 2018 procyclidine interruption are harder to interpret without a reference point. At the same time the initial formulation may retain documentary authority, potentially becoming an implicit substitute for measurements it did not establish.
+3. **Review-level repetition:** A 2025 no-deficit review needed to ask not only whether Parkinsonism management was defensible but **whether the original admission adequately established the baseline needed to test its foot-related formulation**. The original deficit cannot be retrospectively repaired by affirming the original interpretation.
+
+This is a **proposed institutional and clinical mechanism**, not proof of negligence, intent, or causation of later pathology. It is falsifiable. The original complete ward record could show adequate findings or a justified differential and follow-up; the full PAR could demonstrate that the reviewers independently tested the baseline problem. If so, the argument must narrow. Its crosswalk is F03–F04 → F06–F10 → F16/F19 → F21–F30 → F32–F35 → F41–F44/F49–F50, and it engages P1, P3 and P6.
+
+**Counsel's practical question:** What information should reasonably have been established before discharge, what evidence shows it was established, what became impossible to reconstruct later, and did the institution account for that limitation when reviewing the original care?
+
+---
+
 ## I. Four documentary layers, not four rival lists
 
 | Layer | Function | Status |
