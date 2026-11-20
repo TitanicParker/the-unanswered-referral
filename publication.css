@@ -1,0 +1,49 @@
+/* Publication layer: presentation only; original source documents remain untouched. */
+:root{--publication-ink:#1d2928;--publication-accent:#245d58;--publication-soft:#eaf1ed;--publication-rule:#cdd7d0}
+html{scroll-padding-top:100px}
+body{font-kerning:normal;overflow-wrap:break-word}
+a{text-decoration-thickness:from-font;text-underline-offset:.19em}
+a:hover{text-decoration-thickness:2px}
+:where(a,button,input,summary,select):focus-visible{outline:3px solid #a46618!important;outline-offset:4px!important}
+:where(button,summary,a){touch-action:manipulation}
+:where(.article,.content,.record-body,.publication-prose){max-width:100%;font-variant-numeric:oldstyle-nums}
+:where(.article,.content,.record-body,.publication-prose) :where(p,li,blockquote){text-wrap:pretty}
+:where(.article,.content,.record-body,.publication-prose) p{line-height:1.78}
+:where(.article,.content,.record-body,.publication-prose) :where(h1,h2,h3,h4){text-wrap:balance}
+:where(.article,.content,.record-body,.publication-prose) :where(h2,h3,h4){scroll-margin-top:110px}
+:where(.article,.content,.record-body,.publication-prose) img{max-width:100%;height:auto}
+:where(.article,.content,.record-body,.publication-prose) :where(table){max-width:100%;overflow-x:auto}
+:where(.article,.content,.record-body,.publication-prose) :where(th){background:#edf2ee}
+:where(.article,.content,.record-body,.publication-prose) :where(td,th){vertical-align:top}
+:where(.article,.content,.record-body,.publication-prose) :where(pre){max-width:100%;overflow:auto}
+:where(.article,.content,.record-body,.publication-prose) :where(blockquote){break-inside:avoid}
+.publication-bar{background:#1d3531;color:#f8f6ef;font:600 13px/1.45 system-ui,sans-serif}
+.publication-bar nav{max-width:1250px;margin:auto;padding:12px 22px;display:flex;align-items:center;gap:12px 24px;flex-wrap:wrap}
+.publication-bar a{color:#fff;text-decoration:none;border-bottom:1px solid transparent;padding:4px 0}
+.publication-bar a:hover,.publication-bar a[aria-current="page"]{border-bottom-color:#fff}
+.publication-bar .publication-mark{font-weight:800;letter-spacing:.055em;margin-right:auto}
+.publication-bar .publication-note{font-size:11px;font-weight:400;color:#d2dfd8}
+.publication-access{position:absolute;left:-10000px;top:0;z-index:1000;padding:12px;background:#fff;color:#173f37}
+.publication-access:focus{left:12px}
+.publication-library-link{display:inline-flex;align-items:center;gap:7px;border:1px solid var(--publication-rule);background:#fffdf9;padding:10px 14px;font:650 13px system-ui,sans-serif;text-decoration:none}
+.publication-library-link:hover{background:var(--publication-soft)}
+.publication-tool-row{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}
+.publication-tool-row button{font:600 12px system-ui,sans-serif;padding:9px 13px;border:1px solid var(--publication-rule);background:#fff;cursor:pointer}
+@media(max-width:700px){
+ .publication-bar nav{gap:4px 14px;padding:10px 16px}
+ .publication-bar .publication-mark{flex:1 0 100%}
+ :where(.article,.content,.record-body,.publication-prose) p{line-height:1.68}
+ .publication-bar .publication-note{display:none}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important}}
+@media print{
+ @page{size:auto;margin:18mm 17mm}
+ body{background:#fff!important;color:#111!important;font-size:11pt!important;line-height:1.48!important}
+ .publication-bar,.publication-access,.publication-tool-row,.publication-library-link{display:none!important}
+ :where(.article,.content,.record-body,.publication-prose) :where(h1,h2,h3,h4){break-after:avoid;page-break-after:avoid}
+ :where(.article,.content,.record-body,.publication-prose) :where(figure,table,blockquote){break-inside:avoid}
+ :where(.article,.content,.record-body,.publication-prose) :where(a){color:#111;text-decoration:underline}
+ details.origami-section,details.origami-issue,details.origami-home{display:block!important;break-inside:auto!important}
+ details.origami-section > .origami-inner,details.origami-issue > .origami-issue-body,details.origami-home > .fold-home-body{display:block!important}
+ details.origami-section > summary::after,details.origami-home > summary::after{display:none!important}
+}
