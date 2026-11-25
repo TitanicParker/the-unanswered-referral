@@ -66,6 +66,8 @@ The page also contains a **parenthetical addition at the bottom**:
 
 The parenthesis refers to **leg pain**, whereas the preceding contrast is between **foot pain** and **leg tension**. That difference is retained; it is not silently corrected or reconciled.
 
+**Provenance clarification (25 November 2026).** The patient alleges that the separate parenthesis was inserted after the 10 July protest and denies reporting leg pain in this history. Its wording combines the anatomical location from “leg tension” with the sensation from “foot pain”; it subsequently becomes the explanatory bridge in the typed account. The manuscript is therefore itself an object of provenance examination. Neither the interview date nor the final authorisation date establishes when this individual inscription was made. This is relevant to the central allegation of [the substitution of documentary defensibility for genuine medicine](index.html#gravity-statement): the patient says the construction responded to his demand for clinical work. The original quotations remain unchanged.
+
 ### 3.3. Progression and alcohol cessation
 
 Pages 100–103 describe continuing difficulty with bodily tension, leg control, dexterity, occupational tasks and attention. Page 101 records the start of a materials-handling role in January 2017 and subsequent difficulties.

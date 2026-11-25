@@ -2,6 +2,12 @@
 
 *For independent legal examination | 18 November 2026 | Evidential argument, not a finding of dishonesty*
 
+## Controlling allegation clarified — 25 November 2026
+
+**The substitution of documentary defensibility for genuine medicine.** The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+The patient expressly alleges that the parenthesis “(as the leg pain settled)” on handwritten page 109 was inserted after the protest. He denies reporting leg pain in that history. The phrase combines the location from leg tension with the sensation from foot pain and later supplies the causal bridge in the typed account. It is therefore the manuscript itself, as well as the typed versions, whose provenance requires examination. The original professional circumstances predate discharge; later harm is not evidence of what was privately intended in 2017. The allegation is conscious construction in response to notice, not merely careless transcription. The timing and purpose of that construction require proof.
+
 ## The allegation, stated without dilution
 
 **The patient alleges that the treating neurologist knowingly converted a limited experiential distinction recorded during a single July 2017 interview into a stronger assertion about what the patient believed concerning the causes of his painful feet and leg tension.** The completed clinical impression placed that patient-attributed assertion beside the neurologist's own provisional suggestion that the foot problems might be separate or peripheral. On the patient's case, this was not an innocent difference in expression: it was a conscious representation that gave a disputed clinical separation apparent support from the patient's own understanding, reduced pressure to investigate the neurological contribution to the painful feet, and helped defend the disposition that followed.

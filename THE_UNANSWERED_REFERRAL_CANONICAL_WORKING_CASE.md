@@ -14,6 +14,12 @@
 
 # The case in the record's words
 
+## Governing reading note — The substitution of documentary defensibility for genuine medicine
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+This quotation-led reconstruction tests the distinction between what was done and what was represented as adequate. Read the manuscript parenthesis as a disputed inscription, not an independently dated interview entry; read the treatment-related harm and safety questions against the dated clinical record. The original quotations and source statuses remain unchanged.
+
 ## I. The clinical question was already joined together before hospital admission
 
 The GP was not simply requesting confirmation of a Parkinsonian label. On **8 June 2017**, he expressed an interest in a specialist opinion on the patient's:

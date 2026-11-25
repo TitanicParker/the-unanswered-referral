@@ -5,6 +5,12 @@
 **Scope:** Source-grounded synthesis of the original 2017 clinical presentation, contemporaneous recording, subsequent GP/podiatry and neurological care, 2025 complaint and institutional review, and evidence available in 2026. Companion to `WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md`; does not amend primary sources.  
 **Controlling question:** **Did a hospital investigation that substantially established Parkinsonism leave the GP's original foot–posture–tone–pain question without an allocated neurological answer, while its completed clinical narrative and later defence made that disposition increasingly authoritative?**
 
+## Governing interpretation — The substitution of documentary defensibility for genuine medicine
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+K01–K11 establish the original clinical question, the disputed record and notice; K12–K22 examine reopening evidence, including the original focal drug response, subsequent medication substitution, competing motor states, pregabalin benefit and its limits, and the 2023 distress; K23–K25 test the scope of defence and later evidence. At each junction distinguish an actual investigation or corrective action from a statement explaining the existing position. Preserve all K-identifiers and evidence statuses; this interpretive update does not upgrade any inference to established fact.
+
 ## Reading rules and source shorthand
 
 - **D** = directly documented in the identified source; **M** = multiple substantially independent records; **T** = patient firsthand testimony (not independently corroborated merely by its repetition); **I** = inference to be tested; **U** = presently unresolved; **X** = dependent on missing material. A single entry may contain more than one status, with established facts and inferences separately specified.
@@ -563,5 +569,7 @@ The structure instead is:
 
 **Revision log:**
 - **v1.0 — 18 November 2026:** Initial 25-item harvest; distinguished documentary fact, patient testimony, interpretation and missing source; corrected unsupported first-night clonazepam claim and premature certainty about PRKN variant phase; incorporated GP's 2019 counterevidence and 2023 specialist dependency; mapped alternative explanations, status checklist and ten discriminating tests.
+
+**25 November 2026 — interpretive clarification:** Added governing interpretation; no change to K-identifiers or status ratings.
 
 **Revision protocol:** Preserve stable K-identifiers; add new evidence as `E-YYYYMMDD-n`; update the affected K item's status and cross-links; record exactly which inference strengthened, weakened or was rejected. Retain rejected hypotheses and their reasons. Do not silently rewrite source quotations or change historical event dates to match new interpretations.

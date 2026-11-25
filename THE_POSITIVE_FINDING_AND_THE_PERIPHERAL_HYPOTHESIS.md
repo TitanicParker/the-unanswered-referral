@@ -8,6 +8,12 @@
 
 ---
 
+## Significance for the controlling allegation — 25 November 2026
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+The 2018 focal medication observation is a reopening threshold: its importance is not that it proves every lesion was dystonic, but that subsequent medication changes and pain required the original relationship to remain within the differential. The later 2021–2025 regimen and distress belong to the [treatment-related harm analysis](journalistic-essay.html#treatment-related-harm), outside this document's historical scope. The 2017–2019 evidence is preserved here without retrospectively importing later knowledge.
+
 ## 1. The proposition
 
 The documentary question is not merely whether the treating neurologist considered peripheral neuropathy, or whether he recognised a movement disorder. He did both. The more revealing question is **how those two possibilities were weighed and represented when the same patient's presenting problem involved painful, physically abnormal feet, clawing toes, increased leg tone and disordered gait**.

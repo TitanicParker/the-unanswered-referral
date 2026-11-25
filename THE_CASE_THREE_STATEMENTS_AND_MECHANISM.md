@@ -8,6 +8,14 @@ The institutional obligation was not merely to produce a coherent explanation of
 
 This proposition identifies the ethical mechanism to be examined. It is not a claim that every medication decision was wrong, that peripheral neuropathy was impossible, or that the exact amount of avoidable physical harm has already been demonstrated. It is a claim about *the order in which clinical responsibility and its justification must arise*: investigation, reasoned disposition and faithful record first; defensibility grounded in that work thereafter.
 
+## Controlling clarification — 25 November 2026
+
+**The substitution of documentary defensibility for genuine medicine.** The allegation is not that medicine failed to explain itself. It is that explaining itself became more important than examining the patient. The institution continued to produce reasons for the care it had provided while the patient continued to present reasons why that care needed to change.
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+The relevant professional exposure already existed on 10 July 2017; the later distress did not create it. The allegation now expressly includes the disputed timing of the handwritten parenthesis, the operational use of the peripheral hypothesis, the persistence of the frame despite foot-specific drug response, and the possible contribution of the later regimen to intolerable suffering. Safeguarding is independently examinable. Preserve the original three statements and distinguish contemporaneous circumstances from retrospective evidence.
+
 ## The mechanism
 
 **Prior knowledge → Direct protest → Deliberate alteration of meaning → Peripheral explanation → Omission of objection → Authorised record → Prolonged clinical consequences → Retrospective defence**

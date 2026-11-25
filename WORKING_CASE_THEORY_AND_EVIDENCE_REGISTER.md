@@ -9,6 +9,12 @@
 
 > **Controlling inquiry:** What did the neurologist know; what did he decide; what did he record and omit; what did he later represent; and what did the hospital accept? The answer must be constructed by comparing those stages, not by treating any one stage as proof of the others.
 
+## Controlling case clarification — 25 November 2026
+
+**The substitution of documentary defensibility for genuine medicine.** The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+Integrate C-01/C-02/C-03 with the later clinical and institutional theories without collapsing their proof burdens. C-08 remains independently safety-critical. Trace original clinical work versus justification, the disputed manuscript provenance, the actual senior briefing, the 2018 drug-linked foot observation, the 2021 substitution and subsequent motor-state evidence, the conflicting pregabalin accounts, both distress warnings, the March 2025 CR response and the PAR/SIMT source inventory. See [canonical transcription](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md), CLIN-001914–17, 002335–53, 002427, 002579–82, 002637–41, 002682–84, 002700, 002778–80, 002787–802, 003265–69. No scores or evidence statuses are changed by this clarification.
+
 ## How to operate this working file
 
 - **Evidence IDs** `EV-###` identify a source or source family; **findings** `F-###` are source-bounded observations; **propositions** `P-###` are explanations to be tested; **theories** `C-01`–`C-08` are competing or complementary cases; **investigations** `I-###` are actionable evidence tests; **decisions** `D-###` preserve choices and rejected formulations.
@@ -518,6 +524,8 @@ These are **serious competing explanations**, not generic ritual caveats. Each h
 | Version / date | Scope and change | Evidence added/checked | Theory impact |
 |---|---|---|---|
 | **1.0.0 — 18 November 2026** | Initial permanent working register created; 15 sections; stable F/P/C/I/EV identifiers, dual-score comparison, chronology, mechanism, clonazepam, protest, 2025 reconstruction, governance chain, decision log. | Numbered local 40-document collection; available earlier philosophy; For Counsel 47-source derived corpus, source matrix and July/August 2025 correspondence; Feb 2026 PRKN specialist letter. | Leads with **C-02 + C-01**; C-03 conditional; C-04/05 longitudinal complements; C-06/07 institutional tests; C-08 independently safety-critical. |
+
+**Revision clarification — 25 November 2026:** Added the controlling allegation and cross-theory testing instructions above. Earlier scores, decisions and evidence labels retained; no new native source authentication or finding of causation.
 
 ### Open decisions — do not erase pending answers
 

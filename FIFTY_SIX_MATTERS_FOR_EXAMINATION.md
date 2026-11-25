@@ -2,6 +2,12 @@
 
 *Source-preserving extraction of the 56-matter checklist from the earlier counsel orientation. These are investigative questions, not established findings. The original question numbering is retained.*
 
+## Governing examination instruction — The substitution of documentary defensibility for genuine medicine
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+Across the existing 56 matters, seek the dated evidence of investigation, correction, reassessment, intervention, safeguarding and independent review rather than treating reasons for decisions as proof of those actions. In particular, establish the provenance of the disputed handwritten addition, senior meeting inputs, the 2021–2025 dose/formulation timeline and motor-state relationship, the response to both documented distress warnings, and the actual PAR source inventory. Test competing explanations and distinguish a missing disclosed record from proof that no action occurred. Retain the original numbering.
+
 ## Appendix — Documentary issues and controlling questions (56 matters)
 
 This register accompanies the orientation as a working checklist for independent counsel. It reproduces the supplied source issues, adds a separate issue concerning the accuracy of attributed patient knowledge in the 2021 DBS discussion, and renumbers subsequent entries for chronological coherence. The issues are **questions to investigate**, not determinations of fault.

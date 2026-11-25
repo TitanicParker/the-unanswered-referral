@@ -12,6 +12,12 @@
 
 ---
 
+## Governing allegation — The substitution of documentary defensibility for genuine medicine
+
+The patient's affirmative allegation is that the post-protest construction of the 2017 account subordinated clinical investigation to the preservation of an existing professional disposition, and that the resulting framework impaired subsequent reassessment, including recognition of possible treatment-related harm and safeguarding when suffering became intolerable. This is an allegation to test, not a finding of intention, causation or liability. [The investigative essay](journalistic-essay.html#gravity-of-case) and [the gravest allegation](index.html#gravity-statement) set out the full narrative.
+
+Read 01–10 as investigation and knowledge; 11–20 as documentary construction; 21–30 as notice and opportunity for correction; 31–40 as the obligation to reassess, including the safety warning; and 41–50 as the obligation to examine the original work independently. At each threshold ask what work was actually undertaken and what merely explained an existing disposition. Distinguish the disputed handwritten parenthesis on page 109 (alleged post-protest addition) from the known authorisation date. Read the 2018 focal medication response, 2021 substitution, 2023 distress, pregabalin trajectory and March 2025 CR response together; assess treatment-related harm and safety separately from intent. The fifty identifiers remain unchanged.
+
 ## Governing interaction — the lost-baseline opportunity
 
 **Read the fifty as an interconnected system, not fifty self-contained accusations.** A particular relationship now requires explicit attention: the narrowed hospital précis (03), the specialist's independent recovery of material knowledge (04–08), and the absence in the reviewed account of an integrated baseline for painful foot posture, lesions, pain, movement and response to treatment (10, 16, 19). The issue is not simply that one diagnosis remained uncertain. It is whether the admission established sufficient **comparative findings** to test the principal competing explanations, or explicitly assigned that work for follow-up.
