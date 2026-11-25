@@ -159,3 +159,7 @@ button,summary,a{-webkit-tap-highlight-color:transparent}
 .origami-notes-body p{font-size:13px!important;line-height:1.55!important;margin:0 0 12px!important}
 .origami-notes-body p:last-child{margin-bottom:0!important}
 @media print{.origami-notes-body{display:block!important}}
+
+/* Reader-first compact layout */
+.numbered-reader .reader-part-label{font:650 12px/1.4 system-ui,sans-serif;color:#526359;margin:16px 0 7px}.numbered-reader>ol{padding-left:24px}.numbered-reader .origami-section{margin:7px 0}.numbered-reader .origami-section>summary{min-height:52px;padding-top:11px;padding-bottom:11px}.fold-controls{justify-content:flex-end;margin:6px 0 12px}.fold-button{min-height:34px;padding:6px 12px}.origami-notes{margin:6px 0 12px}.origami-notes-body .jump,.origami-notes-body .actions{margin:8px 0}.origami-notes-body h1{font-size:22px}.wrapper .main>h1{margin:0 0 12px}.numbered-reader .origami-notes-body>h2,.numbered-reader .origami-notes-body>h3{font-size:18px}.numbered-reader .origami-notes-body{max-height:none}.wrapper .content>h1:first-child,.reader .content>h1:first-child{display:none}
+@media(max-width:900px){.wrapper,.reader{padding-top:14px!important}.fold-nav{margin:4px 0 10px}.fold-nav>summary{padding:8px 12px}.origami-notes>summary{min-height:36px;padding:8px 36px 8px 12px}.wrapper .main>h1{margin:0 0 8px}.numbered-reader .origami-section>summary h2{font-size:16px}}
