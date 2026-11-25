@@ -70,8 +70,8 @@ footer{border-top:1px solid var(--line);font:12px/1.6 system-ui,sans-serif;color
 <header><div class="bar"><a class="return" href="./">← The Unanswered Referral</a><a href="DOCUMENTARY_SOURCE_INDEX.md">Record index</a></div></header>
 <main>
 <div class="eyebrow">Documentary archive · Phone-friendly reader</div>
-<h1>40 records, neatly folded.</h1>
-<p class="lede">Open only the document you need. Search by title, jump to a document number or follow a direct record link. The underlying compiled source has not been changed.</p>
+<h1>40 records</h1>
+<details class="archive-info"><summary>Archive information and source limitations</summary><p>Search by title, date or document number. The underlying compiled source has not been changed. It includes transcriptions, editorial material and annotations; original records and provenance remain controlling.</p></details>
 <div class="toolbox">
 <label for="filter">Find a record</label>
 <input type="search" id="filter" autocomplete="off" placeholder="Search titles, dates or document numbers…" aria-describedby="status">
@@ -134,6 +134,7 @@ try{
   return item;
  });
  status.textContent=items.length+' records available';
+ if(!location.hash&&items[0])items[0].details.open=true;
  search.addEventListener('input',update);
  document.getElementById('close-all').addEventListener('click',()=>{items.forEach(x=>x.details.open=false)});
  addEventListener('hashchange',revealHash);revealHash();
