@@ -17,7 +17,7 @@ try{const r=await fetch(path);if(!r.ok)throw Error('Document unavailable');const
 if(window.marked&&window.DOMPurify){content.innerHTML=DOMPurify.sanitize(marked.parse(original),{USE_PROFILES:{html:true}})}
 else{const pre=document.createElement('pre');pre.textContent=original;content.replaceChildren(pre)}
 const used=new Map();content.querySelectorAll('h1,h2,h3,h4').forEach(h=>{let slug=(h.textContent||'section').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'section',n=used.get(slug)||0;used.set(slug,n+1);h.id=n?slug+'-'+(n+1):slug;let a=document.createElement('a');a.href='#'+h.id;a.textContent=h.textContent;if(h.tagName==='H3')a.style.paddingLeft='15px';toc.append(a)});
-if(window.Origami){window.Origami.foldDocument(content);window.Origami.revealHash()}
+if(window.Origami){window.Origami.foldDocument(content);window.Origami.compactChrome();window.Origami.makeNavFold(document.querySelector('.rail'),'#toc');window.Origami.revealHash()}
 }catch(e){content.textContent='The reader could not load the document. Use the original Markdown link above.'}
 });
 </script></body></html>
