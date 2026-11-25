@@ -47,3 +47,7 @@ a:hover{text-decoration-thickness:2px}
  details.origami-section > .origami-inner,details.origami-issue > .origami-issue-body,details.origami-home > .fold-home-body{display:block!important}
  details.origami-section > summary::after,details.origami-home > summary::after{display:none!important}
 }
+
+/* Compact shared navigation and optional administrative details */
+.reader-nav{font:600 13px system-ui,sans-serif}.reader-nav>summary{cursor:pointer;padding:7px 0}.reader-nav:not([open])>nav{display:none!important}.reader-nav[open]>nav{display:flex;flex-wrap:wrap;gap:10px}.editorial-disclosure{font:13px/1.5 system-ui,sans-serif;margin:12px 0}.editorial-disclosure>summary,.archive-info>summary{cursor:pointer;color:#315e4e}.archive-info{font:13px/1.5 system-ui,sans-serif;margin:8px 0 15px}.reader .intro{padding-bottom:0;border:0}.reader .rail h2{display:none}.reader .rail{max-height:none}.reader .rail .fold-nav{margin:0}
+@media(max-width:900px){.reader-nav{display:none!important}.publication-bar nav{gap:5px 12px;padding:8px 16px}.publication-bar a{font-size:12px}}
