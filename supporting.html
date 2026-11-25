@@ -30,7 +30,8 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 <script defer src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
 <link rel="stylesheet" href="publication.css">
 <script defer src="publication.js"></script>
-</head><body>
+<script defer src="numbered-reader.js"></script>
+</head><body class="supporting-page">
 <header><div class="top"><a href="./">← THE UNANSWERED REFERRAL</a>
 <nav aria-label="Counsel documents">
 <a href="./">Case overview</a>
@@ -54,17 +55,8 @@ footer{border-top:1px solid var(--line);padding:26px;text-align:center;font:12px
 <footer>These documents present questions and research propositions for independent examination; they are not adjudicated findings.</footer>
 <script>
 document.addEventListener('DOMContentLoaded',async()=>{
-const headerNav=document.querySelector('header .top > nav');
-if(headerNav){
- const folded=document.createElement('details');folded.className='mobile-doc-nav';
- const sum=document.createElement('summary');sum.textContent='Documents';
- const mobileLinks=headerNav.cloneNode(true);
- mobileLinks.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
- folded.append(sum,mobileLinks);headerNav.insertAdjacentElement('afterend',folded);
- mobileLinks.addEventListener('click',event=>{if(event.target.closest('a'))folded.open=false});
-}
 const files={
- foundations:{file:'FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md',title:'50 foundational statements of the case',description:'Fifty cumulative source-grounded statements, organised from the integrated referral and specialist knowledge through record construction, protest, later treatment evidence and institutional review. Tap each section or statement to unfold it.'},
+ foundations:{file:'FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md',title:'50 foundational statements of the case',description:'Fifty cumulative source-grounded statements, organised from the integrated referral and specialist knowledge through record construction, protest, later treatment evidence and institutional review. Select any number to read the corresponding statement.'},
  sequences:{file:'THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md',title:'Six sequences & five mechanisms',description:'The integrated, phone-friendly case map: six parallel histories, five governing mechanisms and a complete crosswalk among the 56, 25, 15 and six.'},
  workingcase:{file:'WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md',title:'Working case theory and evidence register',description:'Versioned controlling research file: candidate cases, scores, the neurologist’s dated knowledge register, source comparisons, active evidence checklist and revision history.'},
  institutional:{file:'WHEN_INSTITUTIONS_BECOME_THE_AUTHORITY_ON_THEIR_OWN_ERRORS.md',title:'When institutions become the authority on their own errors',description:'An independent philosophical essay on how clinical records, treatment histories and reviews can become mutually reinforcing without independently testing the original patient account.'},
@@ -95,7 +87,11 @@ root.innerHTML=window.DOMPurify.sanitize(window.marked.parse(source),{USE_PROFIL
 }else{const pre=document.createElement('pre');pre.textContent=source;root.replaceChildren(pre)}
 const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
 headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
-if(window.Origami){if(key==='fiftysix'||key==='foundations')window.Origami.foldIssues(root);window.Origami.foldDocument(root,{mode:key});window.Origami.compactChrome();window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');window.Origami.revealHash()}
+if(window.NumberedReader&&window.NumberedReader.mount(root,key,source)){
+ if(window.Origami)window.Origami.compactChrome();
+ const pageOptions=document.querySelector('.main > details.origami-notes');
+ if(pageOptions){pageOptions.querySelector('summary').textContent='Source and print options';root.after(pageOptions)}
+}else if(window.Origami){if(key==='fiftysix'||key==='foundations')window.Origami.foldIssues(root);window.Origami.foldDocument(root,{mode:key});window.Origami.compactChrome();window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');window.Origami.revealHash()}
 }catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
 });
 </script>
