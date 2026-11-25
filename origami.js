@@ -6,10 +6,10 @@
  function controls(root){
   if(root.querySelector(':scope > .fold-controls'))return;
   var bar=document.createElement('div');bar.className='fold-controls';
-  var p=document.createElement('p');p.textContent='Tap a heading to unfold its text.';bar.append(p);
+  bar.setAttribute('aria-label','Reading controls');
   [['Unfold all',true],['Fold all',false]].forEach(function(item){
    var b=document.createElement('button');b.type='button';b.className='fold-button';b.textContent=item[0];
-   b.addEventListener('click',function(){visibleSections(root).forEach(function(d){d.open=item[1]});});
+   b.addEventListener('click',function(){root.querySelectorAll('details.origami-section,details.origami-issue').forEach(function(d){d.open=item[1]});});
    bar.append(b);
   });
   root.insertBefore(bar,root.firstChild);
@@ -99,6 +99,8 @@
  }
  function foldDocument(root,options){
   if(!root||root.dataset.origamiReady==='yes')return;
+  options=options||{};
+  prepareReading(root,options.mode||'');
   var headingList=Array.from(root.querySelectorAll('h2,h3'));
   headingList.forEach(function(h){
    if(!h.id)h.id=headingSlug(h.textContent);
@@ -109,10 +111,84 @@
   // Rare h3 headings before the first h2.
   foldHeadingGroup(root,3);
   tuckOpeningNotes(root);
-  openFirstReading(root);
-  if(visibleSections(root).length)controls(root);
+  if(options.mode==='fiftysix'){var firstIssue=root.querySelector('details.origami-issue');if(firstIssue)firstIssue.open=true;}else openFirstReading(root);
+  if(visibleSections(root).length||root.querySelector('details.origami-issue'))controls(root);
   root.dataset.origamiReady='yes';
   revealHash();
+ }
+
+ // Reader-first presentation: retain all text, but place front matter in one optional fold.
+ function collapseNodes(nodes,label,root){
+  if(!nodes.length)return null;
+  var d=document.createElement('details');d.className='origami-notes';
+  var summary=document.createElement('summary');summary.textContent=label;
+  var body=document.createElement('div');body.className='origami-notes-body';
+  d.append(summary,body);nodes[0].parentNode.insertBefore(d,nodes[0]);
+  nodes.forEach(function(n){body.append(n)});return d;
+ }
+ function prepareReading(root,mode){
+  if(!root||root.dataset.readerFirst==='yes')return;
+  root.dataset.readerFirst='yes';
+  var children=Array.from(root.children);
+  // Numbered collections: put every numbered item at the same level.
+  var patterns={foundations:/^\d{2}\.\s/,twentyfive:/^K\d{2}\s*[—–-]/,six:/^P[1-6]\s*[—–-]/};
+  var pattern=patterns[mode];
+  if(pattern){
+   var first=children.findIndex(function(n){return /^H[23]$/.test(n.tagName)&&pattern.test(n.textContent.trim())});
+   if(first>=0){
+    collapseNodes(children.slice(0,first),'About this document · evidence and reading notes',root);
+    // Collect intervening part headings into the next item's fold, preserving every original element.
+    var rest=children.slice(first), pending=[];
+    rest.forEach(function(n){
+     if(n.tagName==='H2'&&!pattern.test(n.textContent.trim()) && /^([IVX]+\.\s|25 essential understandings)/i.test(n.textContent.trim())){
+      var label=document.createElement('div');label.className='reader-part-label';label.textContent=n.textContent;label.id=n.id;n.replaceWith(label);pending.push(label);
+     }
+    });
+    // Make each numbered H3 a top-level section; retain its original anchor.
+    Array.from(root.children).forEach(function(n){
+     if(n.tagName==='H3'&&pattern.test(n.textContent.trim())){var h=document.createElement('h2');h.id=n.id;while(n.firstChild)h.append(n.firstChild);n.replaceWith(h)}
+    });
+    root.classList.add('numbered-reader');
+    return;
+   }
+  }
+  if(mode==='fiftysix'){
+   var firstList=children.findIndex(function(n){return n.tagName==='OL'});
+   if(firstList>=0){
+    collapseNodes(children.slice(0,firstList),'About this checklist · evidence and reading notes',root);
+    var lastSection=null;
+    Array.from(root.children).forEach(function(n){
+     if(n.tagName==='H2'&&/five additional controlling questions/i.test(n.textContent)){lastSection=n;return;}
+     if(lastSection&&n.tagName==='P'){
+      var match=n.textContent.match(/^(5[2-6])\.\s/);if(!match)return;
+      var d=document.createElement('details');d.className='origami-issue';
+      var sum=document.createElement('summary'),lead=n.querySelector('strong');
+      sum.textContent=match[1]+'. '+(lead?lead.textContent:n.textContent);
+      var body=document.createElement('div');body.className='origami-issue-body';d.append(sum,body);
+      n.replaceWith(d);body.append(n);
+     }
+    });
+    // Preserve source grouping as small labels, not another accordion to open.
+    Array.from(root.children).forEach(function(n){if(n.tagName==='H3'||(n.tagName==='H2'&&/five additional controlling questions/i.test(n.textContent))){var label=document.createElement('div');label.className='reader-part-label';label.id=n.id;while(n.firstChild)label.append(n.firstChild);n.replaceWith(label)}});
+    root.classList.add('numbered-reader');
+    return;
+   }
+  }
+  // For narrative readers keep the opening argument; only tuck clearly procedural paragraphs.
+  var initial=children.slice(0,children.findIndex(function(n){return n.tagName==='H2'})<0?children.length:children.findIndex(function(n){return n.tagName==='H2'}));
+  var administrative=initial.filter(function(n){return n.tagName==='H1'||(n.tagName==='P'&&/^(version|prepared|status|scope|purpose|repository|primary record policy|created|intended recipient|working principle|documentary companion|working evidential compression|evidence-led counsel working audit|case overview \||for independent legal examination|source-preserving extraction|canonical companion|\*?independent philosophical essay)/i.test(n.textContent.trim()))});
+  collapseNodes(administrative,'Document notes and conventions',root);
+ }
+ function compactChrome(){
+  if(document.body.dataset.compactChrome==='yes')return;
+  document.body.dataset.compactChrome='yes';
+  var page=document.querySelector('.wrapper .main, .reader .main');
+  if(page){
+   var items=Array.from(page.children).filter(function(n){return n.matches('.eyebrow,.subtitle,.intro,.jump,.actions')});
+   collapseNodes(items,'About this document · source and print options',page);
+   var title=page.querySelector(':scope > h1');var notes=page.querySelector(':scope > details.origami-notes');
+   if(title&&notes)title.after(notes);
+  }
  }
  function foldHome(){
   var sections=Array.from(document.querySelectorAll('section.support-wrap'));
@@ -142,6 +218,6 @@
   nav.parentNode.insertBefore(d,nav);d.append(summary,nav);
   nav.addEventListener('click',function(e){if(e.target.closest('a'))d.open=false;});
  }
- window.Origami={foldDocument:foldDocument,foldIssues:foldIssues,foldHome:foldHome,makeNavFold:makeNavFold,revealHash:revealHash};
+ window.Origami={foldDocument:foldDocument,foldIssues:foldIssues,compactChrome:compactChrome,foldHome:foldHome,makeNavFold:makeNavFold,revealHash:revealHash};
  addEventListener('hashchange',revealHash);
 })();
