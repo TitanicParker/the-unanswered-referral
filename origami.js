@@ -25,7 +25,7 @@
     var node=d.nextSibling;
     if(node.nodeType===1){
      var tag=node.tagName;
-     if(tag==='H1'||(level===3&&tag==='H2')||tag==='H'+level)break;
+     if(tag==='H1'||(level===3&&tag==='H2')||tag==='H'+level||node.classList.contains('reader-part-label'))break;
     }
     inner.append(node);
    }
@@ -57,7 +57,7 @@
  }
 
  function isProceduralHeading(value){
-  return /^(reading rules|how to operate this working file|source shorthand|source key|evidence vocabulary|citation convention|how to read|document conventions|appendix — documentary issues and controlling questions)/i.test((value||'').trim());
+  return /^(how to use|instructions to|scope, method|source key|source map|source and provenance|documentary source routes|editorial standards|reading rules|how to operate this working file|source shorthand|source key|evidence vocabulary|citation convention|how to read|document conventions|appendix — documentary issues and controlling questions)/i.test((value||'').trim());
  }
  function tuckOpeningNotes(root){
   if(root.querySelector(':scope > details.origami-notes'))return;
@@ -188,6 +188,7 @@
    collapseNodes(items,'About this document · source and print options',page);
    var title=page.querySelector(':scope > h1');var notes=page.querySelector(':scope > details.origami-notes');
    if(title&&notes)title.after(notes);
+   var header=document.querySelector('body > header');if(header){var nav=header.querySelector('.top > nav');if(nav){var fold=document.createElement('details');fold.className='reader-nav';var sum=document.createElement('summary');sum.textContent='Other documents';nav.before(fold);fold.append(sum,nav);}}
   }
  }
  function foldHome(){
