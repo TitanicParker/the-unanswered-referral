@@ -95,7 +95,7 @@ root.innerHTML=window.DOMPurify.sanitize(window.marked.parse(source),{USE_PROFIL
 }else{const pre=document.createElement('pre');pre.textContent=source;root.replaceChildren(pre)}
 const headings=[...root.querySelectorAll('h2,h3')],used=new Map();
 headings.forEach(h=>{let slug=(h.textContent||'heading').toLowerCase().normalize('NFKD').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').slice(0,75)||'heading';let count=used.get(slug)||0;used.set(slug,count+1);h.id=count?slug+'-'+(count+1):slug;const a=document.createElement('a');a.textContent=h.textContent;a.href='#'+h.id;a.style.paddingLeft=h.tagName==='H3'?'20px':'7px';toc.append(a)});
-if(window.Origami){if(key==='fiftysix'||key==='foundations')window.Origami.foldIssues(root);window.Origami.foldDocument(root);window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');window.Origami.revealHash()}
+if(window.Origami){if(key==='fiftysix'||key==='foundations')window.Origami.foldIssues(root);window.Origami.foldDocument(root,{mode:key});window.Origami.compactChrome();window.Origami.makeNavFold(document.querySelector('.wrapper aside'),'#toc');window.Origami.revealHash()}
 }catch(e){root.innerHTML='<p>The supporting document could not be loaded. <a href="'+doc.file+'">Open its source Markdown</a>.</p>'}
 });
 </script>
