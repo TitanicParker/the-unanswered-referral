@@ -8,7 +8,7 @@ This is a dated procedural and evidential briefing, not a finding of infringemen
 
 The evidential phase of *The Unanswered Referral* is already underway. The outstanding information is not merely a prospective investigative wish list. The patient has exercised data-subject rights directed at the creation, completeness and use of the very records whose authority is challenged in the substantive case.
 
-The original clinical responsibility, continuing clinical responsibility and institutional review responsibility are independently examinable. The regulatory process provides a possible external means of testing aspects of the information environment underpinning them. It does not determine negligence, causation, professional misconduct or the truth of the ward protest.
+The original clinical responsibility, continuing clinical responsibility and institutional review responsibility are independently examinable. The regulatory process provides a possible external means of testing aspects of the information environment underpinning them. As the equal companion essay [Its Defensibility Should Be a Consequence of Its Integrity](integrity-essay.html) explains, the two objects under examination are two distinct exercises of authority: the originating clinical representation and the later institutional determination. The possible double inversion makes the integrity of the independent examination a question in its own right. It does not determine negligence, causation, professional misconduct or the truth of the ward protest.
 
 ## 2. Existing DPC complaint — C-25-7-2074
 
