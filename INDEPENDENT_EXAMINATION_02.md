@@ -1,4 +1,6 @@
-# **The Unanswered Referral — Second independent examination**
+# **The Unanswered Referral — Second further examination**
+
+**Reflective reading for counsel.** Patient-commissioned analytical commentary, presented to assist independent examination of the issues, not as expert evidence or independent factual corroboration. The substantive analysis and original methodological limitations are retained. The source documents and independently tested testimony control.
 
 ## **The possible subordination of medicine to an existing professional commitment**
 
@@ -72,7 +74,7 @@ That is the hypothesis against which the discharge summary must be examined.
 
 The hypothesis gains particular significance from the clinician's own description of the extended admission. In the completed account, the additional hospital time is presented as beneficial, allowing considerable work, exploration of questions and firmer foundations for future treatment.
 
-See [Canonical record, Document 04, CLIN-001427–001440](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+See [Canonical record, Document 04, CLIN-001427–001440](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 If the protest occurred as described, that passage acquires an additional meaning. The admission is affirmatively represented as having provided an unusually valuable opportunity for clinical exploration, without preserving the patient's contemporary challenge to the completeness of that exploration.
 
@@ -117,7 +119,7 @@ A follow-up appointment does not, by itself, establish criteria for revisiting t
 
 The discharge summary therefore appears to contain a relatively elaborate mechanism for executing the chosen strategy without a corresponding explicit mechanism for invalidating its assumptions concerning the feet.
 
-Sources: [Document 04, CLIN-001153–001229, CLIN-001231–001262 and CLIN-001613–001638](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Document 04, CLIN-001153–001229, CLIN-001231–001262 and CLIN-001613–001638](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ### **2. The extraordinary asymmetry between anticipated adverse effects and anticipated inadequate benefit**
 
@@ -193,7 +195,7 @@ The most serious reading of the completed account is therefore not that it elimi
 
 It is that **it established a management commitment capable of remaining substantially unchanged despite the uncertainties it acknowledged.**
 
-Sources: [Document 04, CLIN-001493–001628](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Document 04, CLIN-001493–001628](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **III. The continuing upstream responsibility of the author**
 
@@ -253,7 +255,7 @@ An independent investigator should ask how information material to future patien
 
 Otherwise, the institution can acquire knowledge of a profound challenge to its clinical framework without necessarily changing the framework through which medicine continues to be practised.
 
-Source: [Document 21, CLIN-003238A–003239G and CLIN-003271A](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Document 21, CLIN-003238A–003239G and CLIN-003271A](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **IV. The destruction of the patient's therapeutic voice**
 
@@ -355,7 +357,7 @@ These communications therefore presented a real opportunity for synthesis.
 
 The treating neurologist was particularly well placed to undertake it because he possessed the original history, examination and earlier treatment-response evidence.
 
-Sources: [Canonical record, Document 15, CLIN-002623–002688](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 15, CLIN-002623–002688](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ### **3. The patient may become an unwitting transmitter of the original framework**
 
@@ -432,7 +434,7 @@ The patient could be receiving neurological treatment for Parkinsonism while his
 
 That is potentially a loss of therapeutic feedback across the entire regimen.
 
-The repository's [Patient-Centred Causal Ruling](https://github.com/TitanicParker/for-counsel/blob/main/docs/PATIENT_CENTRED_CAUSAL_RULING_FEET_LEVODOPA_2021_2025.md?utm_source=chatgpt.com) already develops the important proposition that the patient himself was an underused diagnostic instrument.
+The repository's [Patient-Centred Causal Ruling](https://github.com/TitanicParker/for-counsel/blob/main/docs/PATIENT_CENTRED_CAUSAL_RULING_FEET_LEVODOPA_2021_2025.md) already develops the important proposition that the patient himself was an underused diagnostic instrument.
 
 I would extend it further:
 
@@ -485,7 +487,7 @@ A patient may declare medication satisfactory because he has already abandoned e
 
 That declaration should therefore be examined alongside functional evidence, rather than treated as superseding it.
 
-Source: [Document 16, CLIN-002698–002714](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Document 16, CLIN-002698–002714](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ### **3. The disappearing denominator**
 
@@ -665,7 +667,7 @@ The GP therefore did not merely communicate psychological distress.
 
 That conjunction is the critical fact.
 
-Source: [Document 15, CLIN-002635–002641](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Document 15, CLIN-002635–002641](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **1. Safeguarding required examination of medicine's own contribution**
 
@@ -747,7 +749,7 @@ That temporal understanding generated a different treatment approach.
 
 The important question is why a comparable patient-centred investigation of medication-state relationships was not demonstrably undertaken earlier, particularly following the 2023 warning.
 
-Sources: [Document 17, CLIN-002768–002802](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Document 17, CLIN-002768–002802](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **4. Did the clinical framework contain an emergency override?**
 
@@ -905,7 +907,7 @@ There were numerous opportunities for a proportionate, scientifically responsibl
 
 The available material demonstrates substantial changes in treatment. It demonstrates less clearly a corresponding willingness to revisit the historical organisation of the clinical problem.
 
-The distinction is extensively supported by the repository's existing [Management-Plan Invariance Audit](https://github.com/TitanicParker/for-counsel/blob/main/docs/MANAGEMENT_PLAN_INVARIANCE_AUDIT_2017_2026.md?utm_source=chatgpt.com).
+The distinction is extensively supported by the repository's existing [Management-Plan Invariance Audit](https://github.com/TitanicParker/for-counsel/blob/main/docs/MANAGEMENT_PLAN_INVARIANCE_AUDIT_2017_2026.md).
 
 My additional conclusion is that this distinction should be understood not merely as a diagnostic or management issue, but as a potential failure of the system's mechanisms of responsibility.
 
@@ -919,7 +921,7 @@ The Serious Incident Management Team was reassured by the clinical notes demonst
 
 It then identifies consideration of alternative diagnoses and the commencement of Sinemet in 2021 before reaching the conclusion that there was no deficit in care.
 
-Source: [Signed SIMT outcome, 1 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/simt-outcome-signed-2025-09-01.md?utm_source=chatgpt.com).
+Source: [Signed SIMT outcome, 1 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/simt-outcome-signed-2025-09-01.md).
 
 ## **1. Documentation of careful reasoning is not independent proof of adequate care**
 
@@ -1029,7 +1031,7 @@ An independent institution must be capable of recognising both.
 
 A refusal to reopen simply because confirmation occurred outside the original review period risks converting a legitimate prohibition against unfair hindsight into a mechanism preventing retrospective discovery of inadequately understood contemporaneous facts.
 
-Source: [Document 63, CLIN-005529–005530](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Document 63, CLIN-005529–005530](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 # **X. The closure of three different mechanisms of correction**
 
@@ -1198,17 +1200,17 @@ This question tests whether the institution investigated the disputed framework 
 
 # **XIV. Documentary scope and limitations**
 
-For this second examination, I returned to the July 2017 discharge-summary section of the [canonical record](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com), retrieving the document's complete section and examining its history, findings, impression, treatment plan, investigations, counselling, follow-up and addenda. The retrieval output was partly truncated, so I cannot certify a fresh uninterrupted reading of every line.
+For this second examination, I returned to the July 2017 discharge-summary section of the [canonical record](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md), retrieving the document's complete section and examining its history, findings, impression, treatment plan, investigations, counselling, follow-up and addenda. The retrieval output was partly truncated, so I cannot certify a fresh uninterrupted reading of every line.
 
 I also directly retrieved and examined the March 2023 GP and nursing communications, the relevant March 2025 consultation and complaint-response passages, and the January 2026 governance correspondence.
 
 Additional material examined in this turn included:
 
-- [Management-Plan Invariance Audit, 2017–2026](https://github.com/TitanicParker/for-counsel/blob/main/docs/MANAGEMENT_PLAN_INVARIANCE_AUDIT_2017_2026.md?utm_source=chatgpt.com), substantial selected portions.
-- [Patient-Centred Causal Ruling — Feet and Levodopa, 2021–2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/PATIENT_CENTRED_CAUSAL_RULING_FEET_LEVODOPA_2021_2025.md?utm_source=chatgpt.com).
-- [Quality and Patient Safety letter, 15 April 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/qps-letter-2025-04-15.md?utm_source=chatgpt.com).
-- [Clinical-record rectification refusal, 6 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/gdpr-article16-decision-clinical-2025-09-06.md?utm_source=chatgpt.com).
-- [Signed SIMT outcome, 1 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/simt-outcome-signed-2025-09-01.md?utm_source=chatgpt.com), alongside the later-dated outcome reproduced in the canonical corpus.
+- [Management-Plan Invariance Audit, 2017–2026](https://github.com/TitanicParker/for-counsel/blob/main/docs/MANAGEMENT_PLAN_INVARIANCE_AUDIT_2017_2026.md), substantial selected portions.
+- [Patient-Centred Causal Ruling — Feet and Levodopa, 2021–2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/PATIENT_CENTRED_CAUSAL_RULING_FEET_LEVODOPA_2021_2025.md).
+- [Quality and Patient Safety letter, 15 April 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/qps-letter-2025-04-15.md).
+- [Clinical-record rectification refusal, 6 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/gdpr-article16-decision-clinical-2025-09-06.md).
+- [Signed SIMT outcome, 1 September 2025](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/simt-outcome-signed-2025-09-01.md), alongside the later-dated outcome reproduced in the canonical corpus.
 
 The original manuscript and drafting metadata, independent witness accounts, complete PAR, internal deliberations, complete safeguarding records and native clinical exhibits remain important limitations.
 

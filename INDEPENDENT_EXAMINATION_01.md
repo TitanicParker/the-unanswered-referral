@@ -1,4 +1,6 @@
-# **Independent examination of *The Unanswered Referral***
+# **The Unanswered Referral — First further examination**
+
+**Reflective reading for counsel.** Patient-commissioned analytical commentary, presented to assist independent examination of the issues, not as expert evidence or independent factual corroboration. The substantive analysis and original methodological limitations are retained. The source documents and independently tested testimony control.
 
 ## **1. The central question: when a clinical record becomes an instrument of clinical control**
 
@@ -59,7 +61,7 @@ The neurologist's own examination makes that distinction harder to justify. The 
 
 This was a positive neurological observation. It was not merely the absence of an explanation for foot pain.
 
-Sources: [Canonical clinical record, Documents 01–04, particularly CLIN-000018–000038, CLIN-000853–000879 and CLIN-001097–001114](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com); [July 2017 source reconstruction](https://github.com/TitanicParker/the-unanswered-referral/blob/main/JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md?utm_source=chatgpt.com).
+Sources: [Canonical clinical record, Documents 01–04, particularly CLIN-000018–000038, CLIN-000853–000879 and CLIN-001097–001114](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md); [July 2017 source reconstruction](https://github.com/TitanicParker/the-unanswered-referral/blob/main/JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md).
 
 ### **2.2. The transformation of the patient's understanding**
 
@@ -120,7 +122,7 @@ But the affirmative case asks a more demanding question: why do the changes coll
 
 That directional consistency gives the deliberate-construction hypothesis evidential substance. It warrants investigation as a unified hypothesis, rather than dismissal through a series of unrelated innocent possibilities. It does not, by itself, establish the author's private intention.
 
-Sources: [Canonical record, Document 04, CLIN-000965–000975, CLIN-001129–001156, CLIN-001519–001565 and CLIN-001598–001638](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com); [Case for deliberate misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 04, CLIN-000965–000975, CLIN-001129–001156, CLIN-001519–001565 and CLIN-001598–001638](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md); [Case for deliberate misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md).
 
 ## **3. The protest changed the nature of the professional responsibility**
 
@@ -168,7 +170,7 @@ It is not merely the omission of a difficult interpersonal exchange.
 
 It is potentially the omission of information material to the safety and adequacy of continuing care.
 
-Sources: [The Case: Three Statements and Mechanism](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md?utm_source=chatgpt.com); [The Gravest Allegation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html?utm_source=chatgpt.com#gravity-statement).
+Sources: [The Case: Three Statements and Mechanism](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md); [The Gravest Allegation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html#gravity-statement).
 
 ## **4. The two great comparators: evidence of available medicine**
 
@@ -183,7 +185,7 @@ Patrick W. Cullinane, Patrick Browne, Michael J. Hennessy and Timothy J. Couniha
 
 Neurology, volume 89, issue 7, e71–e75. Published online 14 August 2017.
 
-[Read the original teaching paper](https://www.neurology.org/doi/10.1212/WNL.0000000000004231?utm_source=chatgpt.com)
+[Read the original teaching paper](https://www.neurology.org/doi/10.1212/WNL.0000000000004231)
 
 I have examined the published article itself, rather than relying solely on the repository's description.
 
@@ -212,7 +214,7 @@ The eventual molecular correspondence is striking. The patients did not have ide
 
 The 2026 specialist letter expressly attributed the patient's Parkinsonism and dystonia to compound heterozygous Parkin mutations. The underlying genetic report identifies the two variants as an exon 2 deletion and c.1289G>A.
 
-Sources: [Canonical record, Document 20, CLIN-003220–003229; Document 82, CLIN-006197–006252](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com); published teaching case.&#x20;
+Sources: [Canonical record, Document 20, CLIN-003220–003229; Document 82, CLIN-006197–006252](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md); published teaching case.&#x20;
 
 [image](https://www.google.com/s2/favicons?domain=https://www.neurology.org\&sz=32)
 
@@ -284,7 +286,7 @@ The shoulder consultation also undermines an explanation founded upon a general 
 
 What remains to be examined is why those habits did not produce an equivalent integrated account of the longstanding foot disorder.
 
-Source: [Canonical record, Document 11, particularly CLIN-001970–002051 and CLIN-002080–002081](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Canonical record, Document 11, particularly CLIN-001970–002051 and CLIN-002080–002081](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **5. The upstream–downstream asymmetry**
 
@@ -350,7 +352,7 @@ A senior colleague's agreement with a treatment strategy is not necessarily agre
 
 That distinction should be central to any assessment of the professional protection afforded by collegial consultation.
 
-Source: [Canonical record, Documents 05–06, particularly CLIN-001729–001761](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Canonical record, Documents 05–06, particularly CLIN-001729–001761](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **6. The pharmacological evidence: the body repeatedly challenged the document**
 
@@ -372,7 +374,7 @@ The original clinical arrangement had distinguished the painful feet from the ne
 
 The appropriate response would not necessarily have been to declare the peripheral hypothesis disproved. It would have been to investigate the relationship between the neurological treatment and the foot-specific change.
 
-Sources: [Canonical record, Document 07, CLIN-001783–001814; Document 10, CLIN-001914](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 07, CLIN-001783–001814; Document 10, CLIN-001914](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ### **6.2. The danger of treating every response as compatible with the original explanation**
 
@@ -406,7 +408,7 @@ The analgesic response and the motor response were not equivalent. Pain could be
 
 This should have prompted an integrated assessment rather than an inference that successful pain suppression adequately resolved the underlying problem.
 
-Source: [Canonical record, Document 16, CLIN-002698–002710](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com#document-16--neurology-notes--2024).
+Source: [Canonical record, Document 16, CLIN-002698–002710](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md#document-16--neurology-notes--2024).
 
 ## **7. Treatment-related harm through motor destabilisation**
 
@@ -468,7 +470,7 @@ By 2023, there was significant evidence within the neurologist's own account tha
 
 The question is whether these observations led to a sufficiently comprehensive revision of the clinical arrangement, rather than remaining local adjustments within it.
 
-Source: [Canonical record, Document 15, particularly CLIN-002425–002473](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Source: [Canonical record, Document 15, particularly CLIN-002425–002473](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **8. The foreseeable deterioration of the human being**
 
@@ -546,7 +548,7 @@ His descriptions of the first footsteps of the morning, later improvement with m
 
 The original separation of foot symptoms from neurological phenomenology could have made this already difficult sampling problem substantially worse.
 
-Sources: [Canonical record, Documents 16–17, CLIN-002700, CLIN-002771–002780](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Documents 16–17, CLIN-002700, CLIN-002771–002780](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **9. Safeguarding: when an unresolved clinical question became a question of survival**
 
@@ -614,7 +616,7 @@ But the affirmative case presents a compelling reason to demand that evidence.
 
 **The patient's survival is not evidence that the danger was adequately managed.**
 
-Sources: [Canonical record, Document 15, CLIN-002638; Document 17, CLIN-002777–002790](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 15, CLIN-002638; Document 17, CLIN-002777–002790](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **10. March 2025: the significance of profound relief**
 
@@ -660,7 +662,7 @@ That raises a question about the function of the earlier acknowledgement. Did it
 
 An adequate clinical defence would need to demonstrate the former through the intervening decisions, not simply through the original words.
 
-Sources: [Canonical record, Document 04, CLIN-001598–001614; Document 21, CLIN-003266](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 04, CLIN-001598–001614; Document 21, CLIN-003266](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **11. The complaint rebuttal and the reconstruction of the relationship**
 
@@ -708,7 +710,7 @@ It allows the complaint to appear more readily as a newly arising disagreement a
 
 The student's evidence could therefore have significance extending well beyond the disputed events of July 2017. Independent corroboration could materially alter the interpretation of the March 2025 rebuttal.
 
-Source: [Canonical record, Document 21, CLIN-003271A](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com); [Case for deliberate misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md?utm_source=chatgpt.com).
+Source: [Canonical record, Document 21, CLIN-003271A](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md); [Case for deliberate misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md).
 
 ## **12. The institutional finding of no deficit in care**
 
@@ -784,7 +786,7 @@ The distinction is between a genuinely new diagnosis and later evidence that ill
 
 A governance response that treats the latter exclusively as the former risks avoiding the substance of the challenge.
 
-Sources: [Canonical record, Document 49, CLIN-005028–005058; Document 63, CLIN-005530](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com).
+Sources: [Canonical record, Document 49, CLIN-005028–005058; Document 63, CLIN-005530](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md).
 
 ## **13. The data-protection proceedings: the operational significance of disputed information**
 
@@ -816,7 +818,7 @@ The canonical corpus identifies rectification, access, restriction and regulator
 
 Their clinical importance nevertheless remains substantial: they concern the patient's ability to challenge information that may continue to organise professional understanding of him.
 
-Sources: [Canonical record, Documents 37, 39, 41, 44–52 and 61–65](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com); [For Counsel source-record collection](https://github.com/TitanicParker/for-counsel/tree/main/docs/source-records?utm_source=chatgpt.com).
+Sources: [Canonical record, Documents 37, 39, 41, 44–52 and 61–65](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md); [For Counsel source-record collection](https://github.com/TitanicParker/for-counsel/tree/main/docs/source-records).
 
 # **14. Further implications arising from the combined material**
 
@@ -1063,17 +1065,17 @@ I cannot accurately claim to have completed a line-by-line examination of all 83
 
 | Source                                                                                                                                                                           | Extent of examination                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [REPAIRED_CANONICAL_V2.md](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md?utm_source=chatgpt.com)                                               | Substantial targeted examination of the principal clinical and institutional passages                                              |
-| [The Gravest Allegation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html?utm_source=chatgpt.com#gravity-statement)                                 | Retrieved and examined substantive passages                                                                                        |
-| [The Two Great Comparators](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html?utm_source=chatgpt.com#great-comparators)                              | Retrieved within the homepage material; principal comparisons independently examined against clinical notes and the teaching paper |
-| [Case for Deliberate Misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md?utm_source=chatgpt.com)      | Examined relevant propositions and evidential qualifications                                                                       |
-| [The Case: Three Statements and Mechanism](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md?utm_source=chatgpt.com) | Examined the protest chronology and mechanism                                                                                      |
-| [The Unanswered Referral](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_UNANSWERED_REFERRAL.md?utm_source=chatgpt.com)                                  | Examined substantive clinical reconstruction passages                                                                              |
-| [Canonical Working Case](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_UNANSWERED_REFERRAL_CANONICAL_WORKING_CASE.md?utm_source=chatgpt.com)            | Examined relevant source comparisons                                                                                               |
-| [Investigative essay](https://github.com/TitanicParker/the-unanswered-referral/blob/main/journalistic-essay.html?utm_source=chatgpt.com)                                         | Examined relevant gravity, treatment-related harm and evidential passages                                                          |
-| [The Man Who Wasn't in His Medical Record](https://github.com/TitanicParker/the-unanswered-referral/blob/main/the_unanswered_referral_essay.md?utm_source=chatgpt.com)           | Retrieved and inspected its structure; not fully examined                                                                          |
-| [For Counsel](https://github.com/TitanicParker/for-counsel?utm_source=chatgpt.com)                                                                                               | Recursive inventory retrieved; individual source records not comprehensively reread separately from their canonical reproductions  |
-| [A Demure Teenager and Her Dystonic Foot](https://www.neurology.org/doi/10.1212/WNL.0000000000004231?utm_source=chatgpt.com)                                                     | Published clinical text examined directly                                                                                          |
+| [REPAIRED_CANONICAL_V2.md](https://github.com/TitanicParker/prima-facie/blob/main/REPAIRED_CANONICAL_V2.md)                                               | Substantial targeted examination of the principal clinical and institutional passages                                              |
+| [The Gravest Allegation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html#gravity-statement)                                 | Retrieved and examined substantive passages                                                                                        |
+| [The Two Great Comparators](https://github.com/TitanicParker/the-unanswered-referral/blob/main/index.html#great-comparators)                              | Retrieved within the homepage material; principal comparisons independently examined against clinical notes and the teaching paper |
+| [Case for Deliberate Misrepresentation](https://github.com/TitanicParker/the-unanswered-referral/blob/main/CASE_FOR_DELIBERATE_MISREPRESENTATION.md)      | Examined relevant propositions and evidential qualifications                                                                       |
+| [The Case: Three Statements and Mechanism](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_CASE_THREE_STATEMENTS_AND_MECHANISM.md) | Examined the protest chronology and mechanism                                                                                      |
+| [The Unanswered Referral](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_UNANSWERED_REFERRAL.md)                                  | Examined substantive clinical reconstruction passages                                                                              |
+| [Canonical Working Case](https://github.com/TitanicParker/the-unanswered-referral/blob/main/THE_UNANSWERED_REFERRAL_CANONICAL_WORKING_CASE.md)            | Examined relevant source comparisons                                                                                               |
+| [Investigative essay](https://github.com/TitanicParker/the-unanswered-referral/blob/main/journalistic-essay.html)                                         | Examined relevant gravity, treatment-related harm and evidential passages                                                          |
+| [The Man Who Wasn't in His Medical Record](https://github.com/TitanicParker/the-unanswered-referral/blob/main/the_unanswered_referral_essay.md)           | Retrieved and inspected its structure; not fully examined                                                                          |
+| [For Counsel](https://github.com/TitanicParker/for-counsel)                                                                                               | Recursive inventory retrieved; individual source records not comprehensively reread separately from their canonical reproductions  |
+| [A Demure Teenager and Her Dystonic Foot](https://www.neurology.org/doi/10.1212/WNL.0000000000004231)                                                     | Published clinical text examined directly                                                                                          |
 | Independent PRKN literature                                                                                                                                                      | Supporting clinical context retrieved                                                                                              |
 
 ### **Material not fully examined or independently authenticated**
