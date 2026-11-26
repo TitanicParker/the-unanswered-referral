@@ -70,7 +70,7 @@ footer{border-top:1px solid var(--line);font:12px/1.6 system-ui,sans-serif;color
 <header><div class="bar"><a class="return" href="./">← The Unanswered Referral</a><a href="DOCUMENTARY_SOURCE_INDEX.md">Record index</a></div></header>
 <main>
 <div class="eyebrow">Documentary archive · Phone-friendly reader</div>
-<h1>40 records</h1>
+<h1>40 records</h1><div id="smoking-gun"><a href="#smoking-gun">The Smoking Gun — handwritten interview, pages 107–109</a> <span class="small">·</span> <a href="records-mobile.html">All 40 records</a></div>
 <details class="archive-info"><summary>Archive information and source limitations</summary><p>Search by title, date or document number. The underlying compiled source has not been changed. It includes transcriptions, editorial material and annotations; original records and provenance remain controlling.</p></details>
 <div class="toolbox">
 <label for="filter">Find a record</label>
@@ -92,6 +92,14 @@ function text(str){return (str||'').replace(/\s+/g,' ').trim()}
 function revealHash(){
  let id='';try{id=decodeURIComponent(location.hash.slice(1))}catch(e){}
  if(!id)return;
+ if(id==='smoking-gun'){
+  const selected=items.filter(x=>['document-5','document-6','document-7'].includes(x.details.id));
+  if(selected.length!==3)return;
+  search.value='';
+  items.forEach(x=>{x.details.hidden=!selected.includes(x);x.details.open=selected.includes(x);if(x.details.open)openRecord(x)});
+  status.textContent='Handwritten interview · hospital pages 107–109 · 3 records';
+  requestAnimationFrame(()=>document.getElementById('smoking-gun').scrollIntoView({block:'start'}));return;
+ }
  const target=document.getElementById(id);
  if(target&&target.tagName==='DETAILS'){target.hidden=false;target.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}))}
 }
