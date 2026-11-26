@@ -1,7 +1,9 @@
 # The 25 Essential Understandings — An Interconnected Evidence Map of the Case
 
-**Version:** 1.0  
-**Prepared:** 18 November 2026  
+**Coordinated edition · 26 November 2026.** This is an equal companion to the [fifty foundations](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md), [six sequences and five mechanisms](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md), [six decisive propositions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md), [25 essential understandings](THE_25_ESSENTIAL_UNDERSTANDINGS.md) and [56 matters for examination](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md). Each addresses the same case through a different method; none derives evidential authority from another. The [investigative essay](journalistic-essay.html#gravity-of-case), [comprehensive case statement](index.html#gravity-statement) and [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md) provide narrative and current procedural context. Stable identifiers are retained; earlier versions remain in Git history. Clinical sources, testimony, published comparators and regulatory correspondence—not repetition across analytical companions—control the evidence. Four opportunities are independently examinable: discovery (2017), therapeutic correction (2017–2025), institutional correction (2025–2026), and facilitation of scrutiny (ongoing). The three clinical corrective functions are discovery, treatment feedback and safeguarding/independent review. Failure to establish deliberate intent does not defeat the continuing clinical or institutional questions.
+
+**Version:** 1.1  
+**Prepared:** 26 November 2026  
 **Scope:** Source-grounded synthesis of the original 2017 clinical presentation, contemporaneous recording, subsequent GP/podiatry and neurological care, 2025 complaint and institutional review, and evidence available in 2026. Companion to `WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md`; does not amend primary sources.  
 **Controlling question:** **Did a hospital investigation that substantially established Parkinsonism leave the GP's original foot–posture–tone–pain question without an allocated neurological answer, while its completed clinical narrative and later defence made that disposition increasingly authoritative?**
 
@@ -27,6 +29,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** GP examination 10 April; reviews 8, 12 and 23 June; urgent referral 29 June 2017 (**C CLIN-000018–000028, -000064–000074, -000100–000111, -000190–000215, -000815–000890**). The GP's phrase “gait, feet and ‘muscle tension’” occurs on 8 June.
 
 **Local meaning.** The initial assessment must be audited against the symptoms for which assistance was requested, rather than only against the eventual primary diagnosis.
+
+**Current integrated significance.** The missing baseline has a double potential effect: weaker care and weaker later proof. Test which contemporaneous observations were clinically indicated, not whether the patient can recreate July 2017.
 
 **Elsewhere illuminated.** **K05:** the discharge's separation should be measured against this original integrated presentation. **K16:** the 2019 GP referral shows that the initial question survived subsequent specialist care.
 
@@ -76,6 +80,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Generated a concrete question about whether abnormal tone/posture influenced clawing, foot loading and pain.
 
+**Current integrated significance.** The departmental teaching case demonstrates relevant investigative capability and the later shared PRKN variant sharpens the comparison. [Two Great Comparators](index.html#great-comparators). Distinguish testing a hypothesis from committing to long-term prescribing.
+
 **Elsewhere illuminated.** **K06:** tests whether the 2017 care plan assigned responsibility for this finding. **K12:** makes later medication-sensitive focal symptoms more informative.
 
 **Misreading.** “Suggestive” is a definitive dystonia diagnosis or proof that pressure lesions were neurologically caused.
@@ -92,6 +98,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Clinical *phenomenology* (different sensations) was placed beside an *aetiological* possibility (different underlying causes), with unusually emphatic attribution to the patient.
 
+**Current integrated significance.** Examine the combined transformation of symptom groupings, disputed leg-pain parenthesis, patient attribution and differential emphasis; Article 15 Object A targets the chronology, not an assumed before/after result.
+
 **Elsewhere illuminated.** **K10:** this is the central mechanism by which an uncertain interpretation could become an operational division. **K09:** the absence of the reported contrary objection makes the selectivity question more serious.
 
 **Misreading.** A proved forged quotation or a patient-endorsed medical diagnosis of separate diseases.
@@ -107,6 +115,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** Original referral **C CLIN-000815–000884**; 2017 examination/impression **-001097–001171**; podiatry recommendations **-001225–001229**; summary “Clonazepam was given at night...” and podiatry referral **-000343–000345**; plan **-001613–001628**.
 
 **Local meaning.** Differentiates an impressive volume of clinical work from a complete answer to the GP's connected question.
+
+**Current integrated significance.** The 2019 shoulder assessment (C CLIN-001967–002035) demonstrates the same clinician's willingness to investigate a fresh problem through localisation, competing causes and imaging. It is not proof identical investigations were required.
 
 **Elsewhere illuminated.** **K01:** defines what had to be addressed. **K20:** shows why a later defence of levodopa management may not answer this original scope issue.
 
@@ -140,6 +150,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Distinguishes medication-plan flexibility from re-examination of the underlying clinical problem definition.
 
+**Current integrated significance.** The key asymmetry is implementation versus correction: risks of treatment were articulated, but limits of insufficient treatment and criteria for reopening premises were less evident. The 2017 future-regret rationale was reused in 2025 (C CLIN-001601–001607, CLIN-003262A).
+
 **Elsewhere illuminated.** **K06:** tests what the plan left open. **K17:** shows how later GP prescribing dependence operated within specialist oversight.
 
 **Misreading.** The genetic-management statement means the whole clinical strategy was permanently fixed.
@@ -155,6 +167,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** Firsthand patient account and dated reconstruction in [protest evidential study](https://github.com/TitanicParker/legal/blob/main/18_PROTEST_EMERGENCE_AND_INSTITUTIONAL_CONDITIONS.md); absence of identified matching entry in the completed DS; chronology in [master case](https://github.com/TitanicParker/prima-facie/blob/main/MASTER_CASE_FOR_COUNSEL.md).
 
 **Local meaning.** Raises whether discharge and account approval occurred despite a direct request to reopen the clinical question.
+
+**Current integrated significance.** Four students reportedly present behind the curtain are potential witnesses to explicit notice. Compare the omitted protest with positive representations of a mutually suitable admission (C CLIN-001427–001440). Article 16 seeks durable association without rewriting the account.
 
 **Elsewhere illuminated.** **K05:** one patient-attributed position is strengthened while the allegedly expressed contrary challenge is absent. **K11:** distinguishes drafting from subsequent approval of the account.
 
@@ -172,6 +186,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Distinguishes an *acknowledged hypothesis* from an *operational assumption*: clinicians need not claim certainty for a provisional explanation to structure subsequent actions.
 
+**Current integrated significance.** Alternative diagnostic activity does not necessarily test the separation itself. The author knew the original presentation and protest on the stated premise; downstream recipients inherited the document, not all of that knowledge.
+
 **Elsewhere illuminated.** **K05:** patient attribution supplies apparent support for separation. **K20:** the 2025 rebuttal again begins from “peripheral neuropathic pain symptomatologies” while discussing a cause “of whatever cause.”
 
 **Misreading.** Peripheral neuropathy was definitively diagnosed in July 2017; alternatively, that it was medically impossible.
@@ -188,6 +204,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Separates deliberate creation of a sentence *after* objection from approving or failing to revise a sentence *despite* knowledge of objection.
 
+**Current integrated significance.** Article 15 Object A could test the disputed before-and-after chronology if retained versions exist. Authorisation alone cannot determine the time of insertion.
+
 **Elsewhere illuminated.** **K09:** determines what the clinician may have known at approval. **K23:** matters when the hospital later relies on the approved record's authority.
 
 **Misreading.** Signature/confirmation date proves the disputed wording was dictated after 10 July.
@@ -203,6 +221,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** April 2018 correspondence **C CLIN-001887–001956**, particularly the procyclidine-withdrawal account and **CLIN-001956**; earlier specialist genetic opinion **EH**, September 2017.
 
 **Local meaning.** A medication perturbation brought the originally troublesome focal site back into neurological follow-up while the clinician suspected a genetic movement disorder.
+
+**Current integrated significance.** The focal medication-state observation could inform optimisation of the entire regimen, not merely explain a lesion. The 2018 genetic deferral rationale (C CLIN-001956) is a test of whether discovery became conditional on management.
 
 **Elsewhere illuminated.** **K04:** made the earlier dystonic-looking gait relevant again. **K25:** later PRKN evidence increases the retrospective importance of the suspicion without establishing the original foot lesion's cause.
 
@@ -284,6 +304,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Identifies the practical dependency: primary care can recognise and escalate but cannot independently finish a complex specialist neurological treatment decision.
 
+**Current integrated significance.** The GP and movement nurse could bring new information to the author but could not reconstruct omitted material from his summary. Audit actual receipt and clinical responsibility rather than presume all downstream knowledge.
+
 **Elsewhere illuminated.** **K08:** reveals why an established specialist plan may remain resilient. **K19:** the 2023 referral tests the real operational limits rather than hypothesising them.
 
 **Misreading.** The neurologist formally prohibited GP independence, or specialist oversight is itself inappropriate.
@@ -299,6 +321,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** Native-image-checked urgent referral **C CLIN-002623–002670**, especially **-002635–002641**.
 
 **Local meaning.** Severe symptoms, safety concerns, and a prior movement-treatment/pain association were transmitted to Neurology; this was not a routine refill issue.
+
+**Current integrated significance.** Safeguarding is three distinct tasks: immediate risk response, clinical relief/modifiable contributors, and independent reconsideration of the framework. The GP communicated both danger and a treatment-responsive precedent; the same concern recurred in March 2025 (C CLIN-002778–002802).
 
 **Elsewhere illuminated.** **K19:** tests specialist response and immediate ownership. **K21:** establishes that pregabalin began as a GP response to severe pain, not as a clinician's originally formulated Sinemet-sparing regimen.
 
@@ -316,6 +340,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** Shows both the practical specialist bottleneck and why “nothing happened” is false.
 
+**Current integrated significance.** Include the earlier nursing assessment of OFF-related undertreatment (C CLIN-002574–002583) and reconcile the actual urgent-access chronology; distinguish service capacity from clinical response adequacy.
+
 **Elsewhere illuminated.** **K17:** concrete specialist-dependency mechanics. **K22:** later clinical activity must be distinguished from completed reassessment of the foot mechanism.
 
 **Misreading.** Cancellation-list placement proves the service never subsequently assessed the patient, or that the GP bore all care responsibility thereafter.
@@ -331,6 +357,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** **C CLIN-001146–001149, -002475–002480**, including the documented patient–clinician “misalignment.”
 
 **Local meaning.** Patient accounts and clinician characterisations must not be treated as transparent, unchanging clinical facts.
+
+**Current integrated significance.** The patient may transmit inherited categories, but spiritual healing beliefs and medication discontinuation are competing influences (C CLIN-002475–002480, CLIN-002683). His causal beliefs must be distinguished from his observations of bodily response.
 
 **Elsewhere illuminated.** **K05:** demonstrates why patient-attributed wording requires source control. **K23:** later defence cannot use the 2017 interpretation as independent confirmation of what the patient had actually believed.
 
@@ -348,6 +376,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** A retrospectively valid reason for *continuing or adjusting* treatment should not silently become the reason for *initiating* it.
 
+**Current integrated significance.** Trace the 2021 substitution (C CLIN-002335–002353), 2022 fluctuations/dystonia/dyskinesia (CLIN-002427–002468) and subsequent medication states to assess potential treatment-related harm. The GP initiation and later Sinemet-sparing strategy are distinct.
+
 **Elsewhere illuminated.** **K18:** identifies actual prescribing circumstances. **K23:** provides a precise example of a retrospective account compressing separate phases into one coherent narrative.
 
 **Misreading.** The neurologist never had a genuine Sinemet-sparing rationale; subsequent notes document that he did.
@@ -363,6 +393,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** **C CLIN-002475–002491, -002699–002712**.
 
 **Local meaning.** Separates diagnostic activity, analgesic success, correction of rare-disease hypotheses and an answer to the recurrent biomechanics/motor question.
+
+**Current integrated significance.** Fabry investigation was expressly used in the 2025 rebuttal to demonstrate non-anchoring to alcohol (C CLIN-003257B–003258A). That is documented retrospective defensive use, not proof of the original intention. The 2024 contraction of darts activity (CLIN-002700–002704) changes the denominator of apparent function.
 
 **Elsewhere illuminated.** **K14:** persistent mechanical findings require explanation alongside neuropathic sensations. **K24:** shows why citing “alternative diagnoses considered” does not prove that *this* question was investigated.
 
@@ -380,6 +412,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** A medically sophisticated answer to *why levodopa was used cautiously* is not necessarily an answer to *whether painful-foot causes were adequately investigated and reconsidered*.
 
+**Current integrated significance.** Profound CR relief is acknowledged (C CLIN-003265–003269). The question is whether the risks of maintaining the regimen were investigated as seriously as risks of changing it. Accumulating diagnostic debt is a hypothesis, not a demonstrated motive.
+
 **Elsewhere illuminated.** **K06:** exposes the original unanswered clinical scope. **K21:** tests accuracy of the retrospective chronology that bolstered the reply.
 
 **Misreading.** The March complaint already alleged the detailed 10 July protest; that historical issue emerged in later correspondence. Nor was the reply wholly unresponsive: prescribing was part of the complaint.
@@ -396,6 +430,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 
 **Local meaning.** The *communicated reasons* more clearly justify Parkinsonism treatment strategy than the whole 2017–2025 clinical history.
 
+**Current integrated significance.** Institutional compression may repeat the original referral compression; an inherited proposition is not independent corroboration. The institution's later responsibility survives sincere error in 2017. Article 15 Object B and earlier Article 18 directly target sources and processing; the existing DPC complaint and separate 2026 complaints are not findings.
+
 **Elsewhere illuminated.** **K23:** the review's description resembles the rebuttal's narrower emphasis. **K05/K09:** disputed authorship and omitted patient position required testing if relied upon.
 
 **Misreading.** The missing full PAR must have ignored the original referral; absence from the outcome letter is not proof of absence in internal deliberations.
@@ -411,6 +447,8 @@ K01–K11 establish the original clinical question, the disputed record and noti
 **Primary evidence.** Patient and GP correspondence regarding December specialist view **C CLIN-005268–005273** (original specialist report not reproduced there); QPS **-005512–005534**; genetic report **-006181–006212** (supplied September 2026); 2017 observation **K04** and 2018 suspicion **K12**.
 
 **Local meaning.** Historical care must be judged against contemporaneous evidence; yet that evidence already included dystonic-looking gait and a movement-sensitive clinical course. A later molecular result is not required to make the original question reasonable.
+
+**Current integrated significance.** The February 2026 specialist confirmation (C CLIN-003227) should be read alongside the laboratory phase qualification. The original question existed independently of later genetic certainty. The refusal to reopen and live information-rights requests test the fourth opportunity to facilitate scrutiny.
 
 **Elsewhere illuminated.** **K12:** earlier PRKN suspicion becomes more consequential. **K24:** later evidence tests whether the institution can distinguish not rewriting old diagnoses from genuinely reconsidering incomplete historical reasoning.
 

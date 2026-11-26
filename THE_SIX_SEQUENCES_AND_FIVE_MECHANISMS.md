@@ -1,7 +1,9 @@
 # The Six Sequences and Five Mechanisms
 ## How the clinical record operated — the 56, 25, 15 and six considered together
 
-**19 November 2026 · Master analytical synthesis for independent examination.**
+**Coordinated edition · 26 November 2026.** This is an equal companion to the [fifty foundations](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md), [six sequences and five mechanisms](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md), [six decisive propositions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md), [25 essential understandings](THE_25_ESSENTIAL_UNDERSTANDINGS.md) and [56 matters for examination](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md). Each addresses the same case through a different method; none derives evidential authority from another. The [investigative essay](journalistic-essay.html#gravity-of-case), [comprehensive case statement](index.html#gravity-statement) and [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md) provide narrative and current procedural context. Stable identifiers are retained; earlier versions remain in Git history. Clinical sources, testimony, published comparators and regulatory correspondence—not repetition across analytical companions—control the evidence. Four opportunities are independently examinable: discovery (2017), therapeutic correction (2017–2025), institutional correction (2025–2026), and facilitation of scrutiny (ongoing). The three clinical corrective functions are discovery, treatment feedback and safeguarding/independent review. Failure to establish deliberate intent does not defeat the continuing clinical or institutional questions.
+
+**26 November 2026 · Coordinated analytical synthesis for independent examination.**
 
 **Companion, not replacement:** [56 investigative matters](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md) · [25 essential understandings](THE_25_ESSENTIAL_UNDERSTANDINGS.md) · [six decisive hospital propositions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md) · [July source reconstruction](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) · [positive finding and peripheral hypothesis](THE_POSITIVE_FINDING_AND_THE_PERIPHERAL_HYPOTHESIS.md).
 
@@ -74,6 +76,8 @@ The neurologist considered continuing the drug unless advised otherwise and cont
 
 **Source:** [2017 consultant/discharge record](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/discharge-summary.html); [source-tagged corpus](https://github.com/TitanicParker/case-evidence-ledger/blob/main/sources-consolidated-evidence-corpus.md), DS17-GEN-0278 and DS17-GEN-0464–0469. **Dynamic links:** D01–D03, D08. **Hospital propositions:** P1, P4.
 
+**Capability and professional predicament.** The contemporary departmental teaching case and the 2019 shoulder work-up test different forms of investigative capability ([Two Great Comparators](index.html#great-comparators)). The former shows that a diagnostic levodopa trial and long-term prescribing can be distinguished; the latter shows freedom to explore a fresh problem in the same patient (C CLIN-001967–002035). Neither proves identical tests were required. Establish the information given to senior colleagues and the chronology of decisions already made before the protest.
+
 ### B. The referral–representation sequence
 
 **Integrated GP referral → compressed hospital Rx/reason for referral → handwritten interview → typed history → final Impression.**
@@ -83,6 +87,8 @@ The GP explicitly connected feet, gait, toe clawing and muscle tension. The init
 In the manuscript, “Began to be aware” was a limited experiential statement. The Impression's “markedly divorced” made the patient's understanding appear a stronger basis for clinical partition. The original cessation history of **no improvement off alcohol** also requires comparison with the later Impression's “Not clear as this has improved.”
 
 **Mechanistic concern:** the patient as represented in the authoritative clinical account differed from the actual patient and from the GP's integrated referral. **Source:** [July 2017 reconstruction](JULY_2017_CLINICAL_RECORD_SOURCE_RECONSTRUCTION.md) and [side-by-side documentary comparison](documentary-comparison.html). **Dynamics:** D04–D06, D10. **Propositions:** P1–P2.
+
+**Combined construction.** Compare corns/calluses/fallen arches with corns/calluses/burning; the disputed leg-pain parenthesis and explanatory bridge; emphatic patient attribution; omission of the observed dystonic posture from the enumerated PRKN clues and inclusion of the neuropathy question. Test the combined directional effect, not merely individual word changes. The alleged post-protest insertion remains a forensic question, now directly targeted by Article 15 Object A.
 
 ### C. The protest–disposition sequence
 
@@ -94,6 +100,8 @@ The patient reports objecting to departure without a proper foot investigation. 
 
 **Sources:** [2017 discharge record](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/discharge-summary.html), [signed statement](Article_16_Supplementary_Statement_July_2017.pdf), [56 issues 12–17 and 54](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md). **Dynamics:** D06–D07, D12. **Propositions:** P1–P3.
 
+**Professional notice and prospective commitment.** The patient identifies four potential student witnesses behind the curtain. The completed account omitted the challenge while positively describing the longer admission as mutually suitable and providing firmer footing (C CLIN-001427–001440). The author remained upstream of the representation. The strategy anticipated future regret, specified implementation and medication risks, but did not comparably define the conditions for reopening its premises or the limits of insufficient treatment (CLIN-001495–001628). Article 16 seeks to make the competing account visible without replacing the original.
+
 ### D. The pharmacological challenge sequence
 
 **Clonazepam for tension → procyclidine and rasagiline → dramatic motor improvement → procyclidine interrupted → symptoms at outside-left-foot corn site recur → neurologist records this in April 2018.**
@@ -103,6 +111,8 @@ Professor Healy's **12 September 2017** reply considered PARK2 probable, advised
 The report is a **medication-associated recurrence of symptoms at a known site**, not objective evidence that a corn physically regrew overnight. Its important feature is that **neurological treatment state and the historic painful foot site were reported together to the neurologist himself**. The original conceptual separation consequently became reviewable again.
 
 **Sources:** [Healy's September response](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/healy-response-2017-09-12.md), [April 2018 record](https://github.com/TitanicParker/for-counsel/blob/main/docs/source-records/neurology-notes-2018.html), [companion analysis](THE_POSITIVE_FINDING_AND_THE_PERIPHERAL_HYPOTHESIS.md). **Dynamics:** D03, D08–D10. **Proposition:** P4.
+
+**Extended pharmacological sequence, 2018–2025.** 2018 management-based genetic deferral (C CLIN-001956) → 2020 Parkinsonian foot throw (CLIN-002286) → 2021 procyclidine removal/Sinemet substitution (CLIN-002335–002353) → 2022 motor fluctuations, possible dystonia and dyskinesia (CLIN-002427–002468) → nurse's OFF-related undertreatment assessment (CLIN-002574–002583) → 2023 pain and pregabalin escalation → 2024 persistent toe curling and contraction of life (CLIN-002700–002704) → March 2025 nocturnal CR response (CLIN-002778–002802; CLIN-003265–003269). Reconstruct actual formulation, dose, timing, motor state, activity, pain and adverse effects at each transition. This is a hypothesis of potentially preventable treatment-related suffering, not a conclusion that levodopa was uniformly deficient or all pain neurologically caused.
 
 ### E. The patient–GP–podiatry communication sequence
 
@@ -116,6 +126,8 @@ The patient experienced neurological treatment through a body that was not divid
 
 **Sources:** [podiatry transcription](https://github.com/TitanicParker/case-evidence-ledger/blob/main/PODIATRY_SAR_2026_TRANSCRIPTION.md), [GP transcript](https://github.com/TitanicParker/for-counsel/blob/main/docs/LM_2017_GP_Record_Canonical_Transcription.md), [25 understandings K14–K20](THE_25_ESSENTIAL_UNDERSTANDINGS.md). **Dynamics:** D09–D12. **Propositions:** P1, P4.
 
+**Communication, contraction and safeguarding.** The GP's 26 March 2023 death-wish warning included a precedent for improvement through neurological control; the nurse two days later reported debilitating pain despite pregabalin (C CLIN-002635–002641, CLIN-002680–002684). Their reports reached the author of the originating account. The patient's own changing causal beliefs could reflect inherited categories or other influences including spiritual healing; they are not independent confirmations of a cause. Darts activity declined from three hours daily to ninety minutes weekly, then ceased. Adaptation can mask inadequate treatment. Test immediate risk response, modifiable clinical contributors and independent reconsideration of the framework, separately for 2023 and 2025.
+
 ### F. The authority–review–defence sequence
 
 **2017 final account → later medication and foot evidence → 2025 patient complaint → clinician rebuttal → PAR/SIMT no-deficit finding → continued record-accuracy and governance challenges.**
@@ -127,6 +139,8 @@ The 2025 rebuttal gave substantial reasons for caution over early levodopa and d
 **Sources:** [Six decisive propositions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md), [working register](WORKING_CASE_THEORY_AND_EVIDENCE_REGISTER.md). **Dynamics:** D12–D15. **Propositions:** P5–P6.
 
 ---
+
+**Extended authority sequence.** The Fabry test was expressly used in the 2025 rebuttal against anchoring to alcohol (C CLIN-003257B–003258A); test the difference between activity within and correction of the framework. The 2017 future-regret rationale was re-emphasised (CLIN-003262A). The communicated SIMT answer narrowed a broad complaint, and January 2026 correspondence declined reopening. The fourth opportunity is now regulatory: Article 15 Objects A and B, Article 16 completion, prior Article 18 and DPC informal resolution. See [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md). Institutional responsibility for independent examination does not depend on proof of deliberate construction; dependent records do not become independent corroboration through repetition.
 
 ## III. The complete 15-dynamic crosswalk
 
@@ -164,57 +178,57 @@ The 2025 rebuttal gave substantial reasons for caution over early levodopa and d
 
 ## IV. Five governing mechanisms
 
-### M1 — Documentary separation
+The stable M-identifiers retain their original subjects while specifying the expanded operations. Each is a falsifiable hypothesis; the conditional consequences are not established clinical causation or intention.
 
-**Input:** the GP's integrated presentation, hospital précis, manuscript interview and final attribution.
+### M1 — Documentary separation and alleged defensive construction
 
-**Operation:** omission of the feet in compression, recovery during interview, stronger patient-attributed separation in typed Impression, and preservation of a conditional peripheral hypothesis.
+**Input:** integrated referral, narrower précis, recovered history, positive motor finding, manuscript and protest.
 
-**Consequence:** later readers encounter a patient apparently endorsing independence between motor tension and painful feet.
+**Operation:** the combined documentary changes potentially make an unresolved clinical relationship compatible with an existing professional disposition; the omitted objection sits alongside positive representations of agreement and firmer footing.
 
-**Test:** where is the independent source for “in his own mind - markedly divorced,” and what did the actual handwritten record support? **Primary links:** D04–D06; P1–P2.
+**Consequence:** clinical uncertainty persists while the professional account becomes defensible. A missing baseline may impair later proof as well as care.
 
-### M2 — Diagnostic asymmetry and clinical treatment ownership
+**Test:** compare source stages as a whole; establish draft and authorisation chronology, witness evidence, alternative explanations and Article 15 Object A. **Links:** D04–D07; P1–P3.
 
-**Input:** directly observed dystonic-looking lower limb, PRKN reasoning, possible neuropathy, clonazepam and procyclidine.
+### M2 — Diagnostic asymmetry, knowledge and clinical ownership
 
-**Operation:** positive lower-limb motor evidence is not given commensurate explanatory weight for the feet, even while the clinician begins treatment for the underlying tension; an unestablished peripheral alternative remains available.
+**Input:** positive dystonic-looking movement, PRKN reasoning, medication ownership, departmental and individual comparators.
 
-**Consequence:** a recognised motor syndrome is treated by Neurology while the foot lesion–posture–movement relation lacks a clearly assigned clinical answer.
+**Operation:** positive motor evidence and treatment are not demonstrably integrated with the painful-foot question. The author retains knowledge of the original examination and protest unavailable from the transmitted synthesis; downstream recipients inherit a narrower representation.
 
-**Test:** what clinical inference about the feet followed from the observed dystonic-like posture and the neurologist's own pharmacological decisions? **Links:** D01–D03, D05, D08–D09; P1, P4.
+**Consequence:** responsibility for investigating the relationship may remain unallocated despite real work in multiple services.
 
-### M3 — Operational division of care
+**Test:** establish knowledge, actual senior-meeting material, baseline assessment, clinical indications and reasoned ownership; compare the two comparators without assuming identical treatment. **Links:** D01–D03, D05, D08–D09; P1–P4.
 
-**Input:** uncertain separate-foot explanation, “As per above,” podiatry referrals, specialist treatment ownership.
+### M3 — Operational division and prospective commitment
 
-**Operation:** the differential possibility becomes a practical management partition without a documented neurological resolution of its causal basis.
+**Input:** uncertain separation, “As per above,” genetic deferral, treatment risks and divided care.
 
-**Consequence:** physical foot pathology continues receiving local treatment while Neurology manages movement and tension, and the original relational question lacks a demonstrated owner.
+**Operation:** management proceeds on an unresolved explanatory partition. Implementation and dose changes are explicit; criteria for reconsidering the partition and limits of insufficient treatment are less evident. Diagnostic discovery may become conditional on the management already chosen.
 
-**Test:** where is the dated neurological conclusion about posture, toe clawing, loading and pain, and where was it communicated to the GP? **Links:** D06–D07, D11–D12; P1, P3–P4.
+**Consequence:** treatment can change substantially while the organising explanation remains stationary; the cost of correction may increase as decisions accumulate.
 
-### M4 — Record-mediated communication distortion
+**Test:** identify corrective triggers, owners and actual actions at every threshold, including 2018, 2021 and the 2023/2025 warnings; ask what would have caused the premise to be abandoned. **Links:** D06–D07, D11–D12; P1, P3–P5.
 
-**Input:** original represented separation, the actual patient's medication experiences, Healy's observed motor improvement, procyclidine dechallenge, podiatry anatomy.
+### M4 — Record-mediated impairment of therapeutic feedback
 
-**Operation:** an accurate patient report of neurological treatment changing the original foot problem can enter the note but not modify the prior interpretation of that problem.
+**Input:** original classification, focal withdrawal response, evolving regimen, motor/pain changes, GP/nurse reports and functional contraction.
 
-**Consequence:** the patient's ability to communicate a relevant relationship is restricted not by lack of words but by the clinical meaning made available to those words.
+**Operation:** observations may be accurately recorded but interpreted as pain-management information instead of motor-treatment feedback; activity reduction can conceal disability and inherited patient categories can appear to corroborate their source.
 
-**Test:** trace the foot-specific treatment response through report → documentation → differential → investigation → handover. Where was it incorporated or explained away? **Links:** D04, D08–D12; P2, P4.
+**Consequence:** potentially impaired optimisation of the entire regimen, avoidable suffering and loss of function; danger to life may not trigger a sufficient clinical override. These effects require independent clinical assessment.
 
-### M5 — Institutional entrenchment
+**Test:** reconstruct report → documentation → motor-state differential → treatment → functional outcome; examine pregabalin benefit/limits, CR response, and immediate safety response plus potentially modifiable contributors. **Links:** D04, D08–D12, D15; P2, P4–P5.
 
-**Input:** authorised historical record, longitudinal treatment evidence, complaint, clinician rebuttal and no-deficit conclusion.
+### M5 — Institutional entrenchment and self-validation
 
-**Operation:** a contested source account may become the frame within which adequacy of care is defended, without an independent comparison of its original stages or later contrary evidence.
+**Input:** contested source account, longitudinal evidence, rebuttal, PAR/SIMT, subsequent governance responses and information-rights requests.
 
-**Consequence:** a broad conclusion about quality of care can rest on narrower explanations of treatment while the referral's original problem remains unanswered.
+**Operation:** a review may assess decisions within inherited premises instead of independently testing those premises; Fabry testing and the original prospective rationale have documented retrospective defensive use. Later information access and completion may test the same authority externally.
 
-**Test:** obtain actual PAR/source inventory and determine whether the review examined the full original referral, manuscript, final attribution, protest, dystonic finding and dechallenge. **Links:** D12–D15; P5–P6.
+**Consequence:** an apparently broad exoneration could preserve a narrow clinical representation; repeated dependent documents do not constitute independent corroboration. Reported regulatory non-response is a separate issue, not proof of concealment.
 
----
+**Test:** obtain complete PAR, sources, reviewer independence, notice/processing records and findings on safety; test Article 15 Objects A/B, Article 16 and Article 18 responses. **Links:** D12–D15; P5–P6; [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md).
 
 ## V. Seven intersections where the case is most revealing
 
@@ -227,6 +241,8 @@ The 2025 rebuttal gave substantial reasons for caution over early levodopa and d
 7. **At institutional review — E meets F.** The disputed source account becomes part of the history against which care is defended; the quality of source audit determines the value of the no-deficit conclusion for this particular allegation.
 
 The case is not one chronological line. The **clinical symptom**, **document-writing**, **pharmacological**, **patient-communication**, **care-allocation** and **institutional** sequences run in parallel and repeatedly intersect.
+
+**Further intersections within the same six sequences:** D/E at the 2021 regimen change and the 2023 GP/nurse warnings; D/F at the 2025 CR response and defensive use of Fabry; B/C/F at the 2026 provenance and supplementary-statement requests. Safeguarding cuts across M3–M5, and regulatory scrutiny tests M1, M2 and M5. No additional numbered sequence or mechanism is necessary.
 
 ## VI. How the mechanisms culminate in six questions the hospital must answer
 

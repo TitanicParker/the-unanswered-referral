@@ -1,6 +1,8 @@
 # Six Decisive Propositions the Hospital Must Answer
 
-**Working evidential compression | 18 November 2026 | Version 1.0**
+**Coordinated edition · 26 November 2026.** This is an equal companion to the [fifty foundations](FIFTY_FOUNDATIONAL_STATEMENTS_OF_THE_CASE.md), [six sequences and five mechanisms](THE_SIX_SEQUENCES_AND_FIVE_MECHANISMS.md), [six decisive propositions](SIX_DECISIVE_PROPOSITIONS_HOSPITAL_ANSWER.md), [25 essential understandings](THE_25_ESSENTIAL_UNDERSTANDINGS.md) and [56 matters for examination](FIFTY_SIX_MATTERS_FOR_EXAMINATION.md). Each addresses the same case through a different method; none derives evidential authority from another. The [investigative essay](journalistic-essay.html#gravity-of-case), [comprehensive case statement](index.html#gravity-statement) and [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md) provide narrative and current procedural context. Stable identifiers are retained; earlier versions remain in Git history. Clinical sources, testimony, published comparators and regulatory correspondence—not repetition across analytical companions—control the evidence. Four opportunities are independently examinable: discovery (2017), therapeutic correction (2017–2025), institutional correction (2025–2026), and facilitation of scrutiny (ongoing). The three clinical corrective functions are discovery, treatment feedback and safeguarding/independent review. Failure to establish deliberate intent does not defeat the continuing clinical or institutional questions.
+
+**Coordinated evidential edition | 26 November 2026 | Version 1.1**
 
 **Parent document:** `THE_25_ESSENTIAL_UNDERSTANDINGS.md`, K01–K25.  
 **Purpose:** Convert a 25-point interconnected evidence map into six answerable propositions. Each proposition states (a) the proposition to be tested, (b) the combined evidence that makes an answer necessary, (c) the concrete answer and records required from the hospital, and (d) how an adequate response could confirm, qualify or defeat the proposition.
@@ -54,6 +56,8 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 
 **25-point dependencies:** **K01–K04, K06–K08, K14, K16**.
 
+**Expanded test of P1.** Distinguish non-repeatable baseline, inadequate investigation, inadequate surviving documentation and subsequent loss of evidence. Use the departmental teaching case and shoulder assessment to test capability, not to assume identical indications. Require contemporaneous criteria and ownership for revisiting an unresolved relationship.
+
 ## P2 — The completed record strengthened a patient attribution without resolving the medical inference it appeared to support
 
 **Decisive proposition.** The handwritten interview recorded the patient's recognition that pain and leg tension felt different and had different temporal prominence. The completed history described them as “not the same problem,” and the final impression said that he had **“in his own mind - markedly divorced”** them, adjacent to an uncertain peripheral-neuropathy possibility. This can make a patient's phenomenological distinction look like support for the clinician's causal partition, without demonstrating that the patient endorsed independent medical causes.
@@ -71,6 +75,8 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 
 **25-point dependencies:** **K03, K05, K06, K10, K20, K23**.
 
+**Expanded test of P2.** Examine the whole directional construction: symptom groupings, disputed parenthesis, explanatory bridge, emphatic attribution, positive motor finding omitted from the enumerated PRKN clues, and the neuropathy question retained. Article 15 Object A targets the actual production process; distinguish original wording, later insertion, authorisation and transmission. The pattern's functional effect does not establish motive.
+
 ## P3 — A reported pre-discharge challenge was not visibly resolved or preserved in the authorised account
 
 **Decisive proposition.** The patient reports confronting the neurologist on 10 July 2017 about inadequate investigation of the feet before discharge. If that encounter occurred and was material, the final clinical account does not preserve the expressed concern, the clinician's response or a documented reopening or handover of the foot question. The final account was authorised **after** the alleged challenge, although its individual contested sentences may have been drafted earlier.
@@ -87,6 +93,8 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 **Consequence.** P3 is the **intention-sensitive proposition**. P1 and P2 stand even if the event cannot be independently proved.
 
 **25-point dependencies:** **K05, K09–K11, K23–K24**.
+
+**Expanded test of P3.** Obtain independent accounts of the four students reportedly behind the curtain, including what was said and what the neurologist did. Compare the omitted challenge with the affirmative representation of a mutually suitable admission (C CLIN-001427–001440). Determine what explicit notice meant for the author's continuing authority, independently of first-draft timing. Article 16 seeks to make the competing statement available without requiring acceptance.
 
 ## P4 — Later independent information challenged the practical separation, but the specialist system did not demonstrably close the original loop
 
@@ -106,6 +114,8 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 
 **25-point dependencies:** **K12–K19, K22, K25**.
 
+**Expanded test of P4.** Reconstruct the 2021–2025 medication-state and functional timeline (C CLIN-002335–002353, CLIN-002427–002468, CLIN-002574–002583, CLIN-002635–002684, CLIN-002700–002704, CLIN-002778–002802). Did the foot signal lose its ability to inform motor treatment? Compare contraction of activity with symptom relief. Ask separately about immediate safety assessment, investigation of modifiable treatment contributors and independent reconsideration of the framework following both distress warnings. Clinical expert evidence must distinguish progression, adverse effects, OFF states, peripheral/mechanical causes and potentially preventable harm.
+
 ## P5 — The 2025 rebuttal defended a narrower clinical decision and retrospectively smoothed the treatment history
 
 **Decisive proposition.** The patient's 19 March 2025 complaint questioned diagnostic anchoring, failure to reassess persistent foot pain and the significance of Sinemet CR benefit. The neurologist's 25 March rebuttal gave substantial reasons for recognising Parkinsonism, delaying/escalating Sinemet cautiously and considering other diagnoses, but did not demonstrably answer why the original painful-foot/posture/tone presentation was partitioned or how that partition was later tested.
@@ -123,6 +133,8 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 **Consequence.** P5 establishes the principal **retrospective-defence scope mismatch**, with a concrete test of narrative smoothing rather than an unsupported accusation of deceit.
 
 **25-point dependencies:** **K12, K18, K20–K23**.
+
+**Expanded test of P5.** The 2025 response specifically cited Fabry testing against anchoring to alcohol (C CLIN-003257B–003258A) and re-emphasised the original future-regret rationale (CLIN-003262A). Require an explanation of how those actions tested the original separation rather than only alternate causes within it. Establish the chronological origin and later use of the Sinemet-sparing pregabalin rationale, and independently examine the profound CR benefit. Diagnostic activity and defensive utility are documented; original defensive intent is not.
 
 ## P6 — The institution's no-deficit conclusion exceeded the scope of the explanation it disclosed, while the source record was itself contested
 
@@ -143,6 +155,9 @@ The issue is **not** whether Parkinsonism was correctly investigated, whether ev
 **25-point dependencies:** **K05–K06, K09–K11, K18, K21–K25**.
 
 ---
+
+
+**Expanded test of P6.** Require evidence that reviewers tested the premises capable of defeating the conclusion, not simply treatment choices within those premises. Distinguish institution-level receipt of disputes from individual reviewer knowledge, examine both safety warnings and whether the review accounted for the lost baseline. The 2025 determination and later refusal to reopen create a separate institutional responsibility regardless of deliberate intent in 2017. Article 15 Object B and Article 18 are live routes to examine source selection and processing; the newer Article 16 request tests continuing completeness. See [Regulatory Front](REGULATORY_FRONT_NOTE_FOR_COUNSEL_2026-11-26.md).
 
 ## How the six propositions work together
 
